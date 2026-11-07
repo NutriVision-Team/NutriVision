@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473079928294",
+    "project_id": "sofrah",
+    "storage_bucket": "sofrah.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473079928294:android:d86243efe3cc0ba4e0f227",
+        "android_client_info": {
+          "package_name": "com.example.sofrah_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSFwRAMzij5JFxiAPvDmgypritpPuIvuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
