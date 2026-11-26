@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "1.0.0",
+  "alternatives": [
+    {
+      "id": "alt_2512381_to_2512380",
+      "sourceFoodId": "usda_foundation_2512381",
+      "alternativeFoodId": "usda_foundation_2512380",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 359,
+          "alternative": 366
+        },
+        "fiberG": {
+          "source": 0.149,
+          "alternative": 3.02
+        }
+      },
+      "reason": {
+        "en": "Similar energy with more fiber per 100 g. Actual values per 100 g: energyKcal: 359 kcal vs 366 kcal, fiberG: 0.149 g fiber vs 3.02 g fiber.",
+        "ar": "طاقة متقاربة مع ألياف أعلى لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_2512381",
+          "usda_foundation_2512380"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_2512381_to_2710820",
+      "sourceFoodId": "usda_foundation_2512381",
+      "alternativeFoodId": "usda_foundation_2710820",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 359,
+          "alternative": 372
+        },
+        "fiberG": {
+          "source": 0.149,
+          "alternative": 11.7
+        },
+        "proteinG": {
+          "source": 7.04,
+          "alternative": 11.8
+        }
+      },
+      "reason": {
+        "en": "Comparable staple with more fiber and protein per 100 g. Actual values per 100 g: energyKcal: 359 kcal vs 372 kcal, fiberG: 0.149 g fiber vs 11.7 g fiber, proteinG: 7.04 g protein vs 11.8 g protein.",
+        "ar": "بديل نشوي مقارن بألياف وبروتين أعلى لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_2512381",
+          "usda_foundation_2710820"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_746782_to_746776",
+      "sourceFoodId": "usda_foundation_746782",
+      "alternativeFoodId": "usda_foundation_746776",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 60.0,
+          "alternative": 34.0
+        },
+        "fatG": {
+          "source": 3.2,
+          "alternative": 0.08
+        },
+        "proteinG": {
+          "source": 3.27,
+          "alternative": 3.43
+        }
+      },
+      "reason": {
+        "en": "Lower energy and fat with similar protein per 100 g. Actual values per 100 g: energyKcal: 60 kcal vs 34 kcal, fatG: 3.2 g fat vs 0.08 g fat, proteinG: 3.27 g protein vs 3.43 g protein.",
+        "ar": "طاقة ودهون أقل مع بروتين متقارب لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_746782",
+          "usda_foundation_746776"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_2259793_to_330137",
+      "sourceFoodId": "usda_foundation_2259793",
+      "alternativeFoodId": "usda_foundation_330137",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 78.0,
+          "alternative": 61.0
+        },
+        "fatG": {
+          "source": 4.48,
+          "alternative": 0.37
+        },
+        "proteinG": {
+          "source": 3.82,
+          "alternative": 10.3
+        }
+      },
+      "reason": {
+        "en": "More protein and less fat per 100 g. Actual values per 100 g: energyKcal: 78 kcal vs 61 kcal, fatG: 4.48 g fat vs 0.37 g fat, proteinG: 3.82 g protein vs 10.3 g protein.",
+        "ar": "بروتين أعلى ودهون أقل لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_2259793",
+          "usda_foundation_330137"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_2514744_to_2514743",
+      "sourceFoodId": "usda_foundation_2514744",
+      "alternativeFoodId": "usda_foundation_2514743",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 243,
+          "alternative": 185
+        },
+        "fatG": {
+          "source": 19.4,
+          "alternative": 12.8
+        },
+        "proteinG": {
+          "source": 17.5,
+          "alternative": 18.2
+        }
+      },
+      "reason": {
+        "en": "Less fat and more protein per 100 g. Actual values per 100 g: energyKcal: 243 kcal vs 185 kcal, fatG: 19.4 g fat vs 12.8 g fat, proteinG: 17.5 g protein vs 18.2 g protein.",
+        "ar": "دهون أقل وبروتين أعلى لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_2514744",
+          "usda_foundation_2514743"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_328637_to_328841",
+      "sourceFoodId": "usda_foundation_328637",
+      "alternativeFoodId": "usda_foundation_328841",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 408,
+          "alternative": 84.0
+        },
+        "fatG": {
+          "source": 34.0,
+          "alternative": 2.3
+        },
+        "proteinG": {
+          "source": 23.3,
+          "alternative": 11.0
+        }
+      },
+      "reason": {
+        "en": "Much lower fat and energy per 100 g. Actual values per 100 g: energyKcal: 408 kcal vs 84 kcal, fatG: 34 g fat vs 2.3 g fat, proteinG: 23.3 g protein vs 11 g protein.",
+        "ar": "دهون وطاقة أقل بشكل واضح لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_328637",
+          "usda_foundation_328841"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_2727566_to_2646170",
+      "sourceFoodId": "usda_foundation_2727566",
+      "alternativeFoodId": "usda_foundation_2646170",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 125,
+          "alternative": 106
+        },
+        "fatG": {
+          "source": 5.94,
+          "alternative": 1.93
+        },
+        "proteinG": {
+          "source": 18.4,
+          "alternative": 22.5
+        }
+      },
+      "reason": {
+        "en": "Less fat and more protein per 100 g. Actual values per 100 g: energyKcal: 125 kcal vs 106 kcal, fatG: 5.94 g fat vs 1.93 g fat, proteinG: 18.4 g protein vs 22.5 g protein.",
+        "ar": "دهون أقل وبروتين أعلى لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_2727566",
+          "usda_foundation_2646170"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_2758993_to_2758994",
+      "sourceFoodId": "usda_foundation_2758993",
+      "alternativeFoodId": "usda_foundation_2758994",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 263,
+          "alternative": 261
+        },
+        "fiberG": {
+          "source": 2.2,
+          "alternative": 5.9
+        }
+      },
+      "reason": {
+        "en": "Similar energy with more fiber per 100 g. Actual values per 100 g: energyKcal: 263 kcal vs 261 kcal, fiberG: 2.2 g fiber vs 5.9 g fiber.",
+        "ar": "طاقة متقاربة مع ألياف أعلى لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_2758993",
+          "usda_foundation_2758994"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    },
+    {
+      "id": "alt_2758998_to_2759000",
+      "sourceFoodId": "usda_foundation_2758998",
+      "alternativeFoodId": "usda_foundation_2759000",
+      "portionBasis": {
+        "sourceGrams": 100,
+        "alternativeGrams": 100
+      },
+      "nutrientComparisonPer100g": {
+        "energyKcal": {
+          "source": 371,
+          "alternative": 376
+        },
+        "fiberG": {
+          "source": 4.2,
+          "alternative": 8.8
+        }
+      },
+      "reason": {
+        "en": "Similar energy with more fiber per 100 g. Actual values per 100 g: energyKcal: 371 kcal vs 376 kcal, fiberG: 4.2 g fiber vs 8.8 g fiber.",
+        "ar": "طاقة متقاربة مع ألياف أعلى لكل ١٠٠ جم"
+      },
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "derivedFrom": [
+          "usda_foundation_2758998",
+          "usda_foundation_2759000"
+        ],
+        "note": "Computed from the imported records above. Factual nutrient comparison only; not a medical or health-outcome claim."
+      }
+    }
+  ]
+}

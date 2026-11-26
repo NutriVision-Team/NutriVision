@@ -1,0 +1,62 @@
+{
+  "scope": "synthetic general questions only; empty context; authenticated owner endpoint",
+  "version": "35ac2f42-6719-47f2-862a-ec2e71777ae7",
+  "results": [
+    {
+      "id": "timing",
+      "question": "إزاي أبدأ أنظم مواعيد أكلي بخطوة بسيطة؟",
+      "status": 200,
+      "elapsedMs": 1641,
+      "body": {
+        "text": "اختار وجبة واحدة وخلي ليها معاد يناسب يومك. ابدأ بيها وشوف إيه اللي محتاج يتظبط.",
+        "sourceIds": [],
+        "navigation": [],
+        "origin": "ai",
+        "requiresUserReview": true,
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+      }
+    },
+    {
+      "id": "busy-lunch",
+      "question": "بتلخبط في الغدا وقت الشغل، أبدأ بإيه؟",
+      "status": 200,
+      "elapsedMs": 1215,
+      "body": {
+        "text": "لو يناسبك، جهز غداك من بالليل بدل ما تحتار وقت الشغل.",
+        "sourceIds": [],
+        "navigation": [],
+        "origin": "ai",
+        "requiresUserReview": true,
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+      }
+    },
+    {
+      "id": "snacking",
+      "question": "هل لازم أمنع الأكل بين الوجبات عشان أنظم يومي؟",
+      "status": 200,
+      "elapsedMs": 1309,
+      "body": {
+        "text": "مش لازم تمنع الأكل بين الوجبات. لو بتجوع، اختار سناك يناسبك.",
+        "sourceIds": [],
+        "navigation": [],
+        "origin": "ai",
+        "requiresUserReview": true,
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+      }
+    },
+    {
+      "id": "variety",
+      "question": "بزهق من تكرار نفس الفطار، أغيره إزاي من غير تعقيد؟",
+      "status": 200,
+      "elapsedMs": 2414,
+      "body": {
+        "text": "جرب تغيير نوع الفاكهة أو الحبوب اللي بتاكلها في الفطار، ده هيغير من النكهة والشكل بدون ما يتعقد الأمور.",
+        "sourceIds": [],
+        "navigation": [],
+        "origin": "ai",
+        "requiresUserReview": true,
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+      }
+    }
+  ]
+}

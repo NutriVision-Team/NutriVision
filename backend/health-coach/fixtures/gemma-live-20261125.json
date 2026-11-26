@@ -1,0 +1,70 @@
+{
+  "fixtures": [
+    {
+      "id": "ar_variety",
+      "locale": "ar",
+      "question": "عندي عدس وخضار وعايز أغيّر أكلي، اقترح عليا فكرة بسيطة من غير أرقام تغذية."
+    },
+    {
+      "id": "en_recipe",
+      "locale": "en",
+      "question": "Suggest a simple way to use leftover cooked rice and vegetables, without numeric nutrition advice."
+    },
+    {
+      "id": "unknown_diary",
+      "locale": "ar",
+      "question": "أنا أكلت إيه النهارده؟ لو سجل يومي مش متاح عندك قولّي بوضوح."
+    }
+  ],
+  "results": [
+    {
+      "id": "ar_variety",
+      "status": 200,
+      "elapsedMs": 2173,
+      "body": {
+        "text": "ممكن تعمل شوربة عدس دافية مع الخضار اللي عندك، وتطبخهم كلهم مع بعض لحد ما يستووا تماماً. إيه نوع الخضار اللي متاح معاك؟",
+        "sourceIds": [],
+        "navigation": [
+          "recipes"
+        ],
+        "origin": "ai",
+        "requiresUserReview": true,
+        "model": "@cf/google/gemma-4-26b-a4b-it"
+      }
+    },
+    {
+      "id": "en_recipe",
+      "status": 200,
+      "elapsedMs": 8490,
+      "body": {
+        "text": "You can make a quick stir-fry by heating the rice and vegetables in a pan with a little bit of oil and some spices of your choice. Would you like to know about any specific spices that pair well with these ingredients?",
+        "sourceIds": [],
+        "navigation": [
+          "recipes"
+        ],
+        "origin": "ai",
+        "requiresUserReview": true,
+        "model": "@cf/google/gemma-4-26b-a4b-it"
+      }
+    },
+    {
+      "id": "unknown_diary",
+      "status": 200,
+      "elapsedMs": 2560,
+      "body": {
+        "text": "للأسف أنا معنديش وصول لسجل يومياتك، فمش هقدر أعرف أنت أكلت إيه النهارده. لو حابب تسجل أكلك عشان تتابعه، ممكن تستخدم قسم اليوميات في التطبيق.",
+        "sourceIds": [],
+        "navigation": [
+          "diary"
+        ],
+        "origin": "ai",
+        "requiresUserReview": true,
+        "model": "@cf/google/gemma-4-26b-a4b-it"
+      }
+    }
+  ],
+  "checks": {
+    "unauth": 403,
+    "unapprovedContext": 403
+  }
+}

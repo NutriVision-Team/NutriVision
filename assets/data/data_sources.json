@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "id": "usda_fdc_foundation",
+      "provider": "USDA FoodData Central",
+      "dataset": "Foundation Foods",
+      "version": "2026-10-29",
+      "status": "active_import",
+      "license": "CC0 1.0 (public domain)",
+      "attribution": "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. fdc.nal.usda.gov.",
+      "url": "https://fdc.nal.usda.gov/download-datasets/",
+      "apiKeyRequired": false,
+      "notes": "Imported into assets/data/foods.json. Bulk JSON download requires no API key; the optional REST API requires a data.gov key and was not used."
+    },
+    {
+      "id": "themealdb",
+      "provider": "TheMealDB",
+      "dataset": "TheMealDB public API",
+      "version": "live API, accessed 2026-11-22",
+      "status": "active_import_development_only",
+      "license": "Public developer test key '1' - development and educational use only. Public app-store release requires TheMealDB supporter access.",
+      "attribution": "TheMealDB.com",
+      "url": "https://www.themealdb.com/api.php",
+      "apiKeyRequired": false,
+      "notes": "Imported into assets/data/recipes.json. Recheck provider terms and attribution requirements before redistributing recipes or imagery in a public application."
+    },
+    {
+      "id": "open_food_facts",
+      "provider": "Open Food Facts",
+      "dataset": "Open Food Facts database",
+      "version": "API v3 documentation, reviewed 2026-11-22",
+      "status": "available_not_imported",
+      "license": "Open Database License (ODbL) for database contents; product images Creative Commons Attribution ShareAlike.",
+      "attribution": "Open Food Facts contributors",
+      "url": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/",
+      "apiKeyRequired": false,
+      "notes": "Reserved for barcode lookup of packaged products only. Documented limits: 15 product reads/min and 10 searches/min per IP; custom User-Agent required; no search-as-you-type. Review ODbL and image licenses before redistributing any cached contents or images."
+    },
+    {
+      "id": "fao_near_east",
+      "provider": "FAO",
+      "dataset": "Food composition tables for the Near East (FAO Food and Nutrition Paper 26, 1982)",
+      "version": "1982 publication, reviewed 2026-11-22",
+      "status": "reference_only_license_review_required",
+      "license": "Copyright FAO. FAO terms permit copying for private study, research and non-commercial use with acknowledgement; bulk redistribution or commercial use requires FAO permission (copyright@fao.org).",
+      "attribution": "Food and Agriculture Organization of the United Nations",
+      "url": "https://www.fao.org/4/x6879e/x6879e03.htm",
+      "apiKeyRequired": false,
+      "notes": "Reference only. No FAO-derived numerical records are merged into the runtime catalogs. Any existing FAO-derived seed records must stay out of distributable assets until reuse permission is confirmed."
+    }
+  ]
+}

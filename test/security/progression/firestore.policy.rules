@@ -1,0 +1,49 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function owner(uid) {return request.auth != null && request.auth.uid==uid;}
+  function profile(uid) {return /databases/$(database)/documents/users/$(uid)/reward_policy_proof/profile;}
+  function marker(uid,event) {return /databases/$(database)/documents/users/$(uid)/reward_policy_proof/profile/sources/$(event);}
+  function bucket(uid,id) {return /databases/$(database)/documents/users/$(uid)/reward_policy_proof/profile/days/$(id);}
+  function policy(uid) {return get(/databases/$(database)/documents/reward_policy_proof/$(uid)).data;}
+  function source(uid,id) {return get(/databases/$(database)/documents/users/$(uid)/meal_entries/$(id)).data;}
+  function valid(uid,event) {
+   let m=getAfter(marker(uid,event)).data;
+   let p=policy(uid);
+   let s=source(uid,m.sourceId);
+   let cal=get(/databases/$(database)/documents/reward_calendar_proof/$(p.zoneId)/days/$(m.dayKey)).data;
+   let b=getAfter(bucket(uid,m.dayKey)).data;
+   let old=exists(profile(uid))?get(profile(uid)).data:{'xp':0,'meals':0};
+   let n=getAfter(profile(uid)).data;
+   let first=!exists(bucket(uid,m.dayKey));
+   return owner(uid) && !exists(marker(uid,event))
+    && event=='meal_'+m.sourceId && m.sourceId.matches('^[A-Za-z0-9_-]{1,128}$')
+    && m.keys().hasOnly(['sourceId','dayKey','zoneId','awardedAt'])
+    && m.zoneId==p.zoneId && m.awardedAt==request.time
+    && s.rewardRecordedAt is timestamp && s.rewardRecordedAt>=p.activatedAt && s.rewardRecordedAt<=request.time
+    && s.userId==uid && s.analysisStatus=='confirmed' && s.title is string && s.title.size()>0
+    && cal.zoneId==p.zoneId && cal.dayKey==m.dayKey && cal.start is timestamp && cal.end is timestamp
+    && s.rewardRecordedAt>=cal.start && s.rewardRecordedAt<cal.end
+    && b.keys().hasOnly(['lastEvent','count','xp']) && b.lastEvent==event
+    && b.count==(first?1:get(bucket(uid,m.dayKey)).data.count+1)
+    && b.xp==p.mealXp
+    && n.keys().hasOnly(['xp','meals','lastEvent','zoneId','awardedAt'])
+    && n.xp==old.xp+(first?p.mealXp:0) && n.meals==old.meals+1
+    && n.lastEvent==event && n.zoneId==p.zoneId && n.awardedAt==request.time;
+  }
+  match /users/{uid}/meal_entries/{id} {
+   allow read,delete:if owner(uid);
+   allow create:if owner(uid) && (!('rewardRecordedAt' in request.resource.data) || request.resource.data.rewardRecordedAt==request.time);
+   allow update:if owner(uid) && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['rewardRecordedAt']);
+  }
+  match /users/{uid}/reward_policy_proof/profile {
+   allow read:if owner(uid);
+   allow create,update:if valid(uid,request.resource.data.lastEvent);
+   allow delete:if false;
+   match /sources/{event} {allow read:if owner(uid);allow create:if valid(uid,event);allow update,delete:if false;}
+   match /days/{day} {allow read:if owner(uid);allow create,update:if day==getAfter(marker(uid,request.resource.data.lastEvent)).data.dayKey && valid(uid,request.resource.data.lastEvent);allow delete:if false;}
+  }
+  match /reward_policy_proof/{uid} {allow read:if owner(uid);allow write:if false;}
+  match /reward_calendar_proof/{zone}/days/{day} {allow read:if request.auth!=null;allow write:if false;}
+ }
+}

@@ -1,0 +1,1893 @@
+[
+  {
+    "foodId": "usda_foundation_748967",
+    "name": "Egg, whole, fresh, large",
+    "asset": "assets/images/generated_food/748967.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1151,
+      1151
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "c211043f2bc26da4a4eedcacda4b3939b1f757ddd18f769c55d3d237e233e81c",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_747997",
+    "name": "Egg white, fresh, large",
+    "asset": "assets/images/generated_food/747997.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      992,
+      992
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "8921859c58056ee5f7aa654a690742fbaeb101ae965b0b2300c633f06ff9c703",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_748236",
+    "name": "Egg yolk, fresh, large",
+    "asset": "assets/images/generated_food/748236.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1189,
+      1189
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "d17db5f50dd3c9efc970abd08d8266b030491445b6594c15db741d8517db83ab",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746782",
+    "name": "Milk, whole, 3.25% milkfat",
+    "asset": "assets/images/generated_food/746782.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1196,
+      1196
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "815850fe3b49c2de6ba613acf62b3e283b8f79f404e8dfdaa2d594106db7a38a",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746778",
+    "name": "Milk, reduced fat, 2% milkfat",
+    "asset": "assets/images/generated_food/746778.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1142,
+      1142
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "e95f3930a34b62cab3f56030c964e900ca9b13083e32128eb5355d5eb6f2d752",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746776",
+    "name": "Milk, nonfat (skim)",
+    "asset": "assets/images/generated_food/746776.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1174,
+      1174
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "2db1d243a2a60be783f772e0c705f2e1254e20937c4322fedf0d65f3600c181a",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2259793",
+    "name": "Yogurt, plain, whole milk",
+    "asset": "assets/images/generated_food/2259793.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1226,
+      1226
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "fc92e8dcce6e4d9f8c777ec6dded8f1ccb7718c5422b19f74918fd8631d560e0",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2647437",
+    "name": "Yogurt, plain, nonfat",
+    "asset": "assets/images/generated_food/2647437.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1181,
+      1181
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "2a703c67f8a89ca86743b793cfff2ea408e4355e2918ecf45ec62fd2f47b9ad1",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_330137",
+    "name": "Yogurt, Greek, plain, nonfat",
+    "asset": "assets/images/generated_food/330137.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1206,
+      1206
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "62e7e2a8fa270a907476ba1fa518e78828d83ec90f4e9860fdd7d1907379356e",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2259794",
+    "name": "Yogurt, Greek, plain, whole milk",
+    "asset": "assets/images/generated_food/2259794.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1210,
+      1210
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "68cef877b4fbbedc3babb5d0c0c3153961603b10ca7f89e7ef7a09e7465c59b1",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_328637",
+    "name": "Cheese, cheddar",
+    "asset": "assets/images/catalog_photos/cheddar.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1238,
+      1238
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "936def9952f516216e3919959829bb6b1461eb4991a07bfa5f9b482d219e29df",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2259796",
+    "name": "Cheese, feta, whole milk",
+    "asset": "assets/images/generated_food/2259796.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1200,
+      1200
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a586ad3bfb60e9db2637ef4747859be0b7cc48721287c64ef85129dfdabb18f5",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_328841",
+    "name": "Cheese, cottage, lowfat, 2% milkfat",
+    "asset": "assets/images/generated_food/328841.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1222,
+      1222
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "ceb1a62395fc33b9b7fd3abb82e74d5182ca3e6c44ce80a5780d2aefc875711f",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_789828",
+    "name": "Butter, unsalted",
+    "asset": "assets/images/generated_food/789828.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1157,
+      1157
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "48870b93640f875d1cec7e3a68a56295184db889ebf1f6e0c70ac2f2808546f3",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_790508",
+    "name": "Butter, salted",
+    "asset": "assets/images/generated_food/790508.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1183,
+      1183
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "6a21a40f70f82735c021a81394e3fb40605f405234ebb6afe1e6c5013e4e79de",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2646170",
+    "name": "Chicken, breast, boneless, skinless, raw",
+    "asset": "assets/images/catalog_photos/chicken-breast-raw.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1177,
+      1177
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "031d89530c9f225f0fc9815c7e20e83f5ad70795394c5489546c072d68ec837b",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_331960",
+    "name": "Chicken, breast, skinless, boneless, cooked, braised",
+    "asset": "assets/images/generated_food/331960.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1181,
+      1181
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "129669d60fe490503fed7ac4f911e34ccf80ae628aab005176cd2165a3b86c09",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2646171",
+    "name": "Chicken, thigh, boneless, skinless, raw",
+    "asset": "assets/images/generated_food/2646171.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1202,
+      1202
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "12096b96bb6dfc943f7fa6d3955c401e447ede70ca21cdee88c55da10d7dbcae",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2727566",
+    "name": "Chicken, drumstick, meat and skin, raw",
+    "asset": "assets/images/generated_food/2727566.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1173,
+      1173
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "f83af6d5bbf3dae2419b856ed49afacb06dea601370ed87cc6194f3141c5d0e3",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2514747",
+    "name": "Turkey, ground, 93% lean, raw",
+    "asset": "assets/images/generated_food/2514747.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1158,
+      1158
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "756cc6b02d6500920f80d705285555cf390dfdbec6ac49dd5bacf662923ab4d1",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2514743",
+    "name": "Beef, ground, 90% lean / 10% fat, raw",
+    "asset": "assets/images/generated_food/2514743.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1195,
+      1195
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "22f53e2ab07fe0bacd442619b3d5f43513197347507518bf4832c3d02cb9c9ab",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2514744",
+    "name": "Beef, ground, 80% lean / 20% fat, raw",
+    "asset": "assets/images/generated_food/2514744.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1214,
+      1214
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "89d351b3405732f7bb531c9f3b0e384a1f1f1e4ba85f1ffeac339358527abbe2",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2727574",
+    "name": "Beef, top sirloin steak, raw",
+    "asset": "assets/images/generated_food/2727574.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1200,
+      1200
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "54e03a6537cac57d047fe0141c24f9d736af757c8ec24c8f5de3b940b588a640",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2727573",
+    "name": "Beef, tenderloin steak, raw",
+    "asset": "assets/images/generated_food/2727573.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1208,
+      1208
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "02cae60d40656a830f6da415dfb7e4e59a1e8e81a6191f8bd60a19c4f3d79cb9",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2727570",
+    "name": "Lamb, ground, raw",
+    "asset": "assets/images/generated_food/2727570.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1183,
+      1183
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a43de2714ea76e1f28573d470357dc5d43a7f97e4f2822a0ebb9a11878c150da",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2684442",
+    "name": "Fish, tilapia, raw",
+    "asset": "assets/images/catalog_photos/tilapia-raw.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      314,
+      313
+    ],
+    "outputPixels": [
+      321,
+      321
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "688eab237f0feac99ece743d78ef731be1dedaf472407a9837dd0ce7ab776e33",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2684441",
+    "name": "Fish, salmon, Atlantic, farm-raised, raw",
+    "asset": "assets/images/generated_food/2684441.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1241,
+      1241
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "fd3aef5cc220b22aa28c51b4c66deda469ddb2e3f50ceb6a258b9894a974fdb0",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2684440",
+    "name": "Fish, salmon, sockeye, wild, raw",
+    "asset": "assets/images/generated_food/2684440.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1199,
+      1199
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a220a36683b7721416578dbb6538a174281b3e7be3ab377963b3711ebb75c4af",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_334194",
+    "name": "Fish, tuna, light, canned in water, drained",
+    "asset": "assets/images/generated_food/334194.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1213,
+      1213
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a3f6d382e1f5f4a98609fb23e20987a8d800c255d8d877c86a16de95771f528b",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2684445",
+    "name": "Fish, catfish, farm-raised, raw",
+    "asset": "assets/images/generated_food/2684445.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      314,
+      314
+    ],
+    "outputPixels": [
+      312,
+      312
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "31654101ebfe860aafe94b3adedb056344926a03f5ec94f8cda140ed44a2d684",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2684443",
+    "name": "Crustaceans, shrimp, raw",
+    "asset": "assets/images/generated_food/2684443.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1183,
+      1183
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a83fa17d0b281294fa3168bb004a529f4ff9269feea2276a12ae5fd599983a42",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2512381",
+    "name": "Rice, white, long grain, raw",
+    "asset": "assets/images/generated_food/2512381.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1220,
+      1220
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "6876a48c8cd607157a94c90dfb5905e07940a52d23538e158186fc3d433aa7e8",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2512380",
+    "name": "Rice, brown, long grain, raw",
+    "asset": "assets/images/generated_food/2512380.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      313,
+      313
+    ],
+    "outputPixels": [
+      286,
+      286
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "d0183f19b504fe017d7d5181b17c828ab472c858b8f51fe7219a00883405fcaf",
+    "generation": "atlas-fallback-dry-state",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2710820",
+    "name": "Bulgur, dry",
+    "asset": "assets/images/generated_food/2710820.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      314,
+      313
+    ],
+    "outputPixels": [
+      297,
+      297
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "6a6d938b209c24ae59151231c6c573be4239be6e30e45e840f3bb2058bcbfea5",
+    "generation": "atlas-fallback-dry-state",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346396",
+    "name": "Oats, rolled, old fashioned",
+    "asset": "assets/images/generated_food/2346396.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1216,
+      1216
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "59518777a150857837336ca641b7c205f8c80a2f2de79dd1ef71b87d20178e5a",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_790018",
+    "name": "Flour, wheat, all-purpose, unenriched, unbleached",
+    "asset": "assets/images/generated_food/790018.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1207,
+      1207
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "6a6fafe19c3398514b6be63e3a911a4934a083a1f1cacd13c9517ec57cef8f99",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_790085",
+    "name": "Flour, whole wheat",
+    "asset": "assets/images/generated_food/790085.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1183,
+      1183
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "585035701e222cf64a534fae2ebe515b081be6f159841ba58c8e5e082383e3c9",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2003589",
+    "name": "Flour, semolina, fine",
+    "asset": "assets/images/generated_food/2003589.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1218,
+      1218
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "8fea6624fdeadd67f0125da8dc4a64c4013ab60d358e7759ab9d434a5b75f653",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2758998",
+    "name": "Pasta, spaghetti, dry, enriched",
+    "asset": "assets/images/generated_food/2758998.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1142,
+      1142
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "05487e86b751c9e61a94296e6808ac7dbf4e3ca8780c423fc7c9de34097eda39",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2759000",
+    "name": "Pasta, spaghetti, whole grain, dry",
+    "asset": "assets/images/generated_food/2759000.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1231,
+      1231
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a1fc2d31f401746228e1f4be944157e86dd85601bdcc826313c5114ea930f5a0",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2758993",
+    "name": "Bread, white, commercial",
+    "asset": "assets/images/generated_food/2758993.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1184,
+      1184
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "3cd8dab1b1064a6a13285c0a79a83e5dc2021f8390594e173fd0a23ca3a2fa0a",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2758994",
+    "name": "Bread, 100% whole wheat, commercial",
+    "asset": "assets/images/generated_food/2758994.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1200,
+      1200
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "87b50cb81982b1312508945fe0983cf500a7f85d03ebd9b10e2331c1b80d8435",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2644283",
+    "name": "Lentils, dry",
+    "asset": "assets/images/generated_food/2644283.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1124,
+      1124
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "dd5d7532f8491f2db9e2420eb7ac1ba2cd890ad0ebd49ab63f98222a04724839",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2644282",
+    "name": "Chickpeas (garbanzo), dry",
+    "asset": "assets/images/generated_food/2644282.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1194,
+      1194
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "b1c405b632791848f2fe850dadf5f29ae2cef7e72d68b9d4bcf4a3c25ec9e76d",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2644288",
+    "name": "Chickpeas, canned, drained and rinsed",
+    "asset": "assets/images/generated_food/2644288.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1236,
+      1236
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "60c5b6ec9beb4c9c4287b295f0bcc9b475be8439af84e276cb802c906f4d6cc4",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2644289",
+    "name": "Beans, kidney, dark red, canned, drained",
+    "asset": "assets/images/generated_food/2644289.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1163,
+      1163
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "e67865cd1b84aa35aff67722a4212307d8f458591f28da567ad606d3e40bfd62",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_747441",
+    "name": "Beans, navy, dry",
+    "asset": "assets/images/generated_food/747441.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1236,
+      1236
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "35ffcfa6f60fcbc42b244cad7bac14cd4bc487117929115ee11e86965f8874b1",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_321358",
+    "name": "Hummus, commercial",
+    "asset": "assets/images/generated_food/321358.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1249,
+      1249
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "1355eb46a5ddc1716e291f6073ceb3095bc35d24e2a35087aa3a5ae6bc0696ca",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2515376",
+    "name": "Peanuts, raw",
+    "asset": "assets/images/generated_food/2515376.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1200,
+      1200
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "bc799d7bc6422b3f3699c88c1532d1df15c2bc5f677395b2c55ea57bc081cf95",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2758989",
+    "name": "Peanut butter, creamy",
+    "asset": "assets/images/generated_food/2758989.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1207,
+      1207
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "9cfb40c60c248c9da03746548ed11791eeb1b75dcbb58980dfeccf3440fbccb1",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_1999634",
+    "name": "Tomato, roma, raw",
+    "asset": "assets/images/generated_food/1999634.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1160,
+      1160
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "d932225f0fef5e2fee7d7849a3370d0b85195cb2930c7a2d500f0a2ba7f3c91c",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_790646",
+    "name": "Onion, yellow, raw",
+    "asset": "assets/images/generated_food/790646.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1128,
+      1128
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "95b2695a9cdc19dc898a89efde86ac4feeae175fbc177b7e80b9e2f0f163c31c",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_790577",
+    "name": "Onion, red, raw",
+    "asset": "assets/images/generated_food/790577.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1198,
+      1198
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "61324c30ef5c2a4c26e2060bc1a43f3335bf00c71283b41ab002eec609999275",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_1104647",
+    "name": "Garlic, raw",
+    "asset": "assets/images/generated_food/1104647.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1222,
+      1222
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "d1973eda30939f173e838764e1e2b10ee226ca17529462f812abeab05ef228e9",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346401",
+    "name": "Potato, russet, without skin, raw",
+    "asset": "assets/images/generated_food/2346401.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1232,
+      1232
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "2ff362b43520b9a8ea4c21b66fb8cbcc8d6b3eaa08b19f30ef72812b2bf63bf5",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346404",
+    "name": "Sweet potato, orange flesh, raw",
+    "asset": "assets/images/generated_food/2346404.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1198,
+      1198
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "11582340a0534dc433d11865192cea61fdd9a5d0a3409c6e0fa5cf53e3381352",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2258586",
+    "name": "Carrots, mature, raw",
+    "asset": "assets/images/catalog_photos/carrot.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1239,
+      1239
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "10d6cf85c5fcacf842f8f9652371796be80e4cddbc301d48df4055e28ec1dffa",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346406",
+    "name": "Cucumber, with peel, raw",
+    "asset": "assets/images/generated_food/2346406.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1221,
+      1221
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "5c7fee6119329f70fa1eaedb22a68fe626e77a83db123e73c830de21bbc0c5e9",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2685577",
+    "name": "Eggplant, raw",
+    "asset": "assets/images/catalog_photos/eggplant.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1208,
+      1208
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "0f79fc791b14fe91b177ea5f24457d2173da225cbddca6733748aa84750388d7",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2685568",
+    "name": "Squash, summer, zucchini, raw",
+    "asset": "assets/images/generated_food/2685568.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1199,
+      1199
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "e086ce3b64fb6a3d1383d591a207b3b8f99efc5a22a8fab66e94b9c582064095",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2258588",
+    "name": "Pepper, bell, green, raw",
+    "asset": "assets/images/generated_food/2258588.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1141,
+      1141
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "d7b433b00e61aee08db84910bceb029e210df3da592a8c46648596e3ef786413",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2258590",
+    "name": "Pepper, bell, red, raw",
+    "asset": "assets/images/generated_food/2258590.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1114,
+      1114
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "beea94da65c75ada85a1d0c24b7f1464090c2761d60dd4f0688156fd8c929d71",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_1999632",
+    "name": "Spinach, baby, raw",
+    "asset": "assets/images/catalog_photos/spinach.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1171,
+      1171
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "0f922a870b1b336024b40858e58e44f819cec857b32e77a720218484b1b656bc",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_747447",
+    "name": "Broccoli, raw",
+    "asset": "assets/images/catalog_photos/broccoli.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1215,
+      1215
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "d648fdd32d628ee648d8ebf91d5ef0161e8d9d3e1a9ee34e41a825468006ad33",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2685573",
+    "name": "Cauliflower, raw",
+    "asset": "assets/images/generated_food/2685573.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1242,
+      1242
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "aaed10a668f3a9cb914368aeceee7ce4b09ab698432cba784310a6d84e65ef1b",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346407",
+    "name": "Cabbage, green, raw",
+    "asset": "assets/images/generated_food/2346407.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1203,
+      1203
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "e3609f8aad2eac20925061fe2aa1387e065b3dd080d0f29d1314dc2b41cbe5ee",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746769",
+    "name": "Lettuce, romaine, raw",
+    "asset": "assets/images/generated_food/746769.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1231,
+      1231
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "22f4f0b822dfb568cca7ad178ee9db40b08e62b0cb50259748adfc08208fab78",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346400",
+    "name": "Beans, snap, green, raw",
+    "asset": "assets/images/generated_food/2346400.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1237,
+      1237
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "17869aae60bb65b1441a9f212e2b0b3dbbc4a57bdc627673fc9b70b9362820e9",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2644291",
+    "name": "Peas, green, canned, drained and rinsed",
+    "asset": "assets/images/generated_food/2644291.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1231,
+      1231
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a3c2f73999745dbeedae4cddc18b013519196e3e4c76fab0f3bef5c7c4b30e2a",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_1999629",
+    "name": "Mushrooms, white button, raw",
+    "asset": "assets/images/generated_food/1999629.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1154,
+      1154
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "c27c668d851a1513ecc7b5b5adcaac3b8cba068072b17249eca16779b2d43219",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_323505",
+    "name": "Kale, raw",
+    "asset": "assets/images/generated_food/323505.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1231,
+      1231
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a07aa3631f191f7da5d590b4559cbde4a3edd0c09934a93a6233a816290729e9",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2685580",
+    "name": "Tomato, paste, canned, no salt added",
+    "asset": "assets/images/generated_food/2685580.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1207,
+      1207
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "698cb4f7be74836fef59dc3899584b36778a144a7841f13f6306873fc39183fc",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_1105314",
+    "name": "Banana, ripe, raw",
+    "asset": "assets/images/catalog_photos/banana.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1210,
+      1210
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "274fdedae3caa89e11aaf7b5874d87273fb29797ce7e6097a4341760bebb726b",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_1750341",
+    "name": "Apple, gala, with skin, raw",
+    "asset": "assets/images/generated_food/1750341.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1131,
+      1131
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "7093906f2750e494ba25452f798b0ae7bd5f8c04bd084ebc9efa389e411eac9c",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746771",
+    "name": "Orange, navel, raw",
+    "asset": "assets/images/generated_food/746771.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1204,
+      1204
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "980df1126e3bcb047e80fad8136305f99793d7465d9124971e5a02140b208283",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346413",
+    "name": "Grapes, green, seedless, raw",
+    "asset": "assets/images/generated_food/2346413.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1265,
+      1265
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "b723ce5b8c900147708ebc8b549021aa237c2b1b4662901ad2033e2629fa1dc1",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346409",
+    "name": "Strawberries, raw",
+    "asset": "assets/images/generated_food/2346409.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1198,
+      1198
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "4a84a62c7528fcf8b3863a237a558d7911926b033f319dc7b22ec9342e28709c",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2710833",
+    "name": "Mango, Tommy Atkins, raw",
+    "asset": "assets/images/generated_food/2710833.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1130,
+      1130
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "f8ee3d7980cdbba1811f7793dc6d1b2326fd56b5d501a51a4bbc1909f5861bd5",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2747675",
+    "name": "Watermelon, seedless, flesh, raw",
+    "asset": "assets/images/generated_food/2747675.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1247,
+      1247
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "edc83313352d20f64665732a8801fa130c926becf13d9aea5443a5ea06f792d8",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746768",
+    "name": "Figs, dried",
+    "asset": "assets/images/catalog_photos/dried-fig.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1215,
+      1215
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "845d40e08054a7109483351a0b385e49d903ef7248eacf42590743a8857e5bde",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2758980",
+    "name": "Raisins, dark, seedless",
+    "asset": "assets/images/generated_food/2758980.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1138,
+      1138
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "796a2b56845b4b25daf2931f450b78fcdaf45b1e36f1973dea89053c11e32949",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2710824",
+    "name": "Avocado, Hass, raw",
+    "asset": "assets/images/catalog_photos/avocado.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1196,
+      1196
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "ee2699ec2e01f9bf824dad6650ca4a97de1b0cba2b5ac825cf6f4b30a679ce0a",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2710832",
+    "name": "Mandarin, seedless, raw",
+    "asset": "assets/images/generated_food/2710832.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1215,
+      1215
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "bffe099976ed8da13057a2df7f47c0ec988a6b74ec834ed75a2b4e2624a5ee60",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746770",
+    "name": "Melon, cantaloupe, raw",
+    "asset": "assets/images/generated_food/746770.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1195,
+      1195
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "6c9b75ccc04e79ca3f6f85a3682fc037408c64a06669f7e7f5f890702d8820eb",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346393",
+    "name": "Nuts, almonds, raw",
+    "asset": "assets/images/generated_food/2346393.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1231,
+      1231
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a8b6d5bd215824ce8664eef1bfefdfef176291260d7629b039f8b2ee4f20e2d9",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2346394",
+    "name": "Nuts, walnuts, raw",
+    "asset": "assets/images/generated_food/2346394.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1223,
+      1223
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "c4c02e9a60aa1a6d0d6052b178fe1edc3cbd883279003475a5228769a9fc4327",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2515375",
+    "name": "Nuts, hazelnuts, raw",
+    "asset": "assets/images/generated_food/2515375.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1169,
+      1169
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "963d9966eee25a2f0ccc74ff322cc91b2621f9bca58c975890d4ffa34a22ba3e",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2515379",
+    "name": "Nuts, pistachios, raw",
+    "asset": "assets/images/generated_food/2515379.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1186,
+      1186
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "469225d432d9af7f8c6763e2ea8d035dc3ffd289876e875935dcc3fb61a2dea2",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2515374",
+    "name": "Nuts, cashews, raw",
+    "asset": "assets/images/generated_food/2515374.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1229,
+      1229
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "5a3bb5a8167fc6a4fc8de4ebe4130f2e26da441bb00d350bf9ce580660ad288c",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2515381",
+    "name": "Seeds, sunflower, kernel, raw",
+    "asset": "assets/images/generated_food/2515381.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1159,
+      1159
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "b46fd2809de535e3bc0f51e38519119b21b6bbb5d2cda925cfccbfc6fac515b6",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_2262073",
+    "name": "Sesame butter (tahini), creamy",
+    "asset": "assets/images/generated_food/2262073.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1211,
+      1211
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "343195fe276035fc87525cc877fa86d8f2369bd58691e235525bc8ad70a9f35f",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746784",
+    "name": "Sugars, granulated",
+    "asset": "assets/images/generated_food/746784.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1177,
+      1177
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "f76f7465d33c692dfb1a9d8b2f87b3f79610e782ccd6e73f844f23b8a45cb44c",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_746775",
+    "name": "Salt, table, iodized",
+    "asset": "assets/images/generated_food/746775.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1205,
+      1205
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "3809818ab1e8a998def9bcf8caee94b91daf59b27639af6061f09c5ff16bcb3f",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_747693",
+    "name": "Ketchup",
+    "asset": "assets/images/generated_food/747693.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1130,
+      1130
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "92fc5adf56f56fded7d4bc7ebba450f9b7ce18b76eb1050c814e654ee8034c82",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_foundation_1999630",
+    "name": "Soy milk, unsweetened, shelf stable",
+    "asset": "assets/images/generated_food/1999630.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1168,
+      1168
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "740bb7950764cd8934e51ee597595e51f087d8db4a9ac8f8626c7dcc78b9a3d6",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_sr_168878",
+    "name": "Rice, white, long-grain, regular, enriched, cooked",
+    "asset": "assets/images/generated_food/168878.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1231,
+      1231
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "a994876659c06a4a103b36aa21d3a7fd0b32387d4b30d9da29908546d5c1b7e7",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_sr_168928",
+    "name": "Pasta, cooked, unenriched, without added salt",
+    "asset": "assets/images/generated_food/168928.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1244,
+      1244
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "48e8a51dfdbadf24d95ae434613de5f681d39eec4bc95a2d0bde4b308a435073",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_sr_172421",
+    "name": "Lentils, mature seeds, cooked, boiled, without salt",
+    "asset": "assets/images/generated_food/172421.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1194,
+      1194
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "49ef6f139cc6d0c09188d347154b1c4e00583557aa7c895903753e3aa93104c0",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_sr_173757",
+    "name": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+    "asset": "assets/images/generated_food/173757.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1233,
+      1233
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "d3b9115ad777f48c461be232f317839248243b7791eeb586aaabb8104b8ad254",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_sr_171413",
+    "name": "Oil, olive, salad or cooking",
+    "asset": "assets/images/generated_food/171413.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1010,
+      1010
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "0fe108ea2e77446633ee7dd109436f6c9f5c63edaeadb475b0a974195fcadf9e",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "foodId": "usda_sr_173753",
+    "name": "Boiled fava beans, no added oil",
+    "asset": "assets/images/generated_food/173753.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      1254,
+      1254
+    ],
+    "outputPixels": [
+      1193,
+      1193
+    ],
+    "background": "edge-connected-white-removed",
+    "sha256": "78c40c71316f81b325ae212709932bf85ce152d1dfb4adb521aaa8a3574c992f",
+    "generation": "individual-single-food",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "recipeArt": "shakshuka",
+    "asset": "assets/images/generated_food/shakshuka.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      627,
+      627
+    ],
+    "outputPixels": [
+      645,
+      645
+    ],
+    "sha256": "43b540dd0b0c35aa83079d7b13eb28340cbeb7dfb2f028fad34d41ef6639c395",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "recipeArt": "shawarma",
+    "asset": "assets/images/generated_food/shawarma.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      627,
+      627
+    ],
+    "outputPixels": [
+      601,
+      601
+    ],
+    "sha256": "c81620503935cc8d3dc505ced57d859cb7c1351583c11fed6b73c899e790d0c5",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "recipeArt": "molokhia",
+    "asset": "assets/images/generated_food/molokhia.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      627,
+      627
+    ],
+    "outputPixels": [
+      592,
+      592
+    ],
+    "sha256": "4d37d3226c74a56bfeb9899a9b420037c04fc70a10927028f7016893bf77742b",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "recipeArt": "feteer",
+    "asset": "assets/images/generated_food/feteer.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      627,
+      627
+    ],
+    "outputPixels": [
+      621,
+      621
+    ],
+    "sha256": "8005b469496faadee6a8839b6ea882de51934c92467fd892ea18a5596374c8ff",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  },
+  {
+    "recipeArt": "fatta",
+    "asset": "assets/images/generated_food/fatta.png",
+    "kind": "new_generated_illustration",
+    "sourcePixels": [
+      627,
+      627
+    ],
+    "outputPixels": [
+      602,
+      602
+    ],
+    "sha256": "f266f5919bf54f7eb852d132ba46ebd5d23331f1706249751dd6ce00715d4894",
+    "identityReview": "visual-contact-sheet-reviewed-2026-11-25; illustrative-not-recognition-evidence"
+  }
+]

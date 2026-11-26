@@ -1,83 +1,88 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
+import 'google_auth_gateway.dart';
 
 class AuthService {
-  AuthService._();
+  AuthService._()
+    : _auth = FirebaseAuth.instance,
+      // Live explicit linking, password login and ordinary Google login
+      // proved both providers return the unchanged owner UID on 2026-11-23.
+      _google = GoogleAuthGateway();
+
+  @visibleForTesting
+  AuthService.withAuth(FirebaseAuth auth, {GoogleAuthGateway? google})
+    : _auth = auth,
+      _google = google ?? GoogleAuthGateway();
+
   static final AuthService instance = AuthService._();
 
-  final FirebaseAuth _auth = FirebaseAuth.instance;
-  final FirebaseFirestore _db = FirebaseFirestore.instance;
+  /// A stalled network must end in a clear error, not an endless spinner.
+  static const Duration networkTimeout = Duration(seconds: 30);
 
-  Future<void> login(String email, String password) async {
-    await _auth.signInWithEmailAndPassword(
-      email: email.trim(),
-      password: password,
-    );
-  }
+  Future<T> _bounded<T>(Future<T> call) => call.timeout(
+    networkTimeout,
+    onTimeout: () =>
+        throw FirebaseAuthException(code: 'network-request-failed'),
+  );
 
-  Future<void> register({
-    required String name,
+  final FirebaseAuth _auth;
+
+  User? get currentUser => _auth.currentUser;
+
+  Stream<User?> get authStateChanges => _auth.authStateChanges();
+
+  Future<User?> signInWithEmail({
     required String email,
     required String password,
-    required String goal,
   }) async {
-    final cred = await _auth.createUserWithEmailAndPassword(
-      email: email.trim(),
-      password: password,
+    final credential = await _bounded(
+      _auth.signInWithEmailAndPassword(email: email, password: password),
     );
-    await cred.user!.updateDisplayName(name.trim());
-    await _db.collection('users').doc(cred.user!.uid).set({
-      'name': name.trim(),
-      'email': email.trim(),
-      'goal': goal,
-      'role': 'user',
-      'onboardingSeen': false,
-      'createdAt': FieldValue.serverTimestamp(),
-    });
+    return credential.user;
   }
 
-  /// هل المستخدم لسه ما شافش الـ Onboarding؟
-  Future<bool> needsOnboarding() async {
-    final uid = _auth.currentUser?.uid;
-    if (uid == null) return false;
-    final doc = await _db.collection('users').doc(uid).get();
-    return doc.data()?['onboardingSeen'] != true;
+  Future<User?> createUserWithEmail({
+    required String email,
+    required String password,
+  }) async {
+    final credential = await _bounded(
+      _auth.createUserWithEmailAndPassword(email: email, password: password),
+    );
+    return credential.user;
   }
 
-  Future<void> markOnboardingSeen() async {
-    final uid = _auth.currentUser?.uid;
-    if (uid == null) return;
-    await _db
-        .collection('users')
-        .doc(uid)
-        .set({'onboardingSeen': true}, SetOptions(merge: true));
-  }
-
-  Future<void> resetPassword(String email) =>
-      _auth.sendPasswordResetEmail(email: email.trim());
-
-  Future<void> logout() => _auth.signOut();
-
-  String errorMessage(Object e) {
-    if (e is FirebaseAuthException) {
-      switch (e.code) {
-        case 'email-already-in-use':
-          return 'الإيميل ده مستخدم قبل كده';
-        case 'invalid-email':
-          return 'الإيميل مش صحيح';
-        case 'weak-password':
-          return 'كلمة السر ضعيفة';
-        case 'user-not-found':
-        case 'wrong-password':
-        case 'invalid-credential':
-          return 'الإيميل أو كلمة السر غلط';
-        case 'network-request-failed':
-          return 'مشكلة في الاتصال بالإنترنت';
-        case 'too-many-requests':
-          return 'محاولات كتير، جرب بعد شوية';
-      }
-      return e.message ?? 'حصل خطأ';
+  final GoogleAuthGateway _google;
+  bool _googleBusy = false;
+  Future<User?> signInWithGoogle({
+    required bool linkExisting,
+    Future<SufraGoogleIdentity?> Function()? chooseWebIdentity,
+  }) async {
+    if (_googleBusy) {
+      throw FirebaseAuthException(code: 'auth-operation-in-progress');
     }
-    return 'حصل خطأ غير متوقع';
+    _googleBusy = true;
+    final previousUid = _auth.currentUser?.uid;
+    try {
+      final result = await _google.authenticate(
+        _auth,
+        linkExisting: linkExisting,
+        chooseWebIdentity: chooseWebIdentity,
+      );
+      if (linkExisting && result.user?.uid != previousUid) {
+        throw FirebaseAuthException(code: 'account-change-blocked');
+      }
+      return result.user;
+    } finally {
+      _googleBusy = false;
+    }
+  }
+
+  Future<void> sendPasswordResetEmail({required String email}) async {
+    await _auth.sendPasswordResetEmail(email: email);
+  }
+
+  Future<void> signOut() async {
+    await _auth.signOut();
+    await _google.signOut();
   }
 }

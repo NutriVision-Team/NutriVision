@@ -1,0 +1,157 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    function isMutableUserOwned(path) {
+      return isSignedIn() && path.matches('users/' + request.auth.uid + '/*');
+    }
+
+    match /users/{uid} {
+      allow read, update, delete: if isOwner(uid);
+      allow create: if isOwner(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.keys().hasAll(['uid', 'displayName', 'email', 'preferredLanguage', 'timezone', 'measurementSystem', 'notificationPreferences', 'onboardingCompleted', 'accountStatus', 'createdAt', 'updatedAt']);
+    }
+
+    match /users/{uid}/nutrition_profiles/{profileId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/meal_entries/{mealId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/daily_logs/{dateKey} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/weight_logs/{weightId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/water_logs/{waterId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/meal_plans/{planId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/shopping_lists/{listId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/shopping_lists/{listId}/items/{itemId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/favorites/{favoriteId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/notifications/{notificationId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/devices/{deviceId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/achievements/{achievementId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/conversations/{conversationId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/conversations/{conversationId}/messages/{messageId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /food_catalog/{foodId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /products/{barcode} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /recipes/{recipeId} {
+      allow read: if resource.data.isPublished == true;
+      allow write: if false;
+    }
+
+    match /food_categories/{categoryId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /app_config/{document=**} {
+      allow read, write: if false;
+    }
+
+    // Explicit opt-in Coach storage. No chat, images, audio or external context.
+    function shortStrings(v) {return v is list && v.size()<=20 && (v.size()<=0 || (v[0] is string && v[0].size()<=100))
+        && (v.size()<=1 || (v[1] is string && v[1].size()<=100))
+        && (v.size()<=2 || (v[2] is string && v[2].size()<=100))
+        && (v.size()<=3 || (v[3] is string && v[3].size()<=100))
+        && (v.size()<=4 || (v[4] is string && v[4].size()<=100))
+        && (v.size()<=5 || (v[5] is string && v[5].size()<=100))
+        && (v.size()<=6 || (v[6] is string && v[6].size()<=100))
+        && (v.size()<=7 || (v[7] is string && v[7].size()<=100))
+        && (v.size()<=8 || (v[8] is string && v[8].size()<=100))
+        && (v.size()<=9 || (v[9] is string && v[9].size()<=100))
+        && (v.size()<=10 || (v[10] is string && v[10].size()<=100))
+        && (v.size()<=11 || (v[11] is string && v[11].size()<=100))
+        && (v.size()<=12 || (v[12] is string && v[12].size()<=100))
+        && (v.size()<=13 || (v[13] is string && v[13].size()<=100))
+        && (v.size()<=14 || (v[14] is string && v[14].size()<=100))
+        && (v.size()<=15 || (v[15] is string && v[15].size()<=100))
+        && (v.size()<=16 || (v[16] is string && v[16].size()<=100))
+        && (v.size()<=17 || (v[17] is string && v[17].size()<=100))
+        && (v.size()<=18 || (v[18] is string && v[18].size()<=100))
+        && (v.size()<=19 || (v[19] is string && v[19].size()<=100));}
+    function healthEnvelope(d,keys) {return d.keys().hasOnly(keys) && d.keys().hasAll(keys) && d.version==1 && d.updatedAt==request.time;}
+    function validHealthValues(v) {return v is map && v.keys().hasOnly(['age', 'heightCm', 'weightKg', 'activity', 'lifestyle', 'sleepSchedule', 'preferredFoods', 'excludedFoods', 'allergens', 'dietaryRestrictions', 'budget', 'mealsPerDay', 'preparationMinutes', 'conditions', 'specialistGuidance']) && (!('activity' in v) || (v.activity is string && v.activity.size()<=500))
+        && (!('lifestyle' in v) || (v.lifestyle is string && v.lifestyle.size()<=500))
+        && (!('sleepSchedule' in v) || (v.sleepSchedule is string && v.sleepSchedule.size()<=500))
+        && (!('budget' in v) || (v.budget is string && v.budget.size()<=500))
+        && (!('specialistGuidance' in v) || (v.specialistGuidance is string && v.specialistGuidance.size()<=500))
+        && (!('preferredFoods' in v) || shortStrings(v.preferredFoods))
+        && (!('excludedFoods' in v) || shortStrings(v.excludedFoods))
+        && (!('allergens' in v) || shortStrings(v.allergens))
+        && (!('dietaryRestrictions' in v) || shortStrings(v.dietaryRestrictions))
+        && (!('conditions' in v) || shortStrings(v.conditions))
+        && (!('age' in v) || (v.age is number && v.age>=1 && v.age<=120))
+        && (!('heightCm' in v) || (v.heightCm is number && v.heightCm>=40 && v.heightCm<=250))
+        && (!('weightKg' in v) || (v.weightKg is number && v.weightKg>=5 && v.weightKg<=500))
+        && (!('mealsPerDay' in v) || (v.mealsPerDay is number && v.mealsPerDay>=1 && v.mealsPerDay<=10))
+        && (!('preparationMinutes' in v) || (v.preparationMinutes is number && v.preparationMinutes>=0 && v.preparationMinutes<=600));}
+    match /users/{uid}/health_profile/{id} {
+      allow read,delete: if isOwner(uid) && id=='current';
+      allow create,update: if isOwner(uid) && id=='current' && healthEnvelope(request.resource.data,['version','values','updatedAt']) && validHealthValues(request.resource.data.values);
+    }
+    match /users/{uid}/coach_preferences/{id} {
+      allow read,delete: if isOwner(uid) && id=='current';
+      allow create,update: if isOwner(uid) && id=='current' && healthEnvelope(request.resource.data,['version','fields','updatedAt']) && request.resource.data.fields is list && request.resource.data.fields.size()<=17 && request.resource.data.fields.toSet().size()==request.resource.data.fields.size() && request.resource.data.fields.toSet().hasOnly(['age', 'heightCm', 'weightKg', 'activity', 'lifestyle', 'sleepSchedule', 'preferredFoods', 'excludedFoods', 'allergens', 'dietaryRestrictions', 'budget', 'mealsPerDay', 'preparationMinutes', 'conditions', 'specialistGuidance', 'goals', 'habits']);
+    }
+    match /users/{uid}/health_goals/{id} {
+      allow read,delete: if isOwner(uid) && id=='current';
+      allow create,update: if isOwner(uid) && id=='current' && healthEnvelope(request.resource.data,['version','goals','habits','updatedAt']) && shortStrings(request.resource.data.goals) && request.resource.data.habits is list && request.resource.data.habits.size()<=3 && request.resource.data.habits.toSet().hasOnly(['log_meal','prepare_meal','review_ingredients']);
+    }
+    match /users/{uid}/health_checkins/{day} {
+      allow read,delete: if isOwner(uid);
+      allow create,update: if isOwner(uid) && day.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$') && healthEnvelope(request.resource.data,['version','day','done','updatedAt']) && request.resource.data.day==day && request.resource.data.done is list && request.resource.data.done.size()<=3 && request.resource.data.done.toSet().hasOnly(['log_meal','prepare_meal','review_ingredients']);
+    }
+  }
+}

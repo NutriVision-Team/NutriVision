@@ -1,0 +1,2991 @@
+{
+  "schemaVersion": "1.0.0",
+  "foods": [
+    {
+      "id": "usda_foundation_748967",
+      "names": {
+        "ar": "بيض كامل (كبير)",
+        "en": "Egg, whole, fresh, large"
+      },
+      "aliases": [
+        "بيض"
+      ],
+      "category": "eggs",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 148,
+        "proteinG": 12.4,
+        "fatG": 9.96,
+        "carbohydrateG": 0.96,
+        "fiberG": 0.0,
+        "sugarsG": 0.2,
+        "sodiumMg": 129
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 748967,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/748967/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_747997",
+      "names": {
+        "ar": "بياض بيض",
+        "en": "Egg white, fresh, large"
+      },
+      "aliases": [],
+      "category": "eggs",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 55.0,
+        "proteinG": 10.7,
+        "fatG": 0.0,
+        "carbohydrateG": 2.36,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": null
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 747997,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/747997/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_748236",
+      "names": {
+        "ar": "صفار بيض",
+        "en": "Egg yolk, fresh, large"
+      },
+      "aliases": [],
+      "category": "eggs",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 334,
+        "proteinG": 16.2,
+        "fatG": 28.8,
+        "carbohydrateG": 1.02,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": null
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 748236,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/748236/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746782",
+      "names": {
+        "ar": "حليب كامل الدسم",
+        "en": "Milk, whole, 3.25% milkfat"
+      },
+      "aliases": [
+        "لبن كامل الدسم"
+      ],
+      "category": "dairy",
+      "foodState": "fluid",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 60.0,
+        "proteinG": 3.27,
+        "fatG": 3.2,
+        "carbohydrateG": 4.63,
+        "fiberG": null,
+        "sugarsG": 4.81,
+        "sodiumMg": 38.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746782,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746782/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746778",
+      "names": {
+        "ar": "حليب قليل الدسم 2%",
+        "en": "Milk, reduced fat, 2% milkfat"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "fluid",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 50.0,
+        "proteinG": 3.36,
+        "fatG": 1.9,
+        "carbohydrateG": 4.9,
+        "fiberG": null,
+        "sugarsG": 4.89,
+        "sodiumMg": 39.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746778,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746778/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746776",
+      "names": {
+        "ar": "حليب خالي الدسم",
+        "en": "Milk, nonfat (skim)"
+      },
+      "aliases": [
+        "لبن خالي الدسم"
+      ],
+      "category": "dairy",
+      "foodState": "fluid",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 34.0,
+        "proteinG": 3.43,
+        "fatG": 0.08,
+        "carbohydrateG": 4.92,
+        "fiberG": null,
+        "sugarsG": 5.05,
+        "sodiumMg": 41.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746776,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746776/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2259793",
+      "names": {
+        "ar": "زبادي كامل الدسم",
+        "en": "Yogurt, plain, whole milk"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 78.0,
+        "proteinG": 3.82,
+        "fatG": 4.48,
+        "carbohydrateG": 5.57,
+        "fiberG": null,
+        "sugarsG": 4.09,
+        "sodiumMg": 41.8
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2259793,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259793/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2647437",
+      "names": {
+        "ar": "زبادي خالي الدسم",
+        "en": "Yogurt, plain, nonfat"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 50.0,
+        "proteinG": 4.23,
+        "fatG": 0.087,
+        "carbohydrateG": 8.08,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 51.5
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2647437,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2647437/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_330137",
+      "names": {
+        "ar": "زبادي يوناني خالي الدسم",
+        "en": "Yogurt, Greek, plain, nonfat"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 61.0,
+        "proteinG": 10.3,
+        "fatG": 0.37,
+        "carbohydrateG": 3.64,
+        "fiberG": null,
+        "sugarsG": 3.27,
+        "sodiumMg": 36.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 330137,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/330137/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2259794",
+      "names": {
+        "ar": "زبادي يوناني كامل الدسم",
+        "en": "Yogurt, Greek, plain, whole milk"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 93.7,
+        "proteinG": 8.78,
+        "fatG": 4.39,
+        "carbohydrateG": 4.75,
+        "fiberG": null,
+        "sugarsG": 3.25,
+        "sodiumMg": 33.8
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2259794,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259794/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_328637",
+      "names": {
+        "ar": "جبنة شيدر",
+        "en": "Cheese, cheddar"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 408,
+        "proteinG": 23.3,
+        "fatG": 34.0,
+        "carbohydrateG": 2.44,
+        "fiberG": null,
+        "sugarsG": 0.33,
+        "sodiumMg": 654
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 328637,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/328637/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2259796",
+      "names": {
+        "ar": "جبنة فيتا",
+        "en": "Cheese, feta, whole milk"
+      },
+      "aliases": [
+        "فيتا"
+      ],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 273,
+        "proteinG": 19.7,
+        "fatG": 19.1,
+        "carbohydrateG": 5.58,
+        "fiberG": null,
+        "sugarsG": 1.63,
+        "sodiumMg": 1030.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2259796,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259796/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_328841",
+      "names": {
+        "ar": "جبنة كوتج قليلة الدسم",
+        "en": "Cheese, cottage, lowfat, 2% milkfat"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 84.0,
+        "proteinG": 11.0,
+        "fatG": 2.3,
+        "carbohydrateG": 4.31,
+        "fiberG": null,
+        "sugarsG": 4.1,
+        "sodiumMg": 321
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 328841,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/328841/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_789828",
+      "names": {
+        "ar": "زبدة غير مملحة",
+        "en": "Butter, unsalted"
+      },
+      "aliases": [
+        "زبدة"
+      ],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": null,
+        "proteinG": null,
+        "fatG": 81.5,
+        "carbohydrateG": null,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 10.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 789828,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/789828/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_790508",
+      "names": {
+        "ar": "زبدة مملحة",
+        "en": "Butter, salted"
+      },
+      "aliases": [],
+      "category": "dairy",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": null,
+        "proteinG": null,
+        "fatG": 82.2,
+        "carbohydrateG": null,
+        "fiberG": null,
+        "sugarsG": 0.58,
+        "sodiumMg": 524
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 790508,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/790508/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2646170",
+      "names": {
+        "ar": "صدر دجاج بدون جلد (نيء)",
+        "en": "Chicken, breast, boneless, skinless, raw"
+      },
+      "aliases": [
+        "فراخ",
+        "صدور فراخ"
+      ],
+      "category": "poultry",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 106,
+        "proteinG": 22.5,
+        "fatG": 1.93,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 65.8
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2646170,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2646170/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_331960",
+      "names": {
+        "ar": "صدر دجاج مطهو",
+        "en": "Braised chicken breast"
+      },
+      "aliases": [],
+      "category": "poultry",
+      "foodState": "cooked",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 166,
+        "proteinG": 32.1,
+        "fatG": 3.24,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 47.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 331960,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/331960/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2646171",
+      "names": {
+        "ar": "ورك دجاج بدون جلد (نيء)",
+        "en": "Chicken, thigh, boneless, skinless, raw"
+      },
+      "aliases": [],
+      "category": "poultry",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 144,
+        "proteinG": 18.6,
+        "fatG": 7.92,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 62.3
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2646171,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2646171/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2727566",
+      "names": {
+        "ar": "ساق دجاج بالجلد (نيئة)",
+        "en": "Chicken, drumstick, meat and skin, raw"
+      },
+      "aliases": [],
+      "category": "poultry",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 125,
+        "proteinG": 18.4,
+        "fatG": 5.94,
+        "carbohydrateG": null,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 91.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2727566,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2727566/nutrients",
+        "excludedNutrients": {
+          "carbohydrateG": {
+            "reason": "source_reported_implausible_negative_excluded_from_usable_nutrition",
+            "sourceValue": -0.475
+          }
+        }
+      }
+    },
+    {
+      "id": "usda_foundation_2514747",
+      "names": {
+        "ar": "ديك رومي مفروم (نيء)",
+        "en": "Turkey, ground, 93% lean, raw"
+      },
+      "aliases": [],
+      "category": "poultry",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 153,
+        "proteinG": 17.3,
+        "fatG": 9.59,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 80.2
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2514747,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2514747/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2514743",
+      "names": {
+        "ar": "لحم بقري مفروم قليل الدهن (نيء)",
+        "en": "Beef, ground, 90% lean / 10% fat, raw"
+      },
+      "aliases": [
+        "لحمة مفرومة"
+      ],
+      "category": "meat",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 185,
+        "proteinG": 18.2,
+        "fatG": 12.8,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 61.6
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2514743,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2514743/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2514744",
+      "names": {
+        "ar": "لحم بقري مفروم (نيء)",
+        "en": "Beef, ground, 80% lean / 20% fat, raw"
+      },
+      "aliases": [],
+      "category": "meat",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 243,
+        "proteinG": 17.5,
+        "fatG": 19.4,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 54.9
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2514744,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2514744/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2727574",
+      "names": {
+        "ar": "ستيك سرلوين (نيء)",
+        "en": "Beef, top sirloin steak, raw"
+      },
+      "aliases": [],
+      "category": "meat",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 140,
+        "proteinG": 22.0,
+        "fatG": 5.71,
+        "carbohydrateG": 0.218,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 42.8
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2727574,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2727574/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2727573",
+      "names": {
+        "ar": "ستيك فيليه بقري (نيء)",
+        "en": "Beef, tenderloin steak, raw"
+      },
+      "aliases": [],
+      "category": "meat",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 143,
+        "proteinG": 21.1,
+        "fatG": 6.46,
+        "carbohydrateG": 0.18,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 44.8
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2727573,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2727573/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2727570",
+      "names": {
+        "ar": "لحم ضأن مفروم (نيء)",
+        "en": "Lamb, ground, raw"
+      },
+      "aliases": [
+        "لحم خروف مفروم"
+      ],
+      "category": "meat",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 237,
+        "proteinG": 17.5,
+        "fatG": 18.6,
+        "carbohydrateG": null,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 53.4
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2727570,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2727570/nutrients",
+        "excludedNutrients": {
+          "carbohydrateG": {
+            "reason": "source_reported_implausible_negative_excluded_from_usable_nutrition",
+            "sourceValue": -0.251
+          }
+        }
+      }
+    },
+    {
+      "id": "usda_foundation_2684442",
+      "names": {
+        "ar": "سمك بلطي (نيء)",
+        "en": "Fish, tilapia, raw"
+      },
+      "aliases": [
+        "بلطي"
+      ],
+      "category": "fish",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 94.7,
+        "proteinG": 19.0,
+        "fatG": 2.48,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 93.7
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2684442,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2684442/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2684441",
+      "names": {
+        "ar": "سلمون أطلسي (نيء)",
+        "en": "Fish, salmon, Atlantic, farm-raised, raw"
+      },
+      "aliases": [
+        "سلمون"
+      ],
+      "category": "fish",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 197,
+        "proteinG": 20.3,
+        "fatG": 13.1,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 49.5
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2684441,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2684441/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2684440",
+      "names": {
+        "ar": "سلمون سوكاي بري (نيء)",
+        "en": "Fish, salmon, sockeye, wild, raw"
+      },
+      "aliases": [],
+      "category": "fish",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 130,
+        "proteinG": 22.3,
+        "fatG": 4.94,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 53.3
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2684440,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2684440/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_334194",
+      "names": {
+        "ar": "تونة معلبة في ماء (مصفاة)",
+        "en": "Fish, tuna, light, canned in water, drained"
+      },
+      "aliases": [
+        "تونة"
+      ],
+      "category": "fish",
+      "foodState": "canned",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 90.0,
+        "proteinG": 19.0,
+        "fatG": 0.94,
+        "carbohydrateG": 0.08,
+        "fiberG": null,
+        "sugarsG": 0.0,
+        "sodiumMg": 219
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 334194,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/334194/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2684445",
+      "names": {
+        "ar": "سمك قرموط (نيء)",
+        "en": "Fish, catfish, farm-raised, raw"
+      },
+      "aliases": [
+        "قراميط"
+      ],
+      "category": "fish",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 129,
+        "proteinG": 16.5,
+        "fatG": 7.31,
+        "carbohydrateG": 0.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 60.5
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2684445,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2684445/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2684443",
+      "names": {
+        "ar": "جمبري (نيء)",
+        "en": "Crustaceans, shrimp, raw"
+      },
+      "aliases": [
+        "روبيان"
+      ],
+      "category": "fish",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 71.4,
+        "proteinG": 15.6,
+        "fatG": 0.801,
+        "carbohydrateG": 0.485,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 475
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2684443,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2684443/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2512381",
+      "names": {
+        "ar": "أرز أبيض طويل الحبة (نيء)",
+        "en": "Rice, white, long grain, raw"
+      },
+      "aliases": [
+        "أرز",
+        "رز"
+      ],
+      "category": "grains",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 359,
+        "proteinG": 7.04,
+        "fatG": 1.03,
+        "carbohydrateG": 80.3,
+        "fiberG": 0.149,
+        "sugarsG": null,
+        "sodiumMg": 0.462
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2512381,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2512381/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2512380",
+      "names": {
+        "ar": "أرز بني طويل الحبة (نيء)",
+        "en": "Rice, brown, long grain, raw"
+      },
+      "aliases": [
+        "أرز بني"
+      ],
+      "category": "grains",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 366,
+        "proteinG": 7.25,
+        "fatG": 3.31,
+        "carbohydrateG": 76.7,
+        "fiberG": 3.02,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2512380,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2512380/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2710820",
+      "names": {
+        "ar": "برغل",
+        "en": "Bulgur, dry"
+      },
+      "aliases": [
+        "بلغور"
+      ],
+      "category": "grains",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 372,
+        "proteinG": 11.8,
+        "fatG": 2.42,
+        "carbohydrateG": 75.9,
+        "fiberG": 11.7,
+        "sugarsG": null,
+        "sodiumMg": 2.18
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2710820,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2710820/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346396",
+      "names": {
+        "ar": "شوفان",
+        "en": "Oats, rolled, old fashioned"
+      },
+      "aliases": [
+        "رقائق شوفان"
+      ],
+      "category": "grains",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 382,
+        "proteinG": 13.5,
+        "fatG": 5.89,
+        "carbohydrateG": 68.7,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 0.668
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346396,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346396/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_790018",
+      "names": {
+        "ar": "دقيق أبيض متعدد الاستخدامات",
+        "en": "Flour, wheat, all-purpose, unenriched, unbleached"
+      },
+      "aliases": [
+        "دقيق",
+        "طحين"
+      ],
+      "category": "grains",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 362,
+        "proteinG": 12.0,
+        "fatG": 1.7,
+        "carbohydrateG": 74.6,
+        "fiberG": 3.0,
+        "sugarsG": null,
+        "sodiumMg": 2.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 790018,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/790018/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_790085",
+      "names": {
+        "ar": "دقيق قمح كامل",
+        "en": "Flour, whole wheat"
+      },
+      "aliases": [
+        "دقيق أسمر"
+      ],
+      "category": "grains",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 370,
+        "proteinG": 15.1,
+        "fatG": 2.73,
+        "carbohydrateG": 71.2,
+        "fiberG": 10.6,
+        "sugarsG": null,
+        "sodiumMg": 3.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 790085,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/790085/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2003589",
+      "names": {
+        "ar": "سميد ناعم",
+        "en": "Flour, semolina, fine"
+      },
+      "aliases": [
+        "سميد"
+      ],
+      "category": "grains",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 358,
+        "proteinG": 13.3,
+        "fatG": 1.84,
+        "carbohydrateG": 72.0,
+        "fiberG": 3.68,
+        "sugarsG": null,
+        "sodiumMg": 0.426
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2003589,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003589/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2758998",
+      "names": {
+        "ar": "مكرونة سباغيتي (جافة)",
+        "en": "Pasta, spaghetti, dry, enriched"
+      },
+      "aliases": [
+        "مكرونة"
+      ],
+      "category": "grains",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 371,
+        "proteinG": 15.1,
+        "fatG": 1.85,
+        "carbohydrateG": 73.5,
+        "fiberG": 4.2,
+        "sugarsG": 10.5,
+        "sodiumMg": 2.41
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2758998,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2758998/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2759000",
+      "names": {
+        "ar": "مكرونة قمح كامل (جافة)",
+        "en": "Pasta, spaghetti, whole grain, dry"
+      },
+      "aliases": [],
+      "category": "grains",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 376,
+        "proteinG": 15.4,
+        "fatG": 2.66,
+        "carbohydrateG": 72.6,
+        "fiberG": 8.8,
+        "sugarsG": 5.92,
+        "sodiumMg": 4.58
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2759000,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2759000/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2758993",
+      "names": {
+        "ar": "خبز أبيض",
+        "en": "Bread, white, commercial"
+      },
+      "aliases": [
+        "عيش أبيض"
+      ],
+      "category": "grains",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 263,
+        "proteinG": 9.5,
+        "fatG": 2.84,
+        "carbohydrateG": 50.0,
+        "fiberG": 2.2,
+        "sugarsG": 7.4,
+        "sodiumMg": 420
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2758993,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2758993/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2758994",
+      "names": {
+        "ar": "خبز قمح كامل",
+        "en": "Bread, 100% whole wheat, commercial"
+      },
+      "aliases": [
+        "عيش أسمر",
+        "خبز أسمر"
+      ],
+      "category": "grains",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 261,
+        "proteinG": 12.9,
+        "fatG": 3.5,
+        "carbohydrateG": 44.5,
+        "fiberG": 5.9,
+        "sugarsG": 5.65,
+        "sodiumMg": 408
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2758994,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2758994/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2644283",
+      "names": {
+        "ar": "عدس (جاف)",
+        "en": "Lentils, dry"
+      },
+      "aliases": [
+        "عدس"
+      ],
+      "category": "legumes",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 360,
+        "proteinG": 23.6,
+        "fatG": 1.92,
+        "carbohydrateG": 62.2,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2644283,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2644283/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2644282",
+      "names": {
+        "ar": "حمص (جاف)",
+        "en": "Chickpeas (garbanzo), dry"
+      },
+      "aliases": [
+        "حمص الشام"
+      ],
+      "category": "legumes",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 383,
+        "proteinG": 21.3,
+        "fatG": 6.27,
+        "carbohydrateG": 60.4,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 8.78
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2644282,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2644282/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2644288",
+      "names": {
+        "ar": "حمص معلب (مصفى)",
+        "en": "Chickpeas, canned, drained and rinsed"
+      },
+      "aliases": [],
+      "category": "legumes",
+      "foodState": "canned",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 137,
+        "proteinG": 7.02,
+        "fatG": 3.1,
+        "carbohydrateG": 20.3,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 202
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2644288,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2644288/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2644289",
+      "names": {
+        "ar": "فاصوليا حمراء معلبة (مصفاة)",
+        "en": "Beans, kidney, dark red, canned, drained"
+      },
+      "aliases": [
+        "فاصوليا حمرا"
+      ],
+      "category": "legumes",
+      "foodState": "canned",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 127,
+        "proteinG": 7.8,
+        "fatG": 1.26,
+        "carbohydrateG": 21.0,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 172
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2644289,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2644289/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_747441",
+      "names": {
+        "ar": "فاصوليا بيضاء (جافة)",
+        "en": "Beans, navy, dry"
+      },
+      "aliases": [],
+      "category": "legumes",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": null,
+        "proteinG": 24.1,
+        "fatG": 1.51,
+        "carbohydrateG": null,
+        "fiberG": 4.3,
+        "sugarsG": null,
+        "sodiumMg": null
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 747441,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/747441/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_321358",
+      "names": {
+        "ar": "حمص بالطحينة (جاهز)",
+        "en": "Hummus, commercial"
+      },
+      "aliases": [],
+      "category": "legumes",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 229,
+        "proteinG": 7.35,
+        "fatG": 17.1,
+        "carbohydrateG": 14.9,
+        "fiberG": 5.4,
+        "sugarsG": 0.34,
+        "sodiumMg": 438
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 321358,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/321358/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2515376",
+      "names": {
+        "ar": "فول سوداني (نيء)",
+        "en": "Peanuts, raw"
+      },
+      "aliases": [],
+      "category": "legumes",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 588,
+        "proteinG": 23.2,
+        "fatG": 43.3,
+        "carbohydrateG": 26.5,
+        "fiberG": 8.01,
+        "sugarsG": null,
+        "sodiumMg": 1.49
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2515376,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2515376/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2758989",
+      "names": {
+        "ar": "زبدة فول سوداني",
+        "en": "Peanut butter, creamy"
+      },
+      "aliases": [],
+      "category": "legumes",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 639,
+        "proteinG": 25.6,
+        "fatG": 50.8,
+        "carbohydrateG": 19.6,
+        "fiberG": 5.18,
+        "sugarsG": null,
+        "sodiumMg": null
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2758989,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2758989/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_1999634",
+      "names": {
+        "ar": "طماطم",
+        "en": "Raw Roma tomato"
+      },
+      "aliases": [
+        "طماطم روما"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 22.0,
+        "proteinG": 0.696,
+        "fatG": 0.425,
+        "carbohydrateG": 3.84,
+        "fiberG": 0.971,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 1999634,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1999634/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_790646",
+      "names": {
+        "ar": "بصل أصفر",
+        "en": "Onion, yellow, raw"
+      },
+      "aliases": [
+        "بصل"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 38.0,
+        "proteinG": 0.83,
+        "fatG": 0.05,
+        "carbohydrateG": 8.61,
+        "fiberG": 1.9,
+        "sugarsG": 5.82,
+        "sodiumMg": 1.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 790646,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/790646/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_790577",
+      "names": {
+        "ar": "بصل أحمر",
+        "en": "Onion, red, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 44.0,
+        "proteinG": 0.94,
+        "fatG": 0.1,
+        "carbohydrateG": 9.93,
+        "fiberG": 2.2,
+        "sugarsG": 5.76,
+        "sodiumMg": 1.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 790577,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/790577/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_1104647",
+      "names": {
+        "ar": "ثوم",
+        "en": "Garlic, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 143,
+        "proteinG": 6.62,
+        "fatG": 0.38,
+        "carbohydrateG": 28.2,
+        "fiberG": 2.7,
+        "sugarsG": null,
+        "sodiumMg": null
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 1104647,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1104647/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346401",
+      "names": {
+        "ar": "بطاطس",
+        "en": "Potato, russet, without skin, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 83.4,
+        "proteinG": 2.27,
+        "fatG": 0.36,
+        "carbohydrateG": 17.8,
+        "fiberG": null,
+        "sugarsG": 0.526,
+        "sodiumMg": 2.74
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346401,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346401/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346404",
+      "names": {
+        "ar": "بطاطا حلوة",
+        "en": "Sweet potato, orange flesh, raw"
+      },
+      "aliases": [
+        "بطاطا"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 79.0,
+        "proteinG": 1.58,
+        "fatG": 0.375,
+        "carbohydrateG": 17.3,
+        "fiberG": null,
+        "sugarsG": 6.06,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346404,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346404/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2258586",
+      "names": {
+        "ar": "جزر",
+        "en": "Carrots, mature, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 48.0,
+        "proteinG": 0.941,
+        "fatG": 0.351,
+        "carbohydrateG": 10.3,
+        "fiberG": 3.1,
+        "sugarsG": null,
+        "sodiumMg": 86.6
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2258586,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2258586/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346406",
+      "names": {
+        "ar": "خيار",
+        "en": "Raw cucumber, with peel"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 15.9,
+        "proteinG": 0.625,
+        "fatG": 0.178,
+        "carbohydrateG": 2.95,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 1.52
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346406,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346406/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2685577",
+      "names": {
+        "ar": "باذنجان",
+        "en": "Eggplant, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 26.1,
+        "proteinG": 0.852,
+        "fatG": 0.12,
+        "carbohydrateG": 5.4,
+        "fiberG": 2.45,
+        "sugarsG": 2.35,
+        "sodiumMg": 0.442
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2685577,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2685577/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2685568",
+      "names": {
+        "ar": "كوسة",
+        "en": "Squash, summer, zucchini, raw"
+      },
+      "aliases": [
+        "كوسا"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 19.0,
+        "proteinG": 0.984,
+        "fatG": 0.205,
+        "carbohydrateG": 3.27,
+        "fiberG": 0.752,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2685568,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2685568/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2258588",
+      "names": {
+        "ar": "فلفل رومي أخضر",
+        "en": "Pepper, bell, green, raw"
+      },
+      "aliases": [
+        "فلفل أخضر"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 22.9,
+        "proteinG": 0.715,
+        "fatG": 0.106,
+        "carbohydrateG": 4.78,
+        "fiberG": 0.942,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2258588,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2258588/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2258590",
+      "names": {
+        "ar": "فلفل رومي أحمر",
+        "en": "Pepper, bell, red, raw"
+      },
+      "aliases": [
+        "فلفل أحمر"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 31.3,
+        "proteinG": 0.896,
+        "fatG": 0.126,
+        "carbohydrateG": 6.65,
+        "fiberG": 1.16,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2258590,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2258590/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_1999632",
+      "names": {
+        "ar": "سبانخ صغيرة",
+        "en": "Spinach, baby, raw"
+      },
+      "aliases": [
+        "سبانخ"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 26.6,
+        "proteinG": 2.85,
+        "fatG": 0.619,
+        "carbohydrateG": 2.41,
+        "fiberG": 1.56,
+        "sugarsG": null,
+        "sodiumMg": 111
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 1999632,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1999632/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_747447",
+      "names": {
+        "ar": "بروكلي",
+        "en": "Broccoli, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 31.0,
+        "proteinG": 2.57,
+        "fatG": 0.34,
+        "carbohydrateG": 6.27,
+        "fiberG": 2.4,
+        "sugarsG": 1.4,
+        "sodiumMg": 36.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 747447,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/747447/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2685573",
+      "names": {
+        "ar": "قرنبيط",
+        "en": "Cauliflower, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 27.6,
+        "proteinG": 1.64,
+        "fatG": 0.238,
+        "carbohydrateG": 4.72,
+        "fiberG": 1.95,
+        "sugarsG": null,
+        "sodiumMg": 20.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2685573,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2685573/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346407",
+      "names": {
+        "ar": "كرنب أخضر",
+        "en": "Cabbage, green, raw"
+      },
+      "aliases": [
+        "كرنب"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 31.4,
+        "proteinG": 0.961,
+        "fatG": 0.228,
+        "carbohydrateG": 6.38,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 16.1
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346407,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346407/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746769",
+      "names": {
+        "ar": "خس روماني",
+        "en": "Lettuce, romaine, raw"
+      },
+      "aliases": [
+        "خس"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 17.0,
+        "proteinG": 1.24,
+        "fatG": 0.26,
+        "carbohydrateG": 3.24,
+        "fiberG": 1.8,
+        "sugarsG": 1.19,
+        "sodiumMg": null
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746769,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746769/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346400",
+      "names": {
+        "ar": "فاصوليا خضراء",
+        "en": "Beans, snap, green, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 40.0,
+        "proteinG": 1.97,
+        "fatG": 0.275,
+        "carbohydrateG": 7.41,
+        "fiberG": 3.01,
+        "sugarsG": 2.33,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346400,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346400/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2644291",
+      "names": {
+        "ar": "بازلاء معلبة (مصفاة)",
+        "en": "Peas, green, canned, drained and rinsed"
+      },
+      "aliases": [
+        "بازلاء"
+      ],
+      "category": "vegetables",
+      "foodState": "canned",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 80.1,
+        "proteinG": 4.73,
+        "fatG": 1.15,
+        "carbohydrateG": 12.7,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 207
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2644291,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2644291/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_1999629",
+      "names": {
+        "ar": "فطر أبيض (شامبينون)",
+        "en": "Mushrooms, white button, raw"
+      },
+      "aliases": [
+        "مشروم"
+      ],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 31.2,
+        "proteinG": 2.89,
+        "fatG": 0.371,
+        "carbohydrateG": 4.08,
+        "fiberG": 1.72,
+        "sugarsG": null,
+        "sodiumMg": 6.44
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 1999629,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1999629/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_323505",
+      "names": {
+        "ar": "كرنب أجعد (كيل)",
+        "en": "Kale, raw"
+      },
+      "aliases": [],
+      "category": "vegetables",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 35.0,
+        "proteinG": 2.92,
+        "fatG": 1.49,
+        "carbohydrateG": 4.42,
+        "fiberG": 4.1,
+        "sugarsG": 0.8,
+        "sodiumMg": 53.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 323505,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/323505/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2685580",
+      "names": {
+        "ar": "معجون طماطم",
+        "en": "Tomato, paste, canned, no salt added"
+      },
+      "aliases": [
+        "صلصة معجون طماطم"
+      ],
+      "category": "vegetables",
+      "foodState": "canned",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 104,
+        "proteinG": 4.23,
+        "fatG": 0.732,
+        "carbohydrateG": 20.2,
+        "fiberG": 4.7,
+        "sugarsG": 11.7,
+        "sodiumMg": 61.2
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2685580,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2685580/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_1105314",
+      "names": {
+        "ar": "موز",
+        "en": "Banana, ripe, raw"
+      },
+      "aliases": [
+        "موز ناضج"
+      ],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 97.0,
+        "proteinG": 0.74,
+        "fatG": 0.29,
+        "carbohydrateG": 23.0,
+        "fiberG": 1.7,
+        "sugarsG": 15.8,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 1105314,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1105314/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_1750341",
+      "names": {
+        "ar": "تفاح جالا",
+        "en": "Apple, gala, with skin, raw"
+      },
+      "aliases": [
+        "تفاح"
+      ],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 61.0,
+        "proteinG": 0.133,
+        "fatG": 0.15,
+        "carbohydrateG": 14.8,
+        "fiberG": 2.11,
+        "sugarsG": 11.8,
+        "sodiumMg": 0.279
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 1750341,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1750341/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746771",
+      "names": {
+        "ar": "برتقال",
+        "en": "Orange, navel, raw"
+      },
+      "aliases": [],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 47.0,
+        "proteinG": 0.91,
+        "fatG": 0.15,
+        "carbohydrateG": 11.8,
+        "fiberG": 2.0,
+        "sugarsG": 8.57,
+        "sodiumMg": 9.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746771,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746771/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346413",
+      "names": {
+        "ar": "عنب أخضر",
+        "en": "Grapes, green, seedless, raw"
+      },
+      "aliases": [
+        "عنب"
+      ],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 80.1,
+        "proteinG": 0.899,
+        "fatG": 0.232,
+        "carbohydrateG": 18.6,
+        "fiberG": null,
+        "sugarsG": 16.1,
+        "sodiumMg": 3.17
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346413,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346413/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346409",
+      "names": {
+        "ar": "فراولة",
+        "en": "Strawberries, raw"
+      },
+      "aliases": [
+        "فراوله"
+      ],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 36.4,
+        "proteinG": 0.641,
+        "fatG": 0.22,
+        "carbohydrateG": 7.96,
+        "fiberG": null,
+        "sugarsG": 4.86,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346409,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346409/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2710833",
+      "names": {
+        "ar": "مانجو",
+        "en": "Mango, Tommy Atkins, raw"
+      },
+      "aliases": [
+        "مانجو"
+      ],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 68.5,
+        "proteinG": 0.562,
+        "fatG": 0.572,
+        "carbohydrateG": 15.3,
+        "fiberG": 1.75,
+        "sugarsG": 10.7,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2710833,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2710833/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2747675",
+      "names": {
+        "ar": "بطيخ",
+        "en": "Watermelon, seedless, flesh, raw"
+      },
+      "aliases": [],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": null,
+        "proteinG": 0.871,
+        "fatG": null,
+        "carbohydrateG": null,
+        "fiberG": null,
+        "sugarsG": 7.2,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2747675,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2747675/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746768",
+      "names": {
+        "ar": "تين مجفف",
+        "en": "Figs, dried"
+      },
+      "aliases": [],
+      "category": "fruits",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 249,
+        "proteinG": 3.3,
+        "fatG": 0.92,
+        "carbohydrateG": 63.9,
+        "fiberG": 9.8,
+        "sugarsG": 47.9,
+        "sodiumMg": 10.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746768,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746768/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2758980",
+      "names": {
+        "ar": "زبيب",
+        "en": "Raisins, dark, seedless"
+      },
+      "aliases": [],
+      "category": "fruits",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": null,
+        "proteinG": null,
+        "fatG": null,
+        "carbohydrateG": null,
+        "fiberG": 3.68,
+        "sugarsG": 66.0,
+        "sodiumMg": 13.2
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2758980,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2758980/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2710824",
+      "names": {
+        "ar": "أفوكادو",
+        "en": "Avocado, Hass, raw"
+      },
+      "aliases": [],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 223,
+        "proteinG": 1.81,
+        "fatG": 20.3,
+        "carbohydrateG": 8.32,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2710824,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2710824/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2710832",
+      "names": {
+        "ar": "يوسفي",
+        "en": "Mandarin, seedless, raw"
+      },
+      "aliases": [
+        "ماندرين"
+      ],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 62.0,
+        "proteinG": 1.04,
+        "fatG": 0.458,
+        "carbohydrateG": 13.4,
+        "fiberG": 1.33,
+        "sugarsG": 9.12,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2710832,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2710832/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746770",
+      "names": {
+        "ar": "شمام (كنتالوب)",
+        "en": "Melon, cantaloupe, raw"
+      },
+      "aliases": [
+        "كنتالوب"
+      ],
+      "category": "fruits",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 34.0,
+        "proteinG": 0.82,
+        "fatG": 0.18,
+        "carbohydrateG": 8.16,
+        "fiberG": 0.8,
+        "sugarsG": 7.88,
+        "sodiumMg": 30.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746770,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746770/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346393",
+      "names": {
+        "ar": "لوز",
+        "en": "Nuts, almonds, raw"
+      },
+      "aliases": [],
+      "category": "nuts_seeds",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 626,
+        "proteinG": 21.5,
+        "fatG": 51.1,
+        "carbohydrateG": 20.0,
+        "fiberG": 10.8,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346393,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346393/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2346394",
+      "names": {
+        "ar": "جوز (عين جمل)",
+        "en": "Nuts, walnuts, raw"
+      },
+      "aliases": [
+        "عين الجمل"
+      ],
+      "category": "nuts_seeds",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 730,
+        "proteinG": 14.6,
+        "fatG": 69.7,
+        "carbohydrateG": 10.9,
+        "fiberG": 5.21,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2346394,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346394/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2515375",
+      "names": {
+        "ar": "بندق",
+        "en": "Nuts, hazelnuts, raw"
+      },
+      "aliases": [],
+      "category": "nuts_seeds",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 641,
+        "proteinG": 13.5,
+        "fatG": 53.5,
+        "carbohydrateG": 26.5,
+        "fiberG": 8.41,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2515375,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2515375/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2515379",
+      "names": {
+        "ar": "فستق",
+        "en": "Nuts, pistachios, raw"
+      },
+      "aliases": [],
+      "category": "nuts_seeds",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 598,
+        "proteinG": 20.5,
+        "fatG": 45.0,
+        "carbohydrateG": 27.7,
+        "fiberG": 6.97,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2515379,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2515379/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2515374",
+      "names": {
+        "ar": "كاجو",
+        "en": "Nuts, cashews, raw"
+      },
+      "aliases": [],
+      "category": "nuts_seeds",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 565,
+        "proteinG": 17.4,
+        "fatG": 38.9,
+        "carbohydrateG": 36.3,
+        "fiberG": 4.1,
+        "sugarsG": null,
+        "sodiumMg": 4.76
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2515374,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2515374/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2515381",
+      "names": {
+        "ar": "بذور دوار الشمس",
+        "en": "Seeds, sunflower, kernel, raw"
+      },
+      "aliases": [
+        "لب دوار الشمس",
+        "لب سوري"
+      ],
+      "category": "nuts_seeds",
+      "foodState": "raw",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 609,
+        "proteinG": 18.9,
+        "fatG": 48.4,
+        "carbohydrateG": 24.5,
+        "fiberG": 7.22,
+        "sugarsG": null,
+        "sodiumMg": 0.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2515381,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2515381/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_2262073",
+      "names": {
+        "ar": "طحينة",
+        "en": "Sesame butter (tahini), creamy"
+      },
+      "aliases": [
+        "طحينة"
+      ],
+      "category": "nuts_seeds",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 697,
+        "proteinG": 19.7,
+        "fatG": 62.4,
+        "carbohydrateG": 14.2,
+        "fiberG": 8.37,
+        "sugarsG": null,
+        "sodiumMg": 63.6
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 2262073,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2262073/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746784",
+      "names": {
+        "ar": "سكر أبيض",
+        "en": "Sugars, granulated"
+      },
+      "aliases": [
+        "سكر"
+      ],
+      "category": "cooking_ingredients",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 385,
+        "proteinG": 0.0,
+        "fatG": 0.32,
+        "carbohydrateG": 99.6,
+        "fiberG": null,
+        "sugarsG": 99.8,
+        "sodiumMg": 1.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746784,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746784/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_746775",
+      "names": {
+        "ar": "ملح ميود",
+        "en": "Salt, table, iodized"
+      },
+      "aliases": [
+        "ملح"
+      ],
+      "category": "cooking_ingredients",
+      "foodState": "dried",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": null,
+        "proteinG": null,
+        "fatG": null,
+        "carbohydrateG": null,
+        "fiberG": null,
+        "sugarsG": null,
+        "sodiumMg": 38700.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 746775,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/746775/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_747693",
+      "names": {
+        "ar": "كاتشب",
+        "en": "Ketchup"
+      },
+      "aliases": [],
+      "category": "cooking_ingredients",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 117,
+        "proteinG": 1.11,
+        "fatG": 0.55,
+        "carbohydrateG": 26.8,
+        "fiberG": null,
+        "sugarsG": 21.8,
+        "sodiumMg": 949
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 747693,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/747693/nutrients"
+      }
+    },
+    {
+      "id": "usda_foundation_1999630",
+      "names": {
+        "ar": "حليب صويا غير محلى",
+        "en": "Soy milk, unsweetened, shelf stable"
+      },
+      "aliases": [],
+      "category": "beverages",
+      "foodState": "fluid",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 38.5,
+        "proteinG": 3.55,
+        "fatG": 2.12,
+        "carbohydrateG": 1.29,
+        "fiberG": 0.0,
+        "sugarsG": 0.557,
+        "sodiumMg": 34.3
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "Foundation Foods",
+        "fdcId": 1999630,
+        "sourceVersion": "2026-10",
+        "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/1999630/nutrients"
+      }
+    },
+    {
+      "id": "usda_sr_168878",
+      "names": {
+        "ar": "أرز أبيض مطبوخ بدون زيت",
+        "en": "Cooked white rice, no added oil"
+      },
+      "aliases": [
+        "cooked white rice",
+        "cooked rice",
+        "ارز مطبوخ",
+        "white rice",
+        "rice",
+        "steamed rice",
+        "boiled rice",
+        "أرز أبيض",
+        "رز",
+        "ارز"
+      ],
+      "category": "grains",
+      "foodState": "cooked",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 130,
+        "proteinG": 2.69,
+        "fatG": 0.28,
+        "carbohydrateG": 28.2,
+        "fiberG": 0.4,
+        "sugarsG": 0.05,
+        "sodiumMg": 1.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "SR Legacy",
+        "fdcId": 168878,
+        "sourceVersion": "4/1/2019",
+        "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+      }
+    },
+    {
+      "id": "usda_sr_168928",
+      "names": {
+        "ar": "مكرونة مسلوقة بدون إضافات",
+        "en": "Pasta, cooked, unenriched, without added salt"
+      },
+      "aliases": [
+        "cooked pasta",
+        "pasta cooked",
+        "مكرونة مسلوقة",
+        "pasta",
+        "macaroni",
+        "spaghetti",
+        "boiled pasta",
+        "مكرونة"
+      ],
+      "category": "grains",
+      "foodState": "cooked",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 158,
+        "proteinG": 5.8,
+        "fatG": 0.93,
+        "carbohydrateG": 30.9,
+        "fiberG": 1.8,
+        "sugarsG": 0.56,
+        "sodiumMg": 1.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "SR Legacy",
+        "fdcId": 168928,
+        "sourceVersion": "4/1/2019",
+        "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+      }
+    },
+    {
+      "id": "usda_sr_172421",
+      "names": {
+        "ar": "عدس مسلوق بدون ملح",
+        "en": "Lentils, mature seeds, cooked, boiled, without salt"
+      },
+      "aliases": [
+        "cooked lentils",
+        "boiled lentils",
+        "عدس مسلوق",
+        "lentils",
+        "عدس"
+      ],
+      "category": "legumes",
+      "foodState": "cooked",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 116,
+        "proteinG": 9.02,
+        "fatG": 0.38,
+        "carbohydrateG": 20.1,
+        "fiberG": 7.9,
+        "sugarsG": 1.8,
+        "sodiumMg": 2.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "SR Legacy",
+        "fdcId": 172421,
+        "sourceVersion": "4/1/2019",
+        "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+      }
+    },
+    {
+      "id": "usda_sr_173757",
+      "names": {
+        "ar": "حمص مسلوق بدون ملح",
+        "en": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt"
+      },
+      "aliases": [
+        "cooked chickpeas",
+        "boiled chickpeas",
+        "حمص مسلوق",
+        "chickpeas",
+        "حمص"
+      ],
+      "category": "legumes",
+      "foodState": "cooked",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 164,
+        "proteinG": 8.86,
+        "fatG": 2.59,
+        "carbohydrateG": 27.4,
+        "fiberG": 7.6,
+        "sugarsG": 4.8,
+        "sodiumMg": 7.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "SR Legacy",
+        "fdcId": 173757,
+        "sourceVersion": "4/1/2019",
+        "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+      }
+    },
+    {
+      "id": "usda_sr_171413",
+      "names": {
+        "ar": "زيت زيتون",
+        "en": "Oil, olive, salad or cooking"
+      },
+      "aliases": [
+        "olive oil",
+        "زيت زيتون"
+      ],
+      "category": "fats",
+      "foodState": "prepared",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 884,
+        "proteinG": 0.0,
+        "fatG": 100,
+        "carbohydrateG": 0.0,
+        "fiberG": 0.0,
+        "sugarsG": 0.0,
+        "sodiumMg": 2.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "SR Legacy",
+        "fdcId": 171413,
+        "sourceVersion": "4/1/2019",
+        "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+      }
+    },
+    {
+      "id": "usda_sr_173753",
+      "names": {
+        "ar": "فول مسلوق، من غير زيت مضاف",
+        "en": "Boiled fava beans, no added oil"
+      },
+      "aliases": [
+        "boiled fava beans",
+        "cooked fava beans",
+        "cooked broad beans",
+        "boiled broad beans",
+        "فول مسلوق"
+      ],
+      "category": "legumes",
+      "foodState": "cooked",
+      "referenceAmountGrams": 100,
+      "nutrientsPer100g": {
+        "energyKcal": 110,
+        "proteinG": 7.6,
+        "fatG": 0.4,
+        "carbohydrateG": 19.6,
+        "fiberG": 5.4,
+        "sugarsG": 1.82,
+        "sodiumMg": 5.0
+      },
+      "dataQuality": "verified_source",
+      "source": {
+        "provider": "USDA FoodData Central",
+        "dataset": "SR Legacy",
+        "fdcId": 173753,
+        "sourceVersion": "4/1/2019",
+        "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+      }
+    }
+  ]
+}
