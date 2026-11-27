@@ -88,3 +88,12 @@ test('contract-violating model reply gets one corrective retry before failing',a
  const alwaysBad={...env,AI:{run:async()=>{calls++;return {choices:[{finish_reason:'stop',message:{role:'assistant',content:JSON.stringify({text:'You ate 100 kcal',sourceIds:[],navigation:[]})}}]};}}};
  const failed=await handler(req(),alwaysBad);assert.equal(failed.status,503);assert.equal((await failed.json()).error,'inference_unavailable');assert.equal(calls,2);
 });
+
+test('wrong-language model reply triggers corrective retry with language note',async()=>{
+ const handler=createHandler({verify:async()=> 'u',preflight:()=>null});
+ let calls=0;let lastCorrection='';
+ const flip={...env,AI:{run:async(_m,opts)=>{calls++;const last=opts.messages[opts.messages.length-1];if(last.role==='user'&&/previous reply was rejected/.test(last.content)){lastCorrection=last.content;return {choices:[{finish_reason:'stop',message:{role:'assistant',content:JSON.stringify({text:'Your recorded days show only confirmed meals; missing days remain unknown.',sourceIds:[],navigation:['report']})}}]};}
+   return {choices:[{finish_reason:'stop',message:{role:'assistant',content:JSON.stringify({text:'الوجبات المسجلة بتغطي جزء من الأسبوع فقط والأيام الناقصة غير معروفة تماما',sourceIds:[],navigation:[]})}}]};}}};
+ const ok=await handler(req(),flip);assert.equal(ok.status,200);
+ const body=await ok.json();assert.match(body.text,/recorded days/);assert.match(lastCorrection,/Answer in English only/);assert.equal(calls,2);
+});

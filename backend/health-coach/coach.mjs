@@ -102,7 +102,13 @@ export function createHandler({verify, preflight, knowledge = []}) {
         temperature:0.2,chat_template_kwargs:{enable_thinking:false},
         response_format:{type:'json_object'},store:false,
       });
-      return validateReply(dropUnknownSources(gemmaReplyContent(output),ids),ids);
+      const reply=validateReply(dropUnknownSources(gemmaReplyContent(output),ids),ids);
+      // Reject answers written in the wrong language; the retry fixes them.
+      const arabic=(reply.text.match(/[\u0600-\u06FF]/g)||[]).length;
+      const latin=(reply.text.match(/[A-Za-z]/g)||[]).length;
+      if(input.locale==='en'&&arabic>20&&arabic>latin*0.5)throw new ContractError('wrong_locale');
+      if(input.locale==='ar'&&latin>40&&latin>arabic*2)throw new ContractError('wrong_locale');
+      return reply;
     };
     try {
       // A small model sometimes violates the strict output contract (digits,
@@ -110,7 +116,7 @@ export function createHandler({verify, preflight, knowledge = []}) {
       // instead of failing the user outright.
       let reply;
       try { reply=await ask(); }
-      catch { reply=await ask('Your previous reply was rejected because it contained numeric nutrition values, units, links or other disallowed content. Answer the same question again in the requested locale, describing trends and coverage in words only, with no digits, units or links. Return exactly the same JSON format {text,sourceIds,navigation}.'); }
+      catch { reply=await ask('Your previous reply was rejected because it contained numeric nutrition values, units, links, the wrong language, or other disallowed content. Answer the same question again, describing trends and coverage in words only, with no digits, units or links. '+(input.locale==='ar'?'Answer in Egyptian Arabic only.':'Answer in English only.')+' Return exactly the same JSON format {text,sourceIds,navigation}.'); }
       if(input.context.reviewedCalculation) {
         const r=calculateReviewed(input.context.reviewedCalculation);
         reply.calculation={selection:input.context.reviewedCalculation,energyKcal:r.energyKcal,proteinG:r.proteinG,catalogVersion:r.catalogVersion,saved:false};
