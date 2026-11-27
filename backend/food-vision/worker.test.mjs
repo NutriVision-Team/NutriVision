@@ -67,7 +67,7 @@ test('gemma failure silently falls back to qwen; both failing returns a plain 50
  env.AI.run=async()=>{throw Error('limit');};const f=await worker.fetch(req(),env);assert.equal(f.status,503);assert.equal((await f.json()).error,'inference_unavailable');
 });
 
-test('no-meal answers empty only after both models agree; nameAr is passed only when Arabic',async()=>{
+test('no-meal answers empty only after gemma, its self-check and qwen all agree; nameAr is passed only when Arabic',async()=>{
  const {estimatedCandidates}=await import('./estimate-contract.mjs');
  const r=estimatedCandidates({answer:JSON.stringify({items:[{name:'rice',nameAr:'رز',foodState:'cooked'},{name:'tea',nameAr:'<b>x</b>',foodState:'fluid'}]})});
  assert.equal(r.items[0].nameAr,'رز');assert.equal(r.items[1].nameAr,undefined);
@@ -75,5 +75,5 @@ test('no-meal answers empty only after both models agree; nameAr is passed only 
  const {privateKey,publicKey}=await generateKeyPair('ES256');const token=await new SignJWT({fixture:hash}).setProtectedHeader({alg:'ES256'}).setIssuer('sufra-nonpersonal-qualification').setAudience('sufra-food-vision').setSubject('synthetic-camera-test').setIssuedAt().setExpirationTime('10m').sign(privateKey);
  let n=0;const env={ENABLED:'true',VISION_MODEL:'gemma',VISUAL_ESTIMATES_ENABLED:'true',QUALIFICATION_JWK:JSON.stringify(await exportJWK(publicKey)),APPROVED_FIXTURE_SHA256:hash,USER_LIMITER:{limit:async()=>({success:true})},AI:{run:async()=>{n++;return {choices:[{finish_reason:'stop',message:{role:'assistant',content:'There is no food in this picture.'}}]};}}};
  const res=await worker.fetch(new Request('https://test/recognize',{method:'POST',headers:{authorization:'Bearer '+token,'content-type':'image/jpeg'},body:bytes}),env);
- assert.equal(res.status,200);assert.deepEqual((await res.json()).items,[]);assert.equal(n,2);
+ assert.equal(res.status,200);assert.deepEqual((await res.json()).items,[]);assert.equal(n,3);
 });

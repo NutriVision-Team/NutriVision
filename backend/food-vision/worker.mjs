@@ -1,6 +1,6 @@
 import {gemmaVisionAnswer} from './gemma-recognition.mjs';
 import {QWEN_MODEL,qwenNameRequest,qwenNameAnswer} from './qwen-recognition.mjs';
-import {estimatedCandidates,ESTIMATE_PROMPT} from './estimate-contract.mjs';
+import {estimatedCandidates,ESTIMATE_PROMPT,VERIFY_PROMPT} from './estimate-contract.mjs';
 import {createRemoteJWKSet,jwtVerify,importJWK} from 'jose';
 const MODEL='@cf/moondream/moondream3.1-9B-A2B';
 const keys=createRemoteJWKSet(new URL('https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com'));
@@ -59,8 +59,10 @@ export default{async fetch(request,env){
   let raw=null;
   try {raw=await gemmaVisionAnswer(env.AI,'data:image/jpeg;base64,'+btoa(encoded),ESTIMATE_PROMPT);}catch{raw=null;}
   if(raw){
-   try {return respond(estimatedCandidates(raw));}
-   catch(error) {/* Gemma said no-food or broke contract: try the next model before returning empty. */}
+   let checked=raw;
+   try {const review=await gemmaVisionAnswer(env.AI,'data:image/jpeg;base64,'+btoa(encoded),VERIFY_PROMPT+String(raw.answer).slice(0,4000));if(review&&typeof review.answer==='string'&&review.answer.trim().length>2)checked=review;}catch{checked=raw;}
+   try {return respond(estimatedCandidates(checked));}
+   catch(error) {try {return respond(estimatedCandidates(raw));}catch{/* Both readings broke contract or found no food: try the next model before returning empty. */}}
   }
   // Silent fallback: same Workers AI account, next model. A different provider is needed if the daily pool itself is empty.
   try {return respond(await qwenEstimate(env,encoded));}
