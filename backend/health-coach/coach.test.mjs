@@ -76,3 +76,15 @@ test('navigation enum is explicit and JSON mode preserves fail-closed output val
  assert.deepEqual(options.response_format,{type:'json_object'});assert.equal(options.store,false);
  assert.throws(()=>validateReply({text:'Try soup',sourceIds:[],navigation:['More meal ideas']}));
 });
+
+test('contract-violating model reply gets one corrective retry before failing',async()=>{
+ const handler=createHandler({verify:async()=> 'u',preflight:()=>null});
+ let calls=0;let sawCorrection=false;
+ const flaky={...env,AI:{run:async(_m,opts)=>{calls++;const last=opts.messages[opts.messages.length-1];if(last.role==='user'&&/previous reply was rejected/.test(last.content)){sawCorrection=true;return {choices:[{finish_reason:'stop',message:{role:'assistant',content:JSON.stringify({text:'Your week shows recorded meals only, so trends are unknown for missing days.',sourceIds:[],navigation:['report']})}}]};}
+   return {choices:[{finish_reason:'stop',message:{role:'assistant',content:JSON.stringify({text:'You ate 14320 kcal this week',sourceIds:[],navigation:[]})}}]};}}};
+ const ok=await handler(req(),flaky);assert.equal(ok.status,200);
+ const body=await ok.json();assert.match(body.text,/recorded meals only/);assert.ok(sawCorrection);assert.equal(calls,2);
+ calls=0;
+ const alwaysBad={...env,AI:{run:async()=>{calls++;return {choices:[{finish_reason:'stop',message:{role:'assistant',content:JSON.stringify({text:'You ate 100 kcal',sourceIds:[],navigation:[]})}}]};}}};
+ const failed=await handler(req(),alwaysBad);assert.equal(failed.status,503);assert.equal((await failed.json()).error,'inference_unavailable');assert.equal(calls,2);
+});

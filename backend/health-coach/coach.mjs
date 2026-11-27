@@ -93,13 +93,24 @@ export function createHandler({verify, preflight, knowledge = []}) {
     if (stopped) return json({text:stopped,origin:'safety',sourceIds:[],navigation:[]});
     const {success}=await env.USER_LIMITER.limit({key:uid});
     if(!success) return json({error:'rate_limited'},429);
-    try {
+    const ids=knowledge.map(k=>k.id);
+    const ask=async(correction)=>{
+      const messages=modelMessages(input,knowledge);
+      if(correction) messages.push({role:'user',content:correction});
       const output=await env.AI.run(MODEL,{
-        messages:modelMessages(input,knowledge),max_completion_tokens:1024,
+        messages,max_completion_tokens:1024,
         temperature:0.2,chat_template_kwargs:{enable_thinking:false},
         response_format:{type:'json_object'},store:false,
       });
-      const reply=validateReply(dropUnknownSources(gemmaReplyContent(output),knowledge.map(k=>k.id)),knowledge.map(k=>k.id));
+      return validateReply(dropUnknownSources(gemmaReplyContent(output),ids),ids);
+    };
+    try {
+      // A small model sometimes violates the strict output contract (digits,
+      // units or links in prose). Retry once with an explicit correction
+      // instead of failing the user outright.
+      let reply;
+      try { reply=await ask(); }
+      catch { reply=await ask('Your previous reply was rejected because it contained numeric nutrition values, units, links or other disallowed content. Answer the same question again in the requested locale, describing trends and coverage in words only, with no digits, units or links. Return exactly the same JSON format {text,sourceIds,navigation}.'); }
       if(input.context.reviewedCalculation) {
         const r=calculateReviewed(input.context.reviewedCalculation);
         reply.calculation={selection:input.context.reviewedCalculation,energyKcal:r.energyKcal,proteinG:r.proteinG,catalogVersion:r.catalogVersion,saved:false};
