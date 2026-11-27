@@ -8,6 +8,7 @@ import 'package:sufradepi/features/recipes/data/persistence/cloud_recipe_favorit
 import 'dart:async';
 import 'dart:io';
 import '../support/optional_fonts.dart';
+import '../goldens/milestone1_screens_test.dart' show loadRealFonts;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -95,8 +96,8 @@ class FailingRecipes extends RecipeCatalogRepository {
 }
 
 Future<void> fonts() async {
-  await loadPrivateReviewFonts();
-  for (final entry in {
+  await loadRealFonts();
+  for (final entry in <String, List<String>>{
     'Cairo': [
       'Cairo-Regular.ttf',
       'Cairo-SemiBold.ttf',

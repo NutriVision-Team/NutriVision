@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0a26"/>
+      <stop offset="1" stop-color="#17103a"/>
+    </linearGradient>
+    <linearGradient id="boxFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#221a4d" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#1a1440" stop-opacity="0.9"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5eead4"/>
+    </marker>
+    <style>
+      .title { font: bold 21px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #f1f5f9; }
+      .sub { font: 15px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #a5b4fc; }
+      .item { font: 14.5px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #cbd5e1; }
+      .edge { font: 13px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #5eead4; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#abg)"/>
+
+  <!-- App -->
+  <rect x="40" y="120" width="280" height="200" rx="16" fill="url(#boxFill)" stroke="#7c3aed" stroke-opacity="0.7"/>
+  <text x="180" y="156" text-anchor="middle" class="title">Sufra app</text>
+  <text x="180" y="180" text-anchor="middle" class="sub">Flutter, one codebase</text>
+  <text x="64" y="214" class="item">• Arabic-first (RTL) + English</text>
+  <text x="64" y="240" class="item">• Light and dark themes</text>
+  <text x="64" y="266" class="item">• Offline-first local storage</text>
+  <text x="64" y="292" class="item">• Phone, tablet and desktop</text>
+
+  <!-- Firebase -->
+  <rect x="470" y="46" width="300" height="150" rx="16" fill="url(#boxFill)" stroke="#f97316" stroke-opacity="0.7"/>
+  <text x="620" y="82" text-anchor="middle" class="title">Firebase</text>
+  <text x="494" y="116" class="item">• Authentication</text>
+  <text x="494" y="142" class="item">• Cloud Firestore, per-user rules</text>
+  <text x="494" y="168" class="item">• Cloud Messaging</text>
+
+  <!-- Workers -->
+  <rect x="470" y="244" width="300" height="150" rx="16" fill="url(#boxFill)" stroke="#14b8a6" stroke-opacity="0.7"/>
+  <text x="620" y="280" text-anchor="middle" class="title">Cloudflare Workers</text>
+  <text x="494" y="314" class="item">• AI food photo analysis</text>
+  <text x="494" y="340" class="item">• Health coach</text>
+  <text x="494" y="366" class="item">• Password reset codes</text>
+
+  <!-- AI -->
+  <rect x="890" y="244" width="270" height="110" rx="16" fill="url(#boxFill)" stroke="#a5b4fc" stroke-opacity="0.7"/>
+  <text x="1025" y="280" text-anchor="middle" class="title">Workers AI</text>
+  <text x="914" y="314" class="item">• Open models (Gemma, Qwen)</text>
+  <text x="914" y="340" class="item">• No AI keys in the app, ever</text>
+
+  <!-- Data -->
+  <rect x="890" y="46" width="270" height="150" rx="16" fill="url(#boxFill)" stroke="#fdba74" stroke-opacity="0.7"/>
+  <text x="1025" y="82" text-anchor="middle" class="title">Trusted food data</text>
+  <text x="914" y="116" class="item">• Open Food Facts (barcode)</text>
+  <text x="914" y="142" class="item">• USDA FoodData Central</text>
+  <text x="914" y="168" class="item">• Bundled Egyptian catalog</text>
+
+  <!-- Edges -->
+  <line x1="320" y1="160" x2="466" y2="130" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="330" y="118" class="edge">sign-in, per-user data</text>
+  <line x1="320" y1="280" x2="466" y2="300" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="328" y="330" class="edge">HTTPS + Firebase ID token</text>
+  <text x="328" y="350" class="edge">rate-limited per user</text>
+  <line x1="770" y1="300" x2="886" y2="300" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+  <polyline points="1015,46 1015,22 180,22 180,116" fill="none" stroke="#5eead4" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+  <text x="470" y="16" class="edge">barcode and nutrition lookup, straight from the app</text>
+</svg>

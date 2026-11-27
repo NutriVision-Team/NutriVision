@@ -3,6 +3,7 @@ import 'package:sufradepi/features/coach/domain/coach_daily_checkin.dart';
 import 'package:sufradepi/features/coach/presentation/screens/coach_daily_checkin_screen.dart';
 import 'coach_workspace_test.dart' show ReviewRepo;
 import '../support/optional_fonts.dart';
+import '../goldens/milestone1_screens_test.dart' show loadRealFonts;
 // Visual baselines for the four planning screens: AR empty/setup states at
 // phone size. Generate with: flutter test test/planning/visual_baselines_test.dart --update
 import 'dart:io';
@@ -97,28 +98,7 @@ void main() {
     final icons = FontLoader('MaterialIcons');
     icons.addFont(rootBundle.load('fonts/MaterialIcons-Regular.otf'));
     await icons.load();
-    // Load the app's real fonts from disk so baselines show the true
-    // design typography (the widget-test default font is a placeholder).
-    for (final entry in {
-      'Cairo': [
-        'Cairo-Regular',
-        'Cairo-SemiBold',
-        'Cairo-Bold',
-        'Cairo-ExtraBold',
-      ],
-      'Reem Kufi': ['ReemKufi-SemiBold', 'ReemKufi-Bold'],
-      'Tajawal': ['Tajawal-Regular', 'Tajawal-Medium', 'Tajawal-Bold'],
-    }.entries) {
-      final loader = FontLoader(entry.key);
-      for (final file in entry.value) {
-        loader.addFont(
-          File(
-            'assets/fonts/$file.ttf',
-          ).readAsBytes().then((bytes) => bytes.buffer.asByteData()),
-        );
-      }
-      await loader.load();
-    }
+    await loadRealFonts();
   });
 
   setUp(() async {
