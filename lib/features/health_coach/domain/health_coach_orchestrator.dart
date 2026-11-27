@@ -288,7 +288,7 @@ class HealthCoachOrchestrator {
       return HealthCoachReply(
         text: ar
             ? 'مش قادر أرد دلوقتي. جرّب بعد شوية؛ يومياتك وخطتك لسه متاحين.'
-            : 'The Coach is unavailable or the free allowance has been reached. No generated answer is available. Your local records and tools still work.',
+            : 'I can\'t answer right now. Try again in a little while; your diary and plan are still here.',
         origin: CoachReplyOrigin.unavailable,
       );
     }

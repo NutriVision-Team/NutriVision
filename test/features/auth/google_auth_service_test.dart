@@ -174,11 +174,11 @@ void main() {
     () async {
       final auth = MockFirebaseAuth();
       await expectLater(
-        GoogleAuthGateway(protectedEmail: 'moos456456@gmail.com').authenticate(
+        GoogleAuthGateway(protectedEmail: 'owner@example.invalid').authenticate(
           auth,
           linkExisting: false,
           chooseWebIdentity: () async => const SufraGoogleIdentity(
-            email: 'moos456456@gmail.com',
+            email: 'owner@example.invalid',
             idToken: 'fixture',
           ),
         ),

@@ -1376,27 +1376,26 @@ class AppLocalizationsEn extends AppLocalizations {
   String get cameraRetry => 'Retry';
 
   @override
-  String get cameraTooLarge => 'The image is too large. Use a smaller image.';
+  String get cameraTooLarge => 'This image is a bit large. Try a smaller one.';
 
   @override
-  String get cameraBadImage =>
-      'This image could not be read. Try another image.';
+  String get cameraBadImage => 'We couldn\'t open this image. Try another one.';
 
   @override
   String get cameraAiUnavailable =>
-      'Image recognition is not available. Choose catalog foods and check their portions yourself.';
+      'We can\'t read photos right now. You can search for your food and add it yourself.';
 
   @override
   String get cameraEmpty =>
-      'No clear food was found. Retake or choose from the catalog.';
+      'We couldn\'t spot food in this photo. Try another one, or search for your food.';
 
   @override
   String get cameraInvalidResponse =>
-      'The recognition response was invalid. Retry or choose from the catalog.';
+      'We couldn\'t read this photo. Try another one, or search for your food.';
 
   @override
   String get cameraNetwork =>
-      'Recognition could not be completed. Retry or choose from the catalog.';
+      'We couldn\'t read this photo right now. Try again in a moment, or search for your food.';
 
   @override
   String get cameraFrameHint => 'Keep the whole plate inside the frame';
@@ -2326,6 +2325,16 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get cameraConsentDetail =>
       'This permission covers this image only as described above. Meal type and notes are not sent for analysis; they stay with the meal you review and save. You can cancel and choose foods manually.';
+
+  @override
+  String get cameraConsentTitleShort => 'Send this photo for analysis?';
+
+  @override
+  String get cameraConsentShort =>
+      'Your photo is used only for this analysis and isn\'t kept. You review everything before saving.';
+
+  @override
+  String get cameraConsentDetailsToggle => 'Details';
 
   @override
   String get cameraConsentSend => 'Agree and send once';

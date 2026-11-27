@@ -282,27 +282,18 @@ class _CameraAnalysisScreenState extends State<CameraAnalysisScreen>
       context: context,
       builder: (c) => SufraAlertDialog(
         title: Text(
-          l.cameraConsentTitle(name),
+          (qualification ? l.cameraConsentTitle(name) : l.cameraConsentTitleShort),
           style: context.readableDisplayStyle(size: 20),
         ),
-        content: SingleChildScrollView(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Text(disclosure),
-              const SizedBox(height: 8),
-              SelectableText(policy.toString()),
-              const SizedBox(height: 8),
-              Text(
-                qualification
-                    ? (Localizations.localeOf(context).languageCode == 'ar'
-                          ? 'الموافقة للمرة دي بس وعلى الصورة التجريبية المحددة فقط. تقدر تلغي وتضيف وجبتك بنفسك. النتيجة لازم تراجعها قبل الحفظ.'
-                          : 'One-time permission for this exact nonpersonal test image only. You can cancel and add your meal yourself. Review the result before saving.')
-                    : l.cameraConsentDetail,
-              ),
-            ],
-          ),
+        content: _ConsentBody(
+          short: qualification
+              ? (Localizations.localeOf(context).languageCode == 'ar'
+                    ? 'الموافقة للمرة دي بس وعلى الصورة التجريبية المحددة فقط. تقدر تلغي وتضيف وجبتك بنفسك. النتيجة لازم تراجعها قبل الحفظ.'
+                    : 'One-time permission for this exact nonpersonal test image only. You can cancel and add your meal yourself. Review the result before saving.')
+              : l.cameraConsentShort,
+          detailsLabel: l.cameraConsentDetailsToggle,
+          disclosure: disclosure,
+          policy: policy.toString(),
         ),
         actions: [
           TextButton(
@@ -358,8 +349,14 @@ class _CameraAnalysisScreenState extends State<CameraAnalysisScreen>
       setState(() {
         _chosen.addAll(resolved);
         _unconfirmed.addAll(resolved.keys);
-        _result = result;
-        if (result.items.isEmpty) _error = 'empty';
+        if (result.items.isEmpty) {
+          _result = null;
+          _chosen.clear();
+          _unconfirmed.clear();
+          _error = 'empty';
+        } else {
+          _result = result;
+        }
       });
     } on FoodRecognitionException catch (e) {
       if (mounted && operation == _operation) {
@@ -1053,4 +1050,40 @@ class _CameraAnalysisScreenState extends State<CameraAnalysisScreen>
       ),
     );
   }
+}
+
+
+class _ConsentBody extends StatefulWidget {
+  const _ConsentBody({
+    required this.short,
+    required this.detailsLabel,
+    required this.disclosure,
+    required this.policy,
+  });
+  final String short, detailsLabel, disclosure, policy;
+  @override
+  State<_ConsentBody> createState() => _ConsentBodyState();
+}
+
+class _ConsentBodyState extends State<_ConsentBody> {
+  bool _open = false;
+  @override
+  Widget build(BuildContext context) => SingleChildScrollView(
+    child: Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(widget.short),
+        TextButton(
+          onPressed: () => setState(() => _open = !_open),
+          child: Text(widget.detailsLabel),
+        ),
+        if (_open) ...[
+          Text(widget.disclosure),
+          const SizedBox(height: 8),
+          SelectableText(widget.policy),
+        ],
+      ],
+    ),
+  );
 }

@@ -2621,37 +2621,37 @@ abstract class AppLocalizations {
   /// No description provided for @cameraTooLarge.
   ///
   /// In ar, this message translates to:
-  /// **'الصورة كبيرة قوي. استخدم صورة أصغر.'**
+  /// **'الصورة كبيرة شوية. جرّب صورة أصغر.'**
   String get cameraTooLarge;
 
   /// No description provided for @cameraBadImage.
   ///
   /// In ar, this message translates to:
-  /// **'مش قادرين نقرأ الصورة دي. جرّب صورة تانية.'**
+  /// **'معرفناش نفتح الصورة دي. جرّب صورة تانية.'**
   String get cameraBadImage;
 
   /// No description provided for @cameraAiUnavailable.
   ///
   /// In ar, this message translates to:
-  /// **'تحليل الصور مش متاح حالياً. اختار الأكل من القاعدة وراجع الكميات بنفسك.'**
+  /// **'مش قادرين نقرا الصور دلوقتي. ممكن تدوّر على أكلك وتضيفه بنفسك.'**
   String get cameraAiUnavailable;
 
   /// No description provided for @cameraEmpty.
   ///
   /// In ar, this message translates to:
-  /// **'ملقيناش أكل واضح. جرّب صورة تانية أو اختار من القاعدة.'**
+  /// **'مش شايفين أكل واضح في الصورة دي. جرّب صورة تانية أو دوّر على أكلك.'**
   String get cameraEmpty;
 
   /// No description provided for @cameraInvalidResponse.
   ///
   /// In ar, this message translates to:
-  /// **'نتيجة التحليل مش صالحة. جرّب تاني أو اختار من القاعدة.'**
+  /// **'معرفناش نقرا الصورة دي. جرّب صورة تانية أو دوّر على أكلك.'**
   String get cameraInvalidResponse;
 
   /// No description provided for @cameraNetwork.
   ///
   /// In ar, this message translates to:
-  /// **'التحليل موصلش. جرّب تاني أو اختار من القاعدة.'**
+  /// **'معرفناش نقرا الصورة دلوقتي. جرّب تاني بعد شوية أو دوّر على أكلك.'**
   String get cameraNetwork;
 
   /// No description provided for @cameraFrameHint.
@@ -4267,6 +4267,24 @@ abstract class AppLocalizations {
   /// In ar, this message translates to:
   /// **'الإرسال للصورة دي بس حسب الشرح أعلاه. نوع الوجبة والملاحظات مش بيتبعتوا للتحليل، وبيفضلوا للوجبة اللي تراجعها وتحفظها. تقدر تلغي وتختار الأكل يدوي.'**
   String get cameraConsentDetail;
+
+  /// No description provided for @cameraConsentTitleShort.
+  ///
+  /// In ar, this message translates to:
+  /// **'نبعت الصورة للتحليل؟'**
+  String get cameraConsentTitleShort;
+
+  /// No description provided for @cameraConsentShort.
+  ///
+  /// In ar, this message translates to:
+  /// **'الصورة بتتستخدم للتحليل ده بس ومش بتتحفظ. وإنت اللي بتراجع كل حاجة قبل الحفظ.'**
+  String get cameraConsentShort;
+
+  /// No description provided for @cameraConsentDetailsToggle.
+  ///
+  /// In ar, this message translates to:
+  /// **'التفاصيل'**
+  String get cameraConsentDetailsToggle;
 
   /// No description provided for @cameraConsentSend.
   ///

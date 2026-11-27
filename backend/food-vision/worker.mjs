@@ -24,6 +24,13 @@ export function candidates(raw){
  const items=value.items.map(i=>{if(!i||typeof i.name!=='string'||!i.name.trim()||i.name.length>160)throw new OutputContractError('item_name');return {name:i.name.trim(),confidence:null,suggestedPortionGrams:null,uncertaintyNotes:['Visual candidate only. Confirm ingredients and weighed portion.']};});
  return {requiresUserReview:true,items,generalNotes:['Image recognition cannot measure grams or provide verified nutrition.']};
 }
+const emptyResult=()=>({requiresUserReview:true,items:[],generalNotes:[]});
+// The model answered but found no meal (empty, prose or no items list): a normal outcome, not a failure.
+const noFood=e=>e instanceof SyntaxError||['items_absent','root_empty','root_array'].includes(e?.message);
+async function qwenEstimate(env,encoded){
+ const output=await env.AI.run('@cf/qwen/qwen3.8-27b',{messages:[{role:'user',content:[{type:'text',text:ESTIMATE_PROMPT},{type:'image_url',image_url:{url:'data:image/jpeg;base64,'+btoa(encoded)}}]}],max_completion_tokens:800,temperature:0,stream:false,store:false,reasoning_effort:'low',chat_template_kwargs:{enable_thinking:false},response_format:{type:'json_object'}});
+ return estimatedCandidates({answer:output?.choices?.[0]?.message?.content});
+}
 export default{async fetch(request,env){
  const url=new URL(request.url);
  const origin=request.headers.get('origin');
@@ -49,8 +56,15 @@ export default{async fetch(request,env){
  if(!(firebaseVerified&&env.PERSONAL_UPLOADS_ENABLED==='true')&&(!env.APPROVED_FIXTURE_SHA256||hash!==env.APPROVED_FIXTURE_SHA256))return respond({error:'nonpersonal_test_only'},403);
  let encoded='';for(let i=0;i<bytes.length;i+=8192)encoded+=String.fromCharCode(...bytes.subarray(i,i+8192));
  if(env.VISION_MODEL==='gemma') {
-  try {return respond(estimatedCandidates(await gemmaVisionAnswer(env.AI,'data:image/jpeg;base64,'+btoa(encoded),ESTIMATE_PROMPT)));}
-  catch {return respond({error:'inference_unavailable',stage:'gemma_contract'},503);}
+  let raw=null;
+  try {raw=await gemmaVisionAnswer(env.AI,'data:image/jpeg;base64,'+btoa(encoded),ESTIMATE_PROMPT);}catch{raw=null;}
+  if(raw){
+   try {return respond(estimatedCandidates(raw));}
+   catch(error) {if(noFood(error))return respond(emptyResult());}
+  }
+  // Silent fallback: same Workers AI account, next model. A different provider is needed if the daily pool itself is empty.
+  try {return respond(await qwenEstimate(env,encoded));}
+  catch(error) {if(noFood(error))return respond(emptyResult());return respond({error:'inference_unavailable',stage:'all_models'},503);}
  }
  if(env.VISION_MODEL==='qwen'&&env.VISUAL_ESTIMATES_ENABLED!=='true') {
   try {

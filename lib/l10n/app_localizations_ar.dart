@@ -1355,25 +1355,26 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cameraRetry => 'جرّب تاني';
 
   @override
-  String get cameraTooLarge => 'الصورة كبيرة قوي. استخدم صورة أصغر.';
+  String get cameraTooLarge => 'الصورة كبيرة شوية. جرّب صورة أصغر.';
 
   @override
-  String get cameraBadImage => 'مش قادرين نقرأ الصورة دي. جرّب صورة تانية.';
+  String get cameraBadImage => 'معرفناش نفتح الصورة دي. جرّب صورة تانية.';
 
   @override
   String get cameraAiUnavailable =>
-      'تحليل الصور مش متاح حالياً. اختار الأكل من القاعدة وراجع الكميات بنفسك.';
+      'مش قادرين نقرا الصور دلوقتي. ممكن تدوّر على أكلك وتضيفه بنفسك.';
 
   @override
   String get cameraEmpty =>
-      'ملقيناش أكل واضح. جرّب صورة تانية أو اختار من القاعدة.';
+      'مش شايفين أكل واضح في الصورة دي. جرّب صورة تانية أو دوّر على أكلك.';
 
   @override
   String get cameraInvalidResponse =>
-      'نتيجة التحليل مش صالحة. جرّب تاني أو اختار من القاعدة.';
+      'معرفناش نقرا الصورة دي. جرّب صورة تانية أو دوّر على أكلك.';
 
   @override
-  String get cameraNetwork => 'التحليل موصلش. جرّب تاني أو اختار من القاعدة.';
+  String get cameraNetwork =>
+      'معرفناش نقرا الصورة دلوقتي. جرّب تاني بعد شوية أو دوّر على أكلك.';
 
   @override
   String get cameraFrameHint => 'حط الطبق كله جوه الإطار';
@@ -2294,6 +2295,16 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get cameraConsentDetail =>
       'الإرسال للصورة دي بس حسب الشرح أعلاه. نوع الوجبة والملاحظات مش بيتبعتوا للتحليل، وبيفضلوا للوجبة اللي تراجعها وتحفظها. تقدر تلغي وتختار الأكل يدوي.';
+
+  @override
+  String get cameraConsentTitleShort => 'نبعت الصورة للتحليل؟';
+
+  @override
+  String get cameraConsentShort =>
+      'الصورة بتتستخدم للتحليل ده بس ومش بتتحفظ. وإنت اللي بتراجع كل حاجة قبل الحفظ.';
+
+  @override
+  String get cameraConsentDetailsToggle => 'التفاصيل';
 
   @override
   String get cameraConsentSend => 'وافق وابعت المرة دي';

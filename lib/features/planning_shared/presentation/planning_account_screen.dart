@@ -35,6 +35,12 @@ enum PlanningPage { planner, shopping, coach, ramadan }
 
 /// Owns the route's async setup and Cubit. A UID-keyed parent disposes this
 /// scope on sign-out/switch. No async callback may move data into a new scope.
+// Set your own deployment with --dart-define=SUFRA_COACH_URL=https://.../chat
+const _coachUrl = String.fromEnvironment(
+  'SUFRA_COACH_URL',
+  defaultValue: 'https://sufra-owner-coach.invalid/chat',
+);
+
 class PlanningAccountScreen extends StatefulWidget {
   const PlanningAccountScreen({
     super.key,
@@ -148,12 +154,8 @@ class _PlanningAccountScreenState extends State<PlanningAccountScreen> {
         _clients.add(client);
         final provider = allowed
             ? HttpHealthCoachProvider(
-                endpoint: Uri.parse(
-                  'https://sufra-owner-coach.moos456456.workers.dev/chat',
-                ),
-                allowedHosts: const {
-                  'sufra-owner-coach.moos456456.workers.dev',
-                },
+                endpoint: Uri.parse(_coachUrl),
+                allowedHosts: {Uri.parse(_coachUrl).host},
                 userId: uid,
                 currentUid: widget.currentUid,
                 idToken: () async =>

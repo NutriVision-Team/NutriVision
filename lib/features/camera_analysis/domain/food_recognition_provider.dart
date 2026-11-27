@@ -16,6 +16,7 @@ class FoodRecognitionInput {
 class RecognitionCandidate {
   const RecognitionCandidate({
     required this.name,
+    this.nameAr,
     this.matchedFoodId,
     this.foodState,
     this.confidence,
@@ -23,6 +24,9 @@ class RecognitionCandidate {
     this.uncertaintyNotes = const [],
   });
   final String name;
+
+  /// Display-only Arabic name from the model. Matching always uses [name].
+  final String? nameAr;
   final String? matchedFoodId;
   final String? foodState;
   final double? confidence;
@@ -106,6 +110,11 @@ class FoodRecognitionResult {
           }
           return RecognitionCandidate(
             name: (raw['name'] as String).trim(),
+            nameAr: raw['nameAr'] is String &&
+                    (raw['nameAr'] as String).trim().isNotEmpty &&
+                    (raw['nameAr'] as String).length <= 160
+                ? (raw['nameAr'] as String).trim()
+                : null,
             foodState: state as String?,
             matchedFoodId: id is String && catalogIds.contains(id) ? id : null,
             confidence: number(raw['confidence'], 1),

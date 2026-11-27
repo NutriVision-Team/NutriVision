@@ -8,16 +8,13 @@ import '../domain/off_product.dart';
 
 /// Configuration the integrating app must supply. The brief requires a custom,
 /// identifiable User-Agent of the form `AppName/Version (ContactEmail)`.
-/// The approved project contact is the default; distributors should provide
-/// their own OFF_CONTACT. An invalid/empty contact disables network lookup.
+/// Distributors must provide their own OFF_CONTACT (--dart-define).
+/// An invalid or empty contact disables network lookup.
 class OffConfig {
   const OffConfig({
     this.appName = 'Sufra',
     this.appVersion = '1.0.0',
-    this.contact = const String.fromEnvironment(
-      'OFF_CONTACT',
-      defaultValue: 'moos456456@gmail.com',
-    ),
+    this.contact = const String.fromEnvironment('OFF_CONTACT'),
     this.host = 'world.openfoodfacts.org',
     this.timeout = const Duration(seconds: 8),
   });

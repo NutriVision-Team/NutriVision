@@ -19,7 +19,7 @@ class ResetCodeService {
           baseUrl ??
           const String.fromEnvironment(
             'SUFRA_RESET_URL',
-            defaultValue: 'https://sufra-reset.moos456456.workers.dev',
+            defaultValue: 'https://sufra-reset.invalid',
           ) {
     // Reset codes and new passwords only travel over HTTPS.
     if (!Uri.parse(_base).isScheme('https')) {

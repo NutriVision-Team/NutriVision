@@ -127,6 +127,7 @@ class PhotoMealResultCard extends StatelessWidget {
                         child: Text(
                           chosen[i]?.food.localizedNames?[ar ? 'ar' : 'en'] ??
                               chosen[i]?.food.name ??
+                              (ar ? result.items[i].nameAr : null) ??
                               result.items[i].name,
                           style: context.readableDisplayStyle(size: 17),
                         ),
@@ -196,6 +197,16 @@ class PhotoMealResultCard extends StatelessWidget {
                       case final double grams)
                     Text(
                       '${n(grams)} ${t('جم تقدير غير محسوب', 'g, uncalculated estimate')}',
+                    ),
+                  if (result.items[i].foodState case final String st
+                      when st == 'raw' || st == 'cooked')
+                    Text(
+                      st == 'raw'
+                          ? t(
+                              'شكله نيّ. السعرات بتفرق جدًا بين النيّ والمطبوخ، اختار الحالة الصح في المطابقة.',
+                              'This looks raw. Calories differ a lot between raw and cooked, so pick the right state when matching.',
+                            )
+                          : t('شكله مطبوخ.', 'This looks cooked.'),
                     ),
                   Text(
                     t(

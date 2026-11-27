@@ -31,7 +31,7 @@ OffClient clientWith(
   ScriptClient Function() make, {
   Duration timeout = fast,
 }) => OffClient(
-  config: OffConfig(timeout: timeout),
+  config: OffConfig(contact: 'team@sufra-app.test', timeout: timeout),
   transport: IoOffTransport(
     timeout: timeout,
     clientFactory: () {
@@ -67,7 +67,7 @@ void main() {
     expect(await c.fetch(code), isA<OffNotFound>());
     expect(
       made.single.seen!.headers['User-Agent'],
-      'Sufra/1.0.0 (moos456456@gmail.com)',
+      'Sufra/1.0.0 (team@sufra-app.test)',
     );
     expect(made.single.closed, isTrue);
   });
@@ -204,7 +204,7 @@ void main() {
     () async {
       final made = <ScriptClient>[];
       final c = OffClient(
-        config: const OffConfig(timeout: fast),
+        config: const OffConfig(contact: 'team@sufra-app.test', timeout: fast),
         throttle: RequestThrottle(maxPerWindow: 100),
         transport: IoOffTransport(
           timeout: fast,

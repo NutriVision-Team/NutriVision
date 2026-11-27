@@ -56,3 +56,24 @@ test('Qwen names-only branch preserves signed fixture/auth boundary and strips n
  assert.equal((await worker.fetch(req(new Uint8Array([255,216,2,3,255,217])),env)).status,403);assert.equal(calls,1);
  env.AI.run=async()=>({choices:[{finish_reason:'length',message:{role:'assistant',content:'{"items":[]}'}}]});assert.equal((await worker.fetch(req(),env)).status,503);
 });
+
+test('gemma failure silently falls back to qwen; both failing returns a plain 503',async()=>{
+ const bytes=new Uint8Array([255,216,0,1,255,217]);const hash=Array.from(new Uint8Array(await webcrypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
+ const {privateKey,publicKey}=await generateKeyPair('ES256');const token=await new SignJWT({fixture:hash}).setProtectedHeader({alg:'ES256'}).setIssuer('sufra-nonpersonal-qualification').setAudience('sufra-food-vision').setSubject('synthetic-camera-test').setIssuedAt().setExpirationTime('10m').sign(privateKey);
+ const models=[];
+ const env={ENABLED:'true',VISION_MODEL:'gemma',VISUAL_ESTIMATES_ENABLED:'true',QUALIFICATION_JWK:JSON.stringify(await exportJWK(publicKey)),APPROVED_FIXTURE_SHA256:hash,USER_LIMITER:{limit:async()=>({success:true})},AI:{run:async(model)=>{models.push(model);if(model.includes('gemma'))throw Error('daily limit');return {choices:[{finish_reason:'stop',message:{role:'assistant',content:'{"items":[{"name":"Rice","foodState":"cooked"}]}'}}]};}}};
+ const req=()=>new Request('https://test/recognize',{method:'POST',headers:{authorization:'Bearer '+token,'content-type':'image/jpeg'},body:bytes});
+ const r=await worker.fetch(req(),env);assert.equal(r.status,200);assert.equal((await r.json()).items[0].name,'rice'.replace('rice','Rice'));assert.equal(models.length,2);assert.match(models[1],/qwen/);
+ env.AI.run=async()=>{throw Error('limit');};const f=await worker.fetch(req(),env);assert.equal(f.status,503);assert.equal((await f.json()).error,'inference_unavailable');
+});
+
+test('model answering with no meal returns an empty list, not an error; nameAr is passed only when Arabic',async()=>{
+ const {estimatedCandidates}=await import('./estimate-contract.mjs');
+ const r=estimatedCandidates({answer:JSON.stringify({items:[{name:'rice',nameAr:'رز',foodState:'cooked'},{name:'tea',nameAr:'<b>x</b>',foodState:'fluid'}]})});
+ assert.equal(r.items[0].nameAr,'رز');assert.equal(r.items[1].nameAr,undefined);
+ const bytes=new Uint8Array([255,216,0,1,255,217]);const hash=Array.from(new Uint8Array(await webcrypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
+ const {privateKey,publicKey}=await generateKeyPair('ES256');const token=await new SignJWT({fixture:hash}).setProtectedHeader({alg:'ES256'}).setIssuer('sufra-nonpersonal-qualification').setAudience('sufra-food-vision').setSubject('synthetic-camera-test').setIssuedAt().setExpirationTime('10m').sign(privateKey);
+ let n=0;const env={ENABLED:'true',VISION_MODEL:'gemma',VISUAL_ESTIMATES_ENABLED:'true',QUALIFICATION_JWK:JSON.stringify(await exportJWK(publicKey)),APPROVED_FIXTURE_SHA256:hash,USER_LIMITER:{limit:async()=>({success:true})},AI:{run:async()=>{n++;return {choices:[{finish_reason:'stop',message:{role:'assistant',content:'There is no food in this picture.'}}]};}}};
+ const res=await worker.fetch(new Request('https://test/recognize',{method:'POST',headers:{authorization:'Bearer '+token,'content-type':'image/jpeg'},body:bytes}),env);
+ assert.equal(res.status,200);assert.deepEqual((await res.json()).items,[]);assert.equal(n,1);
+});

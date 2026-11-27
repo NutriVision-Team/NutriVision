@@ -18,8 +18,12 @@ class CloudflareFoodRecognitionProvider
   CloudflareFoodRecognitionProvider({http.Client? client})
     : _client = client ?? http.Client();
   final http.Client _client;
+  // Set your own deployment with --dart-define=SUFRA_FOOD_VISION_URL=...
   static final endpoint = Uri.parse(
-    'https://sufra-food-vision.moos456456.workers.dev/recognize',
+    const String.fromEnvironment(
+      'SUFRA_FOOD_VISION_URL',
+      defaultValue: 'https://sufra-food-vision.invalid/recognize',
+    ),
   );
   @override
   bool get isAvailable =>
