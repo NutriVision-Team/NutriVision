@@ -1,0 +1,1056 @@
+{
+  "@@locale": "ar",
+  "appName": "سفرة",
+  "appTagline": "صحتك على سفرتك",
+  "splashBlessing": "بالهنا والشفا",
+  "onboardingSkip": "تخطي",
+  "onboardingNext": "التالي",
+  "onboardingStart": "يلا نبدأ",
+  "onboardingCounter": "{current} / {total}",
+  "@onboardingCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "onboarding1Title": "سجّل أكلك بالكلام",
+  "onboarding1Body": "قول اللي أكلته بالعامية وإحنا نفهمك في ثواني",
+  "onboarding2Title": "أرقام تقدر تثق فيها",
+  "onboarding2Body": "بنحسب من مكونات الطبق نفسه، مش تخمين",
+  "onboarding3Title": "أكلك المصري كله",
+  "onboarding3Body": "كشري، فول، ملوخية، محشي... كلها في سفرة",
+  "loginTitleA": "ما تاكلش أقل،",
+  "loginTitleB": "كُل صح",
+  "loginSubtitle": "سجّل دخولك وكمّل رحلتك الصحية",
+  "emailHint": "الإيميل",
+  "passwordHint": "كلمة السر",
+  "forgotPassword": "نسيت كلمة السر؟",
+  "loginButton": "تسجيل الدخول",
+  "orContinueWith": "أو كمّل بـ",
+  "googleProvider": "جوجل",
+  "phoneProvider": "رقم الموبايل",
+  "providerNotConfigured": "الطريقة دي مش متاحة دلوقتي.",
+  "phoneComingToast": "هنبعتلك كود تأكيد على رقم موبايلك",
+  "noAccount": "معندكش حساب؟",
+  "createAccountLink": "أنشئ حساب جديد",
+  "resetEmailSent": "بعتنا لك لينك إعادة تعيين كلمة السر على إيميلك",
+  "registerTitleA": "ابدأ سفرتك،",
+  "registerTitleB": "كُل حقيقي",
+  "nameHint": "الاسم",
+  "passwordRegisterHint": "كلمة السر (٨ حروف على الأقل)",
+  "passwordStrengthWeak": "ضعيفة",
+  "passwordStrengthMedium": "متوسطة",
+  "passwordStrengthStrong": "قوية",
+  "interestHealthyFasting": "صيام صحي",
+  "interestWeightLoss": "تخسيس",
+  "interestFitness": "لياقة",
+  "agreeTermsPrefix": "أوافق على ",
+  "agreeTermsLink": "الشروط والخصوصية",
+  "createAccountButton": "إنشاء الحساب",
+  "haveAccount": "عندك حساب؟",
+  "signInLink": "سجّل دخول",
+  "welcomeTitle": "أهلاً بيك يا {name}",
+  "@welcomeTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeSubtitle": "حسابك اتعمل، وسفرتك جاهزة. بالهنا والشفا",
+  "welcomePoint1": "تسجّل أكلك بصوتك بالعامية",
+  "welcomePoint2": "أرقام من مكونات الطبق نفسه",
+  "welcomePoint3": "كشري وفول وملوخية وأكتر",
+  "welcomeCta": "يلا نبدأ",
+  "wizardStepOf": "الخطوة {current} من {total}",
+  "@wizardStepOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "wizardBack": "رجوع",
+  "wizardNext": "التالي",
+  "wizardFinish": "احسب خطتي",
+  "wizardGenderTitle": "عرّفنا عليك",
+  "wizardGenderBody": "المعلومات دي بتساعدنا نحسب احتياجك بدقة",
+  "wizardGenderMale": "ذكر",
+  "wizardGenderFemale": "أنثى",
+  "wizardDobTitle": "تاريخ ميلادك",
+  "wizardDobBody": "عمرك بيأثر على معدل الحرق الأساسي",
+  "wizardHeightTitle": "طولك كام؟",
+  "wizardHeightBody": "بالسنتيمتر",
+  "wizardWeightTitle": "وزنك الحالي",
+  "wizardWeightBody": "بالكيلوجرام",
+  "wizardTargetTitle": "الوزن اللي عايز توصله",
+  "wizardTargetBody": "هدف واقعي أحسن من هدف مستحيل",
+  "wizardActivityTitle": "مستوى نشاطك اليومي",
+  "wizardActivityBody": "اختار الأقرب لروتينك",
+  "activitySedentary": "نشاط قليل",
+  "activitySedentaryBody": "شغل مكتبي وحركة بسيطة",
+  "activityLight": "نشاط خفيف",
+  "activityLightBody": "مشي أو تمرين خفيف ١-٣ أيام",
+  "activityModerate": "نشاط متوسط",
+  "activityModerateBody": "تمرين ٣-٥ أيام في الأسبوع",
+  "activityActive": "نشاط عالي",
+  "activityActiveBody": "تمرين عنيف ٦-٧ أيام",
+  "wizardGoalTitle": "هدفك إيه؟",
+  "wizardGoalBody": "اختار، وسفرة تظبط كل حاجة على مقاسك",
+  "goalLose": "أنزّل وزني",
+  "goalLoseBody": "سعرات أقل وأكل مشبع",
+  "goalMaintain": "أثبّت وزني",
+  "goalMaintainBody": "توازن يحافظ على وزنك",
+  "goalGain": "أزوّد وزني",
+  "goalGainBody": "سعرات أعلى وبروتين أكتر",
+  "unitCm": "سم",
+  "unitKg": "كجم",
+  "planTitleUnnamed": "خطتك جاهزة!",
+  "welcomeTitleUnnamed": "أهلاً بيك",
+  "planTitle": "خطتك جاهزة يا {name}!",
+  "@planTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "planDailyCalories": "سعرك اليومي",
+  "planProtein": "بروتين · جم",
+  "planCarbs": "كارب · جم",
+  "planFat": "دهون · جم",
+  "planTimeline": "تقدير مبدئي: ممكن تحتاج حوالي {weeks} أسبوع، والمدة الفعلية ممكن تختلف",
+  "@planTimeline": {
+    "placeholders": {
+      "weeks": {
+        "type": "int"
+      }
+    }
+  },
+  "planTimelineMaintain": "هدفك تحافظ على وزنك الحالي",
+  "planDisclaimer": "أرقام تقديرية للتوعية",
+  "planCta": "ابدأ رحلتك",
+  "homeGreetingMorning": "صباح الخير يا",
+  "homeGreetingEvening": "مساء الخير يا",
+  "homeSearchHint": "دوّر على أكلة أو منتج…",
+  "homeHeroChip": "سفرة · اختيارات أذكى",
+  "homeHeroTitleA": "أكل بتحبه،",
+  "homeHeroTitleB": "وتوازن يناسبك",
+  "homeHeroBody": "نظّم وجباتك وصحتك من غير حرمان.",
+  "homeHeroCta": "خطّط وجباتك",
+  "homeEatenToday": "اللي أكلته النهاردة",
+  "unitKcal": "سعر",
+  "homeGoalRemaining": "الهدف {target} · فاضل {remaining}",
+  "@homeGoalRemaining": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "homeNoGoalYet": "كمّل إعدادك الشخصي عشان نحسب هدفك",
+  "homeStreakDays": "أيام ورا بعض",
+  "homeStreakCta": "كمّل يا بطل",
+  "macroProtein": "بروتين",
+  "macroCarbs": "كارب",
+  "macroFat": "دهون",
+  "homeMealsToday": "وجباتك النهاردة",
+  "homeNoMeals": "لسه مسجلتش وجبات النهاردة",
+  "homeAddFirstMeal": "سجّل أول وجبة",
+  "homeTipsTitle": "نصايح سفرة",
+  "tipWaterTitle": "اشرب كوباية مية",
+  "tipWaterBody": "{count} من {goal} أكواب",
+  "@tipWaterBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "tipProteinTitle": "راجع بروتين يومك",
+  "tipProteinBody": "راجع المتبقي من هدفك واختار الكمية المناسبة ليك",
+  "tipLogTitle": "سجّل أكلك أول بأول",
+  "tipLogBody": "التسجيل المنتظم هو سر النتيجة",
+  "mealBreakfast": "فطار",
+  "mealLunch": "غدا",
+  "mealDinner": "عشا",
+  "mealSnack": "خفيف",
+  "navHome": "الرئيسية",
+  "navDiary": "اليومية",
+  "navProgress": "تقدمي",
+  "navAccount": "حسابي",
+  "comingSoonTitle": "قريبًا في سفرة",
+  "comingSoonBody": "الميزة دي لسه مش متاحة.",
+  "stateLoading": "بنحمّل…",
+  "stateError": "حصلت مشكلة في التحميل. جرّب تاني",
+  "stateRetry": "حاول تاني",
+  "validationRequired": "الحقل ده مطلوب",
+  "validationEmail": "اكتب إيميل صحيح",
+  "validationPassword": "كلمة السر لازم تكون ٨ حروف على الأقل",
+  "validationName": "اكتب اسمك",
+  "validationTerms": "لازم توافق على الشروط والخصوصية",
+  "validationNumber": "اكتب رقم صحيح",
+  "validationStep": "كمّل الخطوة دي الأول",
+  "authInvalidCredentials": "الإيميل أو كلمة السر غلط",
+  "authEmailInUse": "الإيميل ده مسجل قبل كده. جرّب تسجّل دخول",
+  "authWeakPassword": "كلمة السر ضعيفة. استخدم ٨ حروف على الأقل",
+  "authUserNotFound": "مفيش حساب بالإيميل ده",
+  "authNetworkError": "مفيش اتصال بالإنترنت. تأكد من الشبكة وحاول تاني",
+  "authGenericError": "حصلت مشكلة. حاول تاني بعد شوية",
+  "signOut": "تسجيل الخروج",
+  "logHubTitle": "هتسجل أكلك إزاي؟",
+  "logHubSubtitle": "اختار الطريقة الأنسب، وكلها لمسة واحدة",
+  "logHubChipPhoto": "صورة",
+  "logHubChipBarcode": "باركود",
+  "logHubChipVoice": "صوت",
+  "logHubChipSearch": "بحث",
+  "logHubVoiceTitle": "بالصوت أو الكتابة",
+  "logHubVoiceSubtitle": "قول الأكل وراجع النوع والجرامات",
+  "logHubFastest": "الأسرع",
+  "logHubPhotoTitle": "صوّر وجبتك",
+  "logHubPhotoSubtitle": "صوّر وراجع يدويًا",
+  "logHubBarcodeTitle": "امسح باركود",
+  "logHubBarcodeSubtitle": "منتج معبّأ",
+  "logHubSearchTitle": "ابحث يدويًا",
+  "logHubSearchSubtitle": "اختار من قاعدة الأكل",
+  "logHubFavoritesTitle": "من المفضلة",
+  "logHubFavoritesSubtitle": "بلمسة واحدة",
+  "logHubRecentTitle": "آخر وجباتك",
+  "logHubRecentMeal": "{name} · {calories} سعرة",
+  "@logHubRecentMeal": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "calories": {
+        "type": "int"
+      }
+    }
+  },
+  "logHubRelog": "أعد التسجيل",
+  "logHubRelogDone": "اتسجلت وجبتك في يومك",
+  "foodSearchHint": "دوّر على أكلة...",
+  "foodCatalogTitle": "دليل الأكل",
+  "foodSearchStart": "اكتب اسم الأكلة عشان ندوّر عليها",
+  "foodSearchEmpty": "مفيش نتائج. جرّب اسم تاني",
+  "foodPer100g": "١٠٠ جم · {value} سعرة",
+  "@foodPer100g": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "foodNutritionUnknown": "القيم الغذائية غير متاحة",
+  "foodGrams": "الكمية بالجرام",
+  "foodInvalidGrams": "اكتب كمية أكبر من صفر ولحد ١٠٬٠٠٠ جم",
+  "foodUnknown": "غير معروف",
+  "foodKcal": "سعرة",
+  "foodMg": "مجم",
+  "foodGramUnit": "جم",
+  "foodSource": "مصدر البيانات: {source}",
+  "@foodSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "foodIncompleteWarning": "فيه قيم غذائية أو مصدر بيانات ناقص. مش هنحفظ أرقام مجهولة كأنها صفر.",
+  "foodCalories": "السعرات",
+  "foodProtein": "بروتين",
+  "foodCarbs": "كارب",
+  "foodFat": "دهون",
+  "foodFiber": "ألياف",
+  "foodSugar": "سكر",
+  "foodSodium": "صوديوم",
+  "mealReviewTitle": "راجع وجبتك",
+  "mealReviewTotal": "الإجمالي من بيانات المصدر",
+  "mealTypeLabel": "نوع الوجبة",
+  "mealSessionExpired": "الجلسة اتغيرت. ارجع وسجّل دخول تاني",
+  "mealSave": "بالهنا والشفا، احفظ",
+  "diaryTitle": "اليومية",
+  "diaryEmpty": "لسه مفيش وجبات في اليوم ده",
+  "diaryPrevious": "اليوم اللي قبله",
+  "diaryNext": "اليوم اللي بعده",
+  "artRotateHint": "اسحب عشان تدوّرها",
+  "diaryChooseDate": "اختار اليوم",
+  "diaryEmptySlot": "لسه فاضي",
+  "diaryAddMeal": "+ ضيف أكلة",
+  "diaryOtherMeals": "وجبات تانية",
+  "foodRecipes": "وصفات",
+  "foodAlternatives": "بدائل الأكل",
+  "mealEdit": "تعديل",
+  "mealDelete": "حذف",
+  "mealDeleteConfirm": "تحب تحذف الوجبة دي؟ إجمالي اليوم هيتحدّث بعدها.",
+  "mealName": "اسم الوجبة",
+  "mealNotes": "ملاحظات",
+  "mealEditInvalid": "راجع اسم الوجبة وكميات المكونات.",
+  "mealNotFound": "الوجبة دي مش موجودة للحساب واليوم ده.",
+  "actionSave": "حفظ التعديلات",
+  "actionCancel": "إلغاء",
+  "mealSuhoor": "سحور",
+  "mealIftar": "إفطار رمضان",
+  "discoveryMsg001": "لم يتم الحفظ. حاول مرة أخرى.",
+  "discoveryMsg002": "الوصفة محجوبة لحين اعتماد ترخيص النشر.",
+  "discoveryMsg003": "الوصفة غير موجودة.",
+  "discoveryMsg004": "رجوع",
+  "discoveryMsg005": "الوقت مش محدد",
+  "discoveryMsg006": "السعرات غير معروفة",
+  "discoveryMsg007": "الحصص غير محددة",
+  "discoveryMsg008": "المقادير والخطوات كما نشرها المصدر، وليست ترجمة أو تقديرًا بالجرام.",
+  "discoveryMsg009": "لا يمكن تسجيل الوصفة بقيم غذائية دقيقة قبل توثيق أوزان المكونات وعدد الحصص.",
+  "discoveryMsg010": "المصدر والترخيص",
+  "discoveryMsg011": "المصدر والترخيص · تطوير فقط",
+  "discoveryMsg012": "أوزان وحصص وقيم غذائية غير موثقة",
+  "discoveryMsg013": "سجّلها كوجبة",
+  "discoveryMsg014": "تعذر الاقتراح",
+  "discoveryMsg015": "مقدرناش نجيب وصفات دلوقتي. حاول تاني.",
+  "discoveryMsg016": "ضيف مكوناتك",
+  "discoveryMsg017": "ضيف مكونًا واحدًا على الأقل عشان نقارن بالمقادير المنشورة.",
+  "discoveryMsg018": "الوصفات دي مش متاحة في النسخة دي دلوقتي.",
+  "discoveryMsg019": "اقترح لي وجبة",
+  "discoveryMsg020": "عندي",
+  "discoveryMsg021": "+ ضيف",
+  "discoveryMsg022": "السعرات",
+  "discoveryMsg023": "الوقت",
+  "discoveryMsg024": "مش محدد",
+  "discoveryMsg025": "السعرات وأغلب أوقات الوصفات غير متاحة. فلتر الوقت بيقبل الوصفات ذات الوقت الكلي الموثق بس.",
+  "discoveryMsg026": "اقترح",
+  "discoveryMsg027": "مطابقة محلية حسب المكونات",
+  "discoveryMsg028": "عن الاقتراح",
+  "discoveryMsg029": "المصدر وطريقة الاقتراح",
+  "discoveryMsg030": "مطابقة كلمات المكونات حرفيًا. نوع الوجبة تفضيل ولا يغير تصنيف المصدر. راجع المكونات الناقصة والحساسيات. TheMealDB للتطوير والتعليم فقط. الذكاء الاصطناعي الاختياري غير مهيأ ما لم تضف خدمة موثقة.",
+  "discoveryMsg031": "اقترح عليّا",
+  "discoveryMsg032": "عرض كل الوصفات",
+  "discoveryMsg033": "ابحث في الوصفات المحلية",
+  "discoveryMsg034": "مسح",
+  "discoveryMsg035": "المحفوظة فقط",
+  "discoveryMsg036": "TheMealDB · تطوير وتعليم فقط",
+  "discoveryMsg037": "لا توجد وصفات مطابقة.",
+  "discoveryMsg038": "سعرات غير معروفة",
+  "discoveryMsg039": "ضيف مكون",
+  "discoveryMsg040": "اسم المكون",
+  "discoveryMsg041": "إلغاء",
+  "discoveryMsg042": "إضافة",
+  "discoveryMsg043": "الرئيسية",
+  "discoveryMsg044": "اليومية",
+  "discoveryMsg045": "تقدمي",
+  "discoveryMsg046": "حسابي",
+  "discoveryMsg047": "تعذر تحميل البيانات. حاول مرة أخرى.",
+  "discoveryMsg048": "إعادة المحاولة",
+  "discoveryMsg049": "تمام",
+  "discoveryMsg050": "التقدم الحالي",
+  "discoveryMsg051": "الهدف",
+  "discoveryMsg052": "عايز بدائل لإيه؟",
+  "discoveryMsg053": "ابحث باسم الطعام الأصلي",
+  "discoveryMsg054": "لا توجد مقارنة موثقة لهذا الطعام في الكتالوج الحالي. جرّب اللبن أو الأرز أو الخبز.",
+  "discoveryMsg055": "بدائل من بيانات موثقة",
+  "discoveryMsg056": "مقارنة لكل ١٠٠ جم من بيانات الأطعمة المسجلة، مش توصية طبية.",
+  "discoveryMsg057": "منتجات حقيقية",
+  "discoveryMsg058": "لا توجد منتجات معبأة موثقة في الكتالوج المحلي.",
+  "discoveryMsg059": "لم يتم ربط البحث عن المنتجات بعد. لن نعرض أسعارًا أو درجات غذائية افتراضية.",
+  "discoveryMsg060": "طاقة لكل ١٠٠ جم",
+  "discoveryMsg061": "USDA · تفاصيل المصدر والمقارنة",
+  "discoveryMsg062": "مقارنة لكل ١٠٠ جم",
+  "discoveryMsg063": "الأصل",
+  "discoveryMsg064": "البديل",
+  "discoveryMsg065": "الحالة والتحضير يؤثران على المقارنة؛ ليست الحصص متكافئة تلقائيًا.",
+  "discoveryMsg066": "الطاقة (سعرة)",
+  "discoveryMsg067": "الألياف (جم)",
+  "discoveryMsg068": "الدهون (جم)",
+  "discoveryMsg069": "البروتين (جم)",
+  "discoveryMsg070": "أيام ورا بعض",
+  "discoveryMsg071": "مسجل",
+  "discoveryMsg072": "غير مسجل",
+  "discoveryMsg073": "الفانوس الذهبي",
+  "discoveryMsg074": "يوم",
+  "discoveryMsg075": "أوسمتك",
+  "discoveryMsg076": "كل تسجيل بيقرّبك من وسام جديد. حدد هدف المياه عشان تتابع تقدّمك فيه.",
+  "discoveryMsg077": "مكتمل",
+  "discoveryMsg078": "لسه مش معروف",
+  "discoveryMsg079": "محتاجين تسجيلات أكتر عشان نعرض تقدمك.",
+  "discoveryMsg080": "وقت تسجيل الإنجاز لأول مرة مش معروف.",
+  "discoveryMsg081": "أول مرة سفرة سجّل فيها الإنجاز، مش بالضرورة وقت تحقيقه",
+  "discoveryMsg082": "فانوس الإنجازات",
+  "discoveryCloudFavoritesNote": "الحفظ متزامن مع حسابك.",
+  "discoveryLocalFavoritesNote": "الحفظ على هذا الجهاز لحسابك الحالي.",
+  "discoverySaved": "محفوظة",
+  "discoverySave": "حفظ",
+  "discoveryBreakfast": "فطار",
+  "discoveryLunch": "غدا",
+  "discoveryDinner": "عشا",
+  "discoveryWeekday1": "ن",
+  "discoveryWeekday2": "ث",
+  "discoveryWeekday3": "ر",
+  "discoveryWeekday4": "خ",
+  "discoveryWeekday5": "ج",
+  "discoveryWeekday6": "س",
+  "discoveryWeekday7": "ح",
+  "mealIngredientAdd": "إضافة مكوّن",
+  "mealIngredientEdit": "تغيير المكوّن",
+  "mealIngredientRemove": "إزالة المكوّن",
+  "mealDraftIncomplete": "اختار مكوّن ببيانات سعرات معروفة ومصدر واضح، وراجع الكميات واسم الوجبة.",
+  "mealReviewCatalogHint": "راجع المكوّنات والكميات قبل الحفظ.",
+  "progressNavHome": "الرئيسية",
+  "progressNavDiary": "اليومية",
+  "progressNavProgress": "تقدمي",
+  "progressNavAccount": "حسابي",
+  "statsTitle": "تقدمي",
+  "statsTabWeek": "أسبوع",
+  "statsTabMonth": "شهر",
+  "statsStreakDays": "{count} أيام ورا بعض",
+  "statsStreakCheer": "عاش! كمّل",
+  "statsCaloriesTitle": "السعرات",
+  "statsCaloriesAverage": "المتوسط {avg} / {target}",
+  "statsWeightTitle": "الوزن",
+  "statsWeightDown": "▼ {kg} كجم",
+  "statsWeightUp": "▲ {kg} كجم",
+  "statsBadgesTitle": "شارات",
+  "statsNoTrackedDays": "لسه مفيش أيام متسجلة الفترة دي",
+  "statsNoWeightData": "سجّل وزنك عشان تشوف تقدمك",
+  "reportTitle": "التقرير",
+  "reportSubtitle": "أسبوعك في صورة واحدة",
+  "reportAverageCalories": "متوسط السعرات",
+  "reportRingCalories": "السعرات: {pct}٪ من الهدف",
+  "reportRingProtein": "البروتين: {pct}٪ من الهدف",
+  "reportRingFiber": "ألياف {pct}٪",
+  "reportDailyCommitment": "الأيام اللي سجلت فيها أكلك",
+  "reportWaterTitle": "المياه",
+  "reportWaterCupsOf": "{have} من {goal} أكواب",
+  "reportMealDistribution": "الوجبات المتسجلة",
+  "reportSugarAlertTitle": "انتبه: سكر {day}",
+  "reportSugarAlertBody": "زاد {pct}٪ عن المعتاد، غالبًا من الحلو بعد الغدا",
+  "waterScreenTitle": "مية النهاردة",
+  "waterCupsOf": "{have} من {goal} أكواب",
+  "waterMlOf": "{have} من {goal} مل",
+  "waterAdd250": "+ ٢٥٠ مل",
+  "waterAdd500": "+ ٥٠٠ مل",
+  "waterAddCustom": "مخصص",
+  "waterAddConfirm": "أضف",
+  "waterMlValue": "{value} مل",
+  "weightScreenTitle": "وزنك",
+  "weightSubtitle": "رحلتك ماشية، وكل خطوة صغيرة بتتحسب",
+  "weightCurrent": "وزنك دلوقتي",
+  "weightKg": "كجم",
+  "weightOfYourGoal": "من هدفك",
+  "weightLighterBy": "▼ أخف بـ {kg} كجم",
+  "weightHeavierBy": "▲ أتقل بـ {kg} كجم",
+  "weightYouAreHere": "إنت هنا",
+  "weightGoalLabel": "الهدف {kg}",
+  "weightGreatWork": "شغل ممتاز يا بطل!",
+  "weightToNextMilestone": "باقي {kg} كجم على هدفك. وزنك ممكن يطلع وينزل يوميًا، فتابع الاتجاه مع الوقت.",
+  "weightLogCta": "+ سجّل وزن اليوم",
+  "weightLogTitle": "سجّل وزنك",
+  "weightLogHint": "الوزن بالكيلو",
+  "weightLogSave": "احفظ",
+  "weightLogInvalid": "اكتب وزن صحيح أكبر من صفر",
+  "exportTitle": "سفرة · تقرير التغذية",
+  "exportSubtitle": "الفترة اللي اخترتها",
+  "exportPdfBadge": "PDF",
+  "exportAdherenceLabel": "الالتزام",
+  "exportMacrosTitle": "المغذيات: المسجّل مقارنة بأهدافك المحفوظة",
+  "exportMacrosHint": "(الخط الأسود = الهدف)",
+  "exportProteinLabel": "بروتين",
+  "exportCarbsLabel": "كربوهيدرات",
+  "exportFatLabel": "دهون",
+  "exportAdherenceMapTitle": "خريطة الالتزام (٢ أسابيع)",
+  "exportReviewPointsTitle": "نقاط تحتاج مراجعتك",
+  "exportReviewSodium": "الصوديوم المسجّل أعلى من متوسط الفترة ٣ أيام ورا بعض",
+  "exportReviewFiber": "ألياف أقل من الموصى به ({pct}٪)",
+  "exportReviewWaterOk": "الميّه في آخر يوم وصلت لهدفك المحفوظ",
+  "exportPdfButton": "تصدير PDF",
+  "exportSendToDoctor": "إرسال للدكتور",
+  "exportGoalLoss": "الهدف: خفض وزن {kg} كجم",
+  "exportBmiLabel": "BMI {bmi}",
+  "exportYearsOld": "{age} سنة",
+  "exportCmLabel": "{height} سم",
+  "waterGoalDefaultNote": "هدف استرشادي غير مخصّص",
+  "@waterGoalDefaultNote": {
+    "description": "Note that the 2000 ml water goal is a non-personalized design default"
+  },
+  "statsBadgesUnknown": "حالة الشارات لم تُحمَّل بعد",
+  "@statsBadgesUnknown": {
+    "description": "Caption under neutral badges when earned state is unknown"
+  },
+  "weekdayLetter1": "س",
+  "weekdayLetter2": "ح",
+  "weekdayLetter3": "ن",
+  "weekdayLetter4": "ث",
+  "weekdayLetter5": "ر",
+  "weekdayLetter6": "خ",
+  "weekdayLetter7": "ج",
+  "weekdayName1": "سبت",
+  "weekdayName2": "حد",
+  "weekdayName3": "اتنين",
+  "weekdayName4": "تلات",
+  "weekdayName5": "أربع",
+  "weekdayName6": "خميس",
+  "weekdayName7": "جمعة",
+  "cameraTitle": "صوّر وجبتك",
+  "cameraClose": "إغلاق",
+  "cameraFlash": "الفلاش",
+  "cameraFlashUnavailable": "الفلاش مش متاح على الكاميرا دي",
+  "cameraDenied": "محتاجين إذن الكاميرا. تقدر تجرّب تاني أو تدخل الوجبة بإيدك.",
+  "cameraRestricted": "افتح إعدادات الجهاز واسمح للتطبيق يستخدم الكاميرا، أو دخل الوجبة بإيدك.",
+  "cameraMissing": "مفيش كاميرا متاحة على الجهاز ده",
+  "cameraFailed": "الكاميرا مش جاهزة. جرّب تاني أو استخدم الإدخال اليدوي.",
+  "cameraPaused": "الكاميرا متوقفة",
+  "cameraStarting": "بنجهّز الكاميرا",
+  "cameraRetry": "جرّب تاني",
+  "cameraTooLarge": "الصورة كبيرة شوية. جرّب صورة أصغر.",
+  "cameraBadImage": "معرفناش نفتح الصورة دي. جرّب صورة تانية.",
+  "cameraAiUnavailable": "مش قادرين نقرا الصور دلوقتي. ممكن تدوّر على أكلك وتضيفه بنفسك.",
+  "cameraEmpty": "مش شايفين أكل واضح في الصورة دي. جرّب صورة تانية أو دوّر على أكلك.",
+  "cameraInvalidResponse": "معرفناش نقرا الصورة دي. جرّب صورة تانية أو دوّر على أكلك.",
+  "cameraNetwork": "معرفناش نقرا الصورة دلوقتي. جرّب تاني بعد شوية أو دوّر على أكلك.",
+  "cameraFrameHint": "حط الطبق كله جوه الإطار",
+  "cameraLightHint": "إضاءة كويسة · ثبّت الموبايل · الطبق كامل",
+  "cameraCapture": "التقاط الصورة",
+  "cameraRetake": "إعادة التصوير",
+  "cameraMealType": "نوع الوجبة",
+  "cameraNotes": "ملاحظات تساعد التحليل (اختياري)",
+  "cameraNotesHint": "اكتب طريقة التحضير أو أي تفاصيل مهمة",
+  "cameraNoOil": "بدون زيت",
+  "cameraLarge": "كمية كبيرة",
+  "cameraSmall": "كمية صغيرة",
+  "cameraSugar": "سكر زيادة",
+  "cameraGhee": "مقلي بالسمن",
+  "cameraPrivacy": "الصورة بتتبعت بعد موافقتك في كل مرة. نوع الوجبة والملاحظات مش بيتبعتوا للتحليل. راجع النتيجة والكميات قبل الحفظ.",
+  "cameraNoUpload": "تحليل الصور غير مفعّل. الصورة بتفضل مؤقتاً على جهازك ومش بتتبعت لأي خدمة.",
+  "cameraAnalyzing": "بنحلّل وجبتك",
+  "cameraAnalyze": "حلّل الصورة",
+  "cameraReviewWarning": "دي اقتراحات مش قياسات. اختار الأكل والكميات من القاعدة قبل الحفظ.",
+  "cameraManual": "اختار الأكل من القاعدة",
+  "cameraSkip": "استبعاد الاقتراح",
+  "cameraSkipped": "مستبعد",
+  "exportKgUnit": "كجم",
+  "@exportKgUnit": {
+    "description": "Kilogram unit abbreviation"
+  },
+  "progressUnknownNote": "الشرطة (—) معناها إن البيانات أو الأهداف وقت التسجيل مش متاحة، مش صفر.",
+  "reportUnknownCalories": "السعرات: غير متاحة",
+  "reportUnknownProtein": "البروتين: غير متاح",
+  "reportUnknownFiber": "الألياف: غير متاحة",
+  "voiceListening": "سامعينك… قول وصف وجبتك",
+  "voiceStarting": "بنجهّز الميكروفون",
+  "voiceReady": "اضغط على الميكروفون أو اكتب وصف وجبتك",
+  "voiceDenied": "إذن الميكروفون مش متاح. راجع إعدادات الجهاز أو اكتب الوصف.",
+  "voiceUnavailable": "التعرف على الصوت مش متاح على الجهاز ده. تقدر تكتب الوصف.",
+  "voiceLanguageUnavailable": "لغة التطبيق مش متاحة للتعرف على الصوت على الجهاز ده. اكتب الوصف.",
+  "voiceNoSpeech": "مسمعناش كلام واضح. جرّب تاني أو اكتب الوصف.",
+  "voiceFailed": "التعرف على الصوت موصلش. جرّب تاني أو اكتب الوصف.",
+  "voiceStop": "وقف التسجيل",
+  "voiceStart": "ابدأ وصف بالصوت",
+  "voicePrivacy": "الميكروفون بيشتغل لما تضغط بس. خدمة التعرف على الصوت في جهازك ممكن تبعت الصوت لمقدمها. سفرة مش بتحفظ تسجيل صوتي.",
+  "voiceTextHint": "مثال: فول وعيش وخيار",
+  "voiceDescription": "وصف الوجبة، قابل للتعديل",
+  "voiceFindFoods": "دوّر على الأكل في القاعدة",
+  "voicePortionWarning": "البحث بيقترح أصناف من القاعدة، مش بيحسب وزن من الكلام. اختار الأصناف وراجع الجرامات قبل الحفظ.",
+  "voiceNoFoods": "ملقيناش أصناف مطابقة. دوّر باسم الأكلة أو اختارها من القاعدة.",
+  "waterWeekRecordedTitle": "المية المسجلة آخر ٧ أيام",
+  "barcodeTitle": "امسح الباركود",
+  "barcodeClose": "إغلاق",
+  "barcodeFlash": "فلاش",
+  "barcodeFlashUnavailable": "الفلاش مش متاح على الجهاز ده",
+  "barcodeStartCamera": "شغّل الكاميرا",
+  "barcodeAim": "وجّه الكاميرا ناحية الباركود",
+  "barcodeSearching": "بيدوّر على الباركود…",
+  "barcodeManualLabel": "أو اكتب الرقم اللي تحت الباركود",
+  "barcodeManualField": "رقم الباركود",
+  "barcodeLookup": "دوّر",
+  "barcodePhotoFallback": "صوّر الجدول الغذائي",
+  "barcodeSearchFallback": "ابحث في الأكلات",
+  "barcodeCameraDenied": "الكاميرا مش مسموحة للتطبيق. اكتب الرقم تحت، أو فعّل إذن الكاميرا من إعدادات الجهاز.",
+  "barcodeCameraUnsupported": "الجهاز ده مفيهوش كاميرا متاحة. اكتب الرقم تحت.",
+  "barcodeCameraError": "الكاميرا مش شغالة دلوقتي. اكتب الرقم تحت أو جرّب تاني.",
+  "barcodeRetryCamera": "جرّب الكاميرا تاني",
+  "barcodeLooking": "بنجيب بيانات {code}",
+  "@barcodeLooking": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeInvalid": "الرقم غلط. لازم يكون ٨ أو ١٢ أو ١٣ أو ١٤ رقم وصحيح حسب رقم التحقق.",
+  "barcodeNotFound": "ملقيناش المنتج {code}. اتأكد من الرقم أو دوّر باسمه.",
+  "@barcodeNotFound": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeNotFoundHelp": "ممكن تدوّر عليه بالاسم أو تصوّر الجدول الغذائي. مش هنسجّل أرقام من عندنا.",
+  "barcodeRetry": "حاول تاني",
+  "barcodeOffline": "مفيش اتصال بالإنترنت أو الاتصال بطيء. اتأكد وحاول تاني، أو اكتب الأكلة يدوي.",
+  "barcodeRateLimited": "طلبات كتير في وقت قصير. جرّب بعد {seconds} ثانية.",
+  "@barcodeRateLimited": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "barcodeUnavailable": "خدمة Open Food Facts مش متاحة دلوقتي. حاول بعد شوية.",
+  "barcodeBadResponse": "الرد من المصدر مش مفهوم. حاول تاني بعد شوية.",
+  "barcodeNotConfigured": "البحث بالباركود مش متاح في النسخة دي لسه.",
+  "productTitle": "بيانات المنتج",
+  "productBack": "رجوع",
+  "productNoImage": "مفيش صورة للمنتج في المصدر",
+  "productNutritionPer100g": "القيم الغذائية لكل ١٠٠ جم",
+  "productNutritionPer100ml": "القيم الغذائية لكل ١٠٠ مل",
+  "productNotProvided": "غير مذكور",
+  "productCalories": "السعرات",
+  "productProtein": "بروتين",
+  "productCarbs": "كربوهيدرات",
+  "productFat": "دهون",
+  "productFiber": "ألياف",
+  "productSugars": "سكر",
+  "productSodium": "صوديوم",
+  "productKcalUnit": "سعرة",
+  "productGramUnit": "جم",
+  "productMgUnit": "ملليجرام",
+  "productServing": "حجم الحصة المذكور: {serving}",
+  "@productServing": {
+    "placeholders": {
+      "serving": {
+        "type": "String"
+      }
+    }
+  },
+  "productQuantity": "الكمية في العبوة: {quantity}",
+  "@productQuantity": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      }
+    }
+  },
+  "productIngredients": "المكوّنات (كما في المصدر)",
+  "productAllergens": "مسببات الحساسية المذكورة في المصدر",
+  "productAllergensNone": "المصدر مذكرش مسببات حساسية. ده مش معناه إن المنتج خالٍ منها.",
+  "productAllergensUnknown": "المصدر ملوش بيانات عن مسببات الحساسية. اقرأ العبوة.",
+  "productAllergensCaveat": "البيانات من مساهمين وقد تكون ناقصة. اقرأ العبوة دايمًا لو عندك حساسية.",
+  "productNutriScore": "نوتري سكور",
+  "productNutriScoreFromSource": "كما ورد في المصدر",
+  "productAttribution": "المصدر: Open Food Facts. البيانات من مساهمين ومرخّصة بترخيص ODbL وقد تكون ناقصة أو قديمة.",
+  "productFromCache": "نسخة محفوظة على الجهاز",
+  "productPortionLabel": "الكمية بالجرام",
+  "productUseServing": "حصة {grams} جم",
+  "@productUseServing": {
+    "placeholders": {
+      "grams": {
+        "type": "String"
+      }
+    }
+  },
+  "productAddToDiary": "أضف لليومية",
+  "productGramsInvalid": "اكتب كمية بالجرام أكبر من صفر وحتى ١٠٠٠٠.",
+  "productCannotLogMl": "القيم دي لكل ١٠٠ مل. مش هنحوّلها لجرامات لأن كثافة المنتج مش معروفة، فمفيش تسجيل بالجرام.",
+  "productCannotLogNoEnergy": "السعرات مش مذكورة في المصدر، فمش هينفع نسجّل المنتج ده.",
+  "productNutritionBasisUnknown": "القيم كما وردت، وحدة الأساس غير مؤكدة",
+  "productCannotLogUnknownBasis": "الوحدة الأساسية مش واضحة أو متعارضة في المصدر. مش هنحوّل القيم لجرامات. راجع الملصق أو اختار أكلة من القاعدة.",
+  "favoritesTitle": "المفضلة",
+  "favoritesTabMeals": "وجبات مفضلة",
+  "favoritesTabRecipes": "وصفات محفوظة",
+  "favoritesTabFrequent": "الأكتر تسجيلًا",
+  "favoritesHeroChip": "الأكثر تسجيلًا",
+  "favoritesHeroCount": "{count, plural, =1{سجّلتها مرة في آخر ٣٠ يوم} =2{سجّلتها مرتين في آخر ٣٠ يوم} few{سجّلتها {count} مرات في آخر ٣٠ يوم} other{عدد مرات تسجيلها في آخر ٣٠ يوم: {count}}}",
+  "@favoritesHeroCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesSortLabel": "ترتيب",
+  "favoritesSortRecent": "الأحدث",
+  "favoritesSortName": "الاسم",
+  "favoritesSortCalories": "السعرات",
+  "favoritesRemove": "شيل من المفضلة",
+  "favoritesRemoved": "اتشالت من المفضلة",
+  "favoritesRemoveFailed": "معرفناش نشيلها. جرّب تاني.",
+  "favoritesAddToDiary": "أضف لليومية",
+  "favoritesAdded": "اتضافت لليومية",
+  "favoritesAddFailed": "معرفناش نضيفها. جرّب تاني.",
+  "favoritesSaved": "اتحفظت في المفضلة",
+  "favoritesSaveFailed": "معرفناش نحفظها في المفضلة. جرّب تاني.",
+  "favoritesPickMealType": "تضيفها كـ",
+  "favoritesUnavailable": "الوجبة الأصلية اتمسحت",
+  "favoritesUnavailableHint": "تقدر تشيلها من المفضلة بس.",
+  "favoritesMealMeta": "{kcal} سعرة",
+  "@favoritesMealMeta": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritesMealMetaProtein": "{kcal} سعرة · {protein} جم بروتين",
+  "@favoritesMealMetaProtein": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      },
+      "protein": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritesFrequentCount": "اتسجّل {count} مرات",
+  "@favoritesFrequentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesFrequentNote": "من وجباتك المسجّلة آخر ٣٠ يوم.",
+  "favoritesEmptyMealsTitle": "لسه مفيش وجبات مفضلة",
+  "favoritesEmptyMealsBody": "افتح وجبة اتسجلت واضغط القلب عشان تلاقيها هنا.",
+  "favoritesEmptyRecipesTitle": "لسه مفيش وصفات محفوظة",
+  "favoritesEmptyRecipesBody": "احفظ وصفة من اقتراحات الوصفات وهتظهر هنا.",
+  "favoritesEmptyFrequentTitle": "مفيش أكل متكرر لسه",
+  "favoritesEmptyFrequentBody": "لما تسجّل أكلك كذا مرة هيظهر الأكتر تكرارًا هنا.",
+  "favoritesLoadFailed": "معرفناش نحمّل المفضلة.",
+  "favoritesRetry": "حاول تاني",
+  "favoritesExpired": "الجلسة خلصت. ادخل تاني.",
+  "premiumTitle": "سفرة بريميوم",
+  "premiumSubtitle": "ميزات إضافية جاية قريب",
+  "premiumComingSoonChip": "قريبًا",
+  "premiumFeatureCoachTitle": "مدرّب ذكي",
+  "premiumFeatureCoachBody": "نصايح مبنية على أكلك",
+  "premiumFeatureReportsTitle": "تقارير أسبوعية",
+  "premiumFeatureReportsBody": "ملخص لتقدمك كل أسبوع",
+  "premiumFeaturePlanTitle": "تخطيط وجبات",
+  "premiumFeaturePlanBody": "خطة أسبوع على مقاسك",
+  "premiumNotAvailable": "الاشتراك مش متاح دلوقتي",
+  "premiumBack": "رجوع",
+  "plannerTitle": "خطة الأسبوع",
+  "plannerEmpty": "لسه مفيش خطة للأسبوع ده. اضغط ولّد خطة جديدة عشان تبدأ.",
+  "plannerDayEmpty": "مفيش وجبات في اليوم ده. ضيف وجبة من الأزرار تحت.",
+  "plannerTotal": "المجموع",
+  "plannerMissingTarget": "كمّل إعدادك الشخصي عشان نعرف هدفك اليومي ونجهّز خطة مناسبة.",
+  "plannerGenerate": "ولّد خطة جديدة",
+  "plannerShoppingCta": "قائمة التسوق",
+  "plannerReplace": "استبدال",
+  "plannerAddMeal": "ضيف",
+  "weekdaySat": "س",
+  "weekdaySun": "ح",
+  "weekdayMon": "ن",
+  "weekdayTue": "ث",
+  "weekdayWed": "ر",
+  "weekdayThu": "خ",
+  "weekdayFri": "ج",
+  "shoppingTitle": "قايمة التسوق",
+  "shoppingEmpty": "القايمة فاضية. ولّدها من خطة الأسبوع أو ضيف صنف بنفسك.",
+  "shoppingGenerateFromPlan": "ولّد من خطة الأسبوع",
+  "shoppingRegenerate": "حدّث من خطة الأسبوع",
+  "shoppingNoPlan": "ولّد واحفظ خطة الأسبوع الأول عشان تقدر تولّد القايمة منها.",
+  "shoppingSkipped": "{count} صنف محتاجين تراجع كميتهم في الخطة قبل إضافتهم.",
+  "@shoppingSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shoppingItemCount": "{count, plural, zero{٠ أصناف} one{صنف واحد} two{صنفين} few{{count} أصناف} many{{count} صنف} other{{count} صنف}}",
+  "@shoppingItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shoppingGroupProduce": "خضار وفاكهة",
+  "shoppingGroupProtein": "بروتين",
+  "shoppingGroupDairy": "ألبان",
+  "shoppingGroupGrains": "حبوب ونشويات",
+  "shoppingGroupOther": "أخرى",
+  "shoppingAddTitle": "ضيف صنف بنفسك",
+  "shoppingAddName": "اسم الصنف",
+  "shoppingAddInvalid": "اكتب اسم الصنف وكمية أكبر من صفر",
+  "coachTitle": "مدرّب سفرة",
+  "coachStatusReviewing": "بيراجع سجلات وجباتك المحفوظة",
+  "coachStatusIdle": "مستني أول تسجيل منك",
+  "coachRuleBadge": "من سجلاتك",
+  "coachRuleBadgeShort": "سجلاتك",
+  "coachToday": "النهاردة",
+  "coachReviewNote": "المدرّب بيراجع وجباتك آخر ٧ أيام",
+  "coachNoRecordsNote": "لسه مفيش سجلات كفاية — سجّل وجبتك الأولى",
+  "coachSendFailed": "الرسالة متسجلتش. حاول تاني.",
+  "coachInputHint": "اسأل مدرّب سفرة...",
+  "coachAdviceLabel": "نصيحة",
+  "coachQuickPlan": "اعمل لي خطة غدا",
+  "coachQuickWeek": "حلل أسبوعي",
+  "coachQuickWater": "أشرب كام مية؟",
+  "ramadanGreeting": "رمضان كريم",
+  "ramadanUntilIftar": "فاضل على الإفطار",
+  "ramadanUntilTaraweeh": "فاضل على بعد التراويح",
+  "ramadanUntilSuhoor": "فاضل على آخر السحور",
+  "ramadanSeconds": "ثانية",
+  "ramadanMinutes": "دقيقة",
+  "ramadanHours": "ساعة",
+  "ramadanSuhoorEnd": "آخر السحور",
+  "ramadanIftarAt": "الإفطار",
+  "ramadanTaraweeh": "بعد التراويح",
+  "ramadanCups": "أكواب",
+  "ramadanCupsUserNote": "هدف الأكواب ده انت اللي ظبطه",
+  "ramadanCupsDefaultNote": "٨ أكواب عرض افتراضي من التصميم، مش هدف صحي شخصي — تقدر تظبطه",
+  "ramadanEditTimes": "ظبط مواعيدك",
+  "ramadanDisclaimer": "للتوعية فقط، استشر طبيبك لو عندك سكر أو حمل",
+  "ramadanSetupBody": "التطبيق مش بيخترع مواعيد صلاة. ظبط مواعيد الإفطار والسحور على حسب بلدك وجدولك، وهنكمل العد والتنظيم عليها.",
+  "ramadanSetupCta": "ظبط مواعيد رمضان",
+  "ramadanChooseTime": "اختار الوقت",
+  "ramadanTimesTitle": "مواعيد رمضان بتاعتك",
+  "ramadanTimesNote": "اختار كل وقت حسب مدينتك ومواعيدك. التطبيق مش بيحسب مواقيت الصلاة هنا، وتقدر تغيّرها في أي وقت.",
+  "plannerAllergyWarning": "لو عندك حساسية، راجع مكونات كل وجبة وعبوتها قبل الأكل. الخطة مش ضمان لخلو الوجبة من مسببات الحساسية.",
+  "@plannerAllergyWarning": {
+    "description": "Warning that allergy filtering is name-level only, shown wherever a plan is generated."
+  },
+  "coachVoicePrivacy": "الإملاء الصوتي ممكن يبعت الصوت لمزوّد التعرف على الكلام في جهازك. سفرة مش بيحفظ الصوت؛ الكلام هيظهر هنا عشان تراجعه وتعدّله قبل الإرسال.",
+  "coachVoiceCancel": "إلغاء",
+  "coachVoiceStart": "إملاء صوتي",
+  "coachVoiceListening": "جاري الاستماع. راجع الكلام قبل ما تبعته.",
+  "coachVoiceUnavailable": "الإملاء غير متاح أو لم يسمع كلاماً. راجع إذن الميكروفون واللغة، أو اكتب رسالتك.",
+  "statsBadgesEarned": "{earned} من {total} شارات متحققة",
+  "@statsBadgesEarned": {
+    "placeholders": {
+      "earned": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerWeekTotal": "مجموع الأسبوع: {calories} سعرة",
+  "@plannerWeekTotal": {
+    "placeholders": {
+      "calories": {
+        "type": "String"
+      }
+    }
+  },
+  "avatarLocalNote": "اختار صورة لحسابك، هتتحفظ على الجهاز ده بس ومش هتترفع لأي خدمة.",
+  "avatarChoose": "اختار صورة البروفايل",
+  "avatarFailed": "مقدرناش نحفظ الصورة. جرب صورة تانية.",
+  "appLanguage": "اللغة",
+  "cameraGallery": "اختار صورة من المعرض",
+  "exportSelectRange": "اختار فترة التقرير",
+  "exportRangeLimit": "اختار فترة لحد سنة واحدة لكل تقرير.",
+  "exportLoggedWater": "المية المسجلة حسب اليوم (مل)",
+  "exportWeightHistory": "سجل الوزن المسجل (كجم)",
+  "exportNoWeightHistory": "مفيش تسجيلات وزن خلال الفترة المختارة.",
+  "exportNoWaterRecord": "مفيش كمية مية مسجلة",
+  "exportTrackingDays": "خريطة التسجيل (عدد أيام الفترة: {days})",
+  "@exportTrackingDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "themeAccentPicker": "ألوان المظهر الحالي",
+  "remindersTitle": "التذكيرات",
+  "remindersWaterTitle": "تذكير المية",
+  "remindersWaterAdd": "أضف ميعاد",
+  "remindersWaterRemove": "شيل الميعاد",
+  "remindersWaterFull": "وصلت لأقصى عدد مواعيد للمية.",
+  "remindersMealsTitle": "تذكير الوجبات",
+  "remindersWeightTitle": "تذكير الوزن",
+  "remindersWeightEvery": "كل أسبوع يوم {day}",
+  "@remindersWeightEvery": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "remindersPickDay": "اختار اليوم",
+  "remindersNotSet": "لسه مفيش ميعاد",
+  "remindersPermissionOff": "إشعارات سفرة مقفولة من إعدادات الجهاز. افتحها من هناك عشان التذكيرات توصلك.",
+  "remindersPermissionDenied": "من غير إذن الإشعارات مش هنقدر نبعتلك تذكير.",
+  "remindersScheduleFailed": "معرفناش نظبط التذكير على الجهاز. جرّب تاني.",
+  "remindersTimezoneUnavailable": "معرفناش نحدد توقيت الجهاز، فالتذكيرات متظبطتش.",
+  "remindersSaveFailed": "معرفناش نحفظ التغيير. جرّب تاني.",
+  "remindersInexactNote": "التذكيرات مش بتتحدد بالدقيقة بالظبط. ممكن توصل متأخرة شوية، خصوصًا لو الموبايل في وضع توفير الطاقة.",
+  "remindersPrivacyNote": "التذكيرات محفوظة على جهازك بس، وبتشتغل لحسابك الحالي.",
+  "remindersNotifTitle": "سفرة",
+  "remindersNotifWater": "لو مناسب ليك، خد لحظة للمية. افتح سفرة وسجّل اللي شربته.",
+  "remindersNotifMeal": "جاهز تسجّل {meal}؟ افتح سفرة وراجع أكلك وكميته.",
+  "@remindersNotifMeal": {
+    "placeholders": {
+      "meal": {
+        "type": "String"
+      }
+    }
+  },
+  "remindersNotifWeight": "لو ده وقت مناسب، سجّل وزنك. ركّز على الاتجاه مش رقم يوم واحد.",
+  "remindersChannelWater": "تذكير المية",
+  "remindersChannelMeals": "تذكير الوجبات",
+  "remindersChannelWeight": "تذكير الوزن",
+  "reminderCleanupFailed": "تعذر تأكيد إلغاء التذكيرات. ممكن تفضل تظهر على الجهاز لحد فتح التطبيق ومحاولة الإلغاء تاني.",
+  "reportMeasuredAverages": "متوسط القيم المسجّلة",
+  "reportMetricCoverage": "{measured} من {total} يوم فيه قيمة مسجّلة",
+  "reportRangeLabel": "الفترة: {start} لحد {end}",
+  "@reportMetricCoverage": {
+    "placeholders": {
+      "measured": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "@reportRangeLabel": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "waterGoalChoose": "غيّر هدف الميّه",
+  "waterGoalChosenNote": "هدفك اللي اخترته، محفوظ على الجهاز للحساب ده",
+  "waterGoalLocalHint": "اختار هدفك بالملليلتر. مش توصية طبية، ومش بيتزامن بين الأجهزة.",
+  "waterGoalInvalid": "اكتب كمية أكبر من صفر ولحد ٢٠٠٠٠ مل",
+  "alternativesPreferenceNote": "البدائل بتراعي حساسية وتفضيلات ملفك بمطابقة الأسماء والفئات فقط، مش فحص أمان للحساسية. راجع المكونات والملصق. لو عندك قيد غذائي مش مدعوم، مش هنعرض بديل على إنه مناسب.",
+  "cameraConsentTitle": "إرسال الصورة إلى {provider}؟",
+  "cameraConsentDetail": "الإرسال للصورة دي بس حسب الشرح أعلاه. نوع الوجبة والملاحظات مش بيتبعتوا للتحليل، وبيفضلوا للوجبة اللي تراجعها وتحفظها. تقدر تلغي وتختار الأكل يدوي.",
+  "cameraConsentTitleShort": "نبعت الصورة للتحليل؟",
+  "cameraConsentShort": "الصورة بتتستخدم للتحليل ده بس ومش بتتحفظ. وإنت اللي بتراجع كل حاجة قبل الحفظ.",
+  "cameraConsentDetailsToggle": "التفاصيل",
+  "cameraConsentSend": "وافق وابعت المرة دي",
+  "@cameraConsentTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "recipeCalorieLimit": "حد أقصى للسعرات للحصة",
+  "recipeTimeLimit": "وقت الطبخ بحد أقصى",
+  "recipeNoLimit": "من غير حد",
+  "recipeStrictConstraints": "الاقتراح بيحتاج نوع وجبة موثّق، ومع الحدود كمان وقت وسعرات موثّقة. الوصفات اللي بياناتها ناقصة مش هنعتبرها مطابقة. تقدر تتصفحها من غير اقتراح مقيّد.",
+  "recipeYourVersion": "نسختك بالكميات اللي راجعتها",
+  "recipeQuantifiedNotice": "دي نسخة من اختيارك مش قيم المصدر. طابق كل مكوّن بصنف وحالة التحضير من القاعدة، واكتب جرامات الوصفة كلها والعائد. أي مكوّن مستبعد لازم يكون مش موجود فعلاً. القيم هتتحسب من الجرامات دي بس، ومش هنسجّل حاجة قبل المراجعة.",
+  "recipeExcludeIngredient": "مش مستخدم في نسختي",
+  "recipeYield": "عدد الحصص الناتجة من الوصفة",
+  "recipeServingsToLog": "الحصص اللي هتسجّلها",
+  "recipeMatchEveryIngredient": "راجع كل مكوّن: طابقه وادخل جراماته، أو أكّد إنه مش مستخدم.",
+  "recipeBuildQuantified": "راجع كمياتي وسجّل",
+  "recipeExcludedCount": "عدد المكونات المستبعدة",
+  "foodCategoryAll": "كل الأصناف",
+  "foodCategoryEgyptian": "أساسيات الأكل المصري",
+  "foodCategoryGrains": "حبوب",
+  "foodCategoryLegumes": "بقوليات",
+  "foodCategoryVegetables": "خضار",
+  "foodCategoryDairy": "ألبان",
+  "foodCategoryPoultry": "فراخ",
+  "foodCategoryProducts": "منتجات بالباركود",
+  "foodManualTitle": "أضف صنف يدوي",
+  "foodManualNote": "اكتب قيم كل ١٠٠ جرام من الملصق أو مصدرك. دي قيم من إدخالك مش موثّقة من سفرة. البيانات الناقصة هتفضل غير معروفة.",
+  "foodManualSource": "اسم العبوة",
+  "foodManualRequired": "مطلوب",
+  "foodManualConfirm": "راجعت إن القيم لكل ١٠٠ جرام ونقلتها صح",
+  "foodManualInvalid": "راجع الاسم والمصدر والسعرات والقيم وأكّد المراجعة",
+  "registrationPolicyUnavailable": "التسجيل الجديد متوقف لحد ما سياسة الخصوصية والشروط المعتمدة تتضاف. تسجيل الدخول للحسابات الموجودة متاح.",
+  "statsMacroPerformance": "متوسط أداء الماكروز",
+  "statsMacroCoverage": "{count} من {total} يوم فيه قيمة مسجّلة. متوسط الهدف: {goal} جم",
+  "@statsMacroCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "ownerTerms": "شروط الاستخدام",
+  "ownerPrivacy": "سياسة الخصوصية",
+  "cameraCandidateSafetyNote": "ده اقتراح من الصورة بس. أكد المكونات ووزن الكمية بنفسك.",
+  "cameraNutritionSafetyNote": "التعرّف من الصورة مش بيقيس الوزن بالجرام ومش بيدي قيم غذائية مؤكدة.",
+  "homeBrowseMeals": "قسّم سفرتك",
+  "homeMealSuggestions": "أطباق سفرتك",
+  "homeRecipeNutritionUnknown": "التغذية محتاجة كميات المكونات",
+  "homeRecipeSourceNote": "TheMealDB · كتالوج تعليمي للتطوير",
+  "homeRecipeUnavailable": "اقتراحات الوصفات مش متاحة في النسخة دي.",
+  "homeOpenRecipes": "تصفّح الوصفات",
+  "homeFeaturedRecipe": "من أطباق سفرة",
+  "homeSourceCategoryNote": "التقسيم حسب فئات المصدر، مش توصية غذائية.",
+  "homeCategoryVegetarian": "نباتي · تصنيف المصدر",
+  "homeCategoryChicken": "فراخ",
+  "homeCategoryBeef": "لحوم بقري",
+  "homeCategorySide": "أطباق جانبية",
+  "unitMinutesShort": "دقيقة",
+  "plannerPortionNote": "دي بداية لترتيب وجباتك، مش نظام كامل. عدّل الكميات حسب احتياجك؛ المجموع قد يختلف عن هدفك.",
+  "reportLoggedCoverage": "المتوسط من الأيام اللي سجلت فيها: {count} من {total}",
+  "@reportLoggedCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "reportWaterToday": "ميّه النهارده",
+  "reportNoMeals": "مفيش تفاصيل وجبات نعرض توزيعها",
+  "reportOtherMeals": "وجبات تانية",
+  "reportRecordedFiber": "الألياف المسجّلة",
+  "weightHistoryNeeded": "التقدم مش متاح بالبيانات الحالية. محتاج هدف مختلف عن وزن البداية وتسجيلين في وقتين مختلفين. الوزن الواحد مش كفاية عشان نعرف الاتجاه.",
+  "weightLoadedProgress": "التقدم من أقدم وزن ظاهر في السجل الحالي، مش من بداية استخدام التطبيق.",
+  "weightBaselineDetail": "بداية السجل الظاهر: {kg} كجم، {date}",
+  "weightCurrentDetail": "الوزن الحالي: {kg} كجم",
+  "weightTargetDetail": "هدفك المحفوظ: {kg} كجم",
+  "@weightBaselineDetail": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@weightCurrentDetail": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    }
+  },
+  "@weightTargetDetail": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    }
+  },
+  "weightProgressBaselineLabel": "من بداية السجل"
+}

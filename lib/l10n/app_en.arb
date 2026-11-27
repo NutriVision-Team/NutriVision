@@ -1,0 +1,1056 @@
+{
+  "@@locale": "en",
+  "appName": "Sufra",
+  "appTagline": "Your health at your table",
+  "splashBlessing": "Bon appétit",
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboardingStart": "Let's start",
+  "onboardingCounter": "{current} / {total}",
+  "@onboardingCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "onboarding1Title": "Log your food by voice",
+  "onboarding1Body": "Say what you ate in your own dialect and we understand in seconds",
+  "onboarding2Title": "Numbers you can trust",
+  "onboarding2Body": "We calculate from the dish's ingredients, not guesses",
+  "onboarding3Title": "All your Egyptian food",
+  "onboarding3Body": "Koshari, foul, molokhia, mahshi... all in Sufra",
+  "loginTitleA": "Don't eat less,",
+  "loginTitleB": "eat right",
+  "loginSubtitle": "Sign in and continue your healthy journey",
+  "emailHint": "Email",
+  "passwordHint": "Password",
+  "forgotPassword": "Forgot password?",
+  "loginButton": "Sign in",
+  "orContinueWith": "Or continue with",
+  "googleProvider": "Google",
+  "phoneProvider": "Phone number",
+  "providerNotConfigured": "This sign-in method is not available right now.",
+  "phoneComingToast": "We will send a verification code to your phone",
+  "noAccount": "Don't have an account?",
+  "createAccountLink": "Create a new account",
+  "resetEmailSent": "We sent a password reset link to your email",
+  "registerTitleA": "Start your sufra,",
+  "registerTitleB": "eat for real",
+  "nameHint": "Name",
+  "passwordRegisterHint": "Password (at least 8 characters)",
+  "passwordStrengthWeak": "Weak",
+  "passwordStrengthMedium": "Medium",
+  "passwordStrengthStrong": "Strong",
+  "interestHealthyFasting": "Healthy fasting",
+  "interestWeightLoss": "Weight loss",
+  "interestFitness": "Fitness",
+  "agreeTermsPrefix": "I agree to the ",
+  "agreeTermsLink": "Terms & Privacy",
+  "createAccountButton": "Create account",
+  "haveAccount": "Have an account?",
+  "signInLink": "Sign in",
+  "welcomeTitle": "Welcome, {name}",
+  "@welcomeTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeSubtitle": "Your account is ready and your sufra is set. Bon appétit",
+  "welcomePoint1": "Log your food by voice in your dialect",
+  "welcomePoint2": "Numbers from the dish's real ingredients",
+  "welcomePoint3": "Koshari, foul, molokhia and more",
+  "welcomeCta": "Let's start",
+  "wizardStepOf": "Step {current} of {total}",
+  "@wizardStepOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "wizardBack": "Back",
+  "wizardNext": "Next",
+  "wizardFinish": "Calculate my plan",
+  "wizardGenderTitle": "Introduce yourself",
+  "wizardGenderBody": "This information helps us calculate your needs accurately",
+  "wizardGenderMale": "Male",
+  "wizardGenderFemale": "Female",
+  "wizardDobTitle": "Your date of birth",
+  "wizardDobBody": "Your age affects your basal metabolic rate",
+  "wizardHeightTitle": "How tall are you?",
+  "wizardHeightBody": "In centimeters",
+  "wizardWeightTitle": "Your current weight",
+  "wizardWeightBody": "In kilograms",
+  "wizardTargetTitle": "Your target weight",
+  "wizardTargetBody": "A realistic goal beats an impossible one",
+  "wizardActivityTitle": "Your daily activity level",
+  "wizardActivityBody": "Pick the closest to your routine",
+  "activitySedentary": "Sedentary",
+  "activitySedentaryBody": "Desk job and little movement",
+  "activityLight": "Light",
+  "activityLightBody": "Walking or light exercise 1-3 days",
+  "activityModerate": "Moderate",
+  "activityModerateBody": "Exercise 3-5 days a week",
+  "activityActive": "Very active",
+  "activityActiveBody": "Hard exercise 6-7 days",
+  "wizardGoalTitle": "What is your goal?",
+  "wizardGoalBody": "Choose, and Sufra will tailor everything to you",
+  "goalLose": "Lose weight",
+  "goalLoseBody": "Fewer calories and filling food",
+  "goalMaintain": "Maintain weight",
+  "goalMaintainBody": "Balance that keeps your weight",
+  "goalGain": "Gain weight",
+  "goalGainBody": "More calories and more protein",
+  "unitCm": "cm",
+  "unitKg": "kg",
+  "planTitleUnnamed": "Your plan is ready!",
+  "welcomeTitleUnnamed": "Welcome",
+  "planTitle": "Your plan is ready, {name}!",
+  "@planTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "planDailyCalories": "Your daily calories",
+  "planProtein": "Protein · g",
+  "planCarbs": "Carbs · g",
+  "planFat": "Fat · g",
+  "planTimeline": "A rough estimate is around {weeks} weeks. Your actual progress may take a different time.",
+  "@planTimeline": {
+    "placeholders": {
+      "weeks": {
+        "type": "int"
+      }
+    }
+  },
+  "planTimelineMaintain": "Your goal is to maintain your current weight",
+  "planDisclaimer": "Indicative numbers for awareness",
+  "planCta": "Start my journey",
+  "homeGreetingMorning": "Good morning,",
+  "homeGreetingEvening": "Good evening,",
+  "homeSearchHint": "Search for a dish or product…",
+  "homeHeroChip": "Sufra · smarter choices",
+  "homeHeroTitleA": "Food you love,",
+  "homeHeroTitleB": "balance that fits you",
+  "homeHeroBody": "Organize your meals and health without deprivation.",
+  "homeHeroCta": "Plan your meals",
+  "homeEatenToday": "What you ate today",
+  "unitKcal": "kcal",
+  "homeGoalRemaining": "Goal {target} · {remaining} left",
+  "@homeGoalRemaining": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "homeNoGoalYet": "Finish your personal setup so we can calculate your goal",
+  "homeStreakDays": "Days in a row",
+  "homeStreakCta": "Keep going, champ",
+  "macroProtein": "Protein",
+  "macroCarbs": "Carbs",
+  "macroFat": "Fat",
+  "homeMealsToday": "Today's meals",
+  "homeNoMeals": "You have not logged any meals today",
+  "homeAddFirstMeal": "Log your first meal",
+  "homeTipsTitle": "Sufra tips",
+  "tipWaterTitle": "Drink a glass of water",
+  "tipWaterBody": "{count} of {goal} cups",
+  "@tipWaterBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "tipProteinTitle": "Review your daily protein",
+  "tipProteinBody": "Review your remaining target and choose a portion that works for you",
+  "tipLogTitle": "Log your food as you go",
+  "tipLogBody": "Consistent logging is the secret to results",
+  "mealBreakfast": "Breakfast",
+  "mealLunch": "Lunch",
+  "mealDinner": "Dinner",
+  "mealSnack": "Snack",
+  "navHome": "Home",
+  "navDiary": "Diary",
+  "navProgress": "Progress",
+  "navAccount": "Account",
+  "comingSoonTitle": "Coming soon to Sufra",
+  "comingSoonBody": "This feature is not available yet.",
+  "stateLoading": "Loading…",
+  "stateError": "Something went wrong while loading. Try again",
+  "stateRetry": "Try again",
+  "validationRequired": "This field is required",
+  "validationEmail": "Enter a valid email",
+  "validationPassword": "Password must be at least 8 characters",
+  "validationName": "Enter your name",
+  "validationTerms": "You must accept the Terms & Privacy",
+  "validationNumber": "Enter a valid number",
+  "validationStep": "Complete this step first",
+  "authInvalidCredentials": "Wrong email or password",
+  "authEmailInUse": "This email is already registered. Try signing in",
+  "authWeakPassword": "Weak password. Use at least 8 characters",
+  "authUserNotFound": "No account exists with this email",
+  "authNetworkError": "No internet connection. Check your network and try again",
+  "authGenericError": "Something went wrong. Try again in a moment",
+  "signOut": "Sign out",
+  "logHubTitle": "How will you log your food?",
+  "logHubSubtitle": "Pick the easiest way - each one is a single tap",
+  "logHubChipPhoto": "Photo",
+  "logHubChipBarcode": "Barcode",
+  "logHubChipVoice": "Voice",
+  "logHubChipSearch": "Search",
+  "logHubVoiceTitle": "By voice or text",
+  "logHubVoiceSubtitle": "Describe food, then check foods and grams",
+  "logHubFastest": "Fastest",
+  "logHubPhotoTitle": "Snap your meal",
+  "logHubPhotoSubtitle": "Capture and review manually",
+  "logHubBarcodeTitle": "Scan a barcode",
+  "logHubBarcodeSubtitle": "Packaged product",
+  "logHubSearchTitle": "Search manually",
+  "logHubSearchSubtitle": "Browse the food catalog",
+  "logHubFavoritesTitle": "From favorites",
+  "logHubFavoritesSubtitle": "One tap",
+  "logHubRecentTitle": "Your recent meals",
+  "logHubRecentMeal": "{name} · {calories} kcal",
+  "@logHubRecentMeal": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "calories": {
+        "type": "int"
+      }
+    }
+  },
+  "logHubRelog": "Log again",
+  "logHubRelogDone": "Meal added to your day",
+  "foodSearchHint": "Search for a food...",
+  "foodCatalogTitle": "Find food",
+  "foodSearchStart": "Type a food name to search",
+  "foodSearchEmpty": "No results. Try another name",
+  "foodPer100g": "100 g · {value} kcal",
+  "@foodPer100g": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "foodNutritionUnknown": "Nutrition not available",
+  "foodGrams": "Portion in grams",
+  "foodInvalidGrams": "Enter a portion above 0 and up to 10,000 g",
+  "foodUnknown": "Unknown",
+  "foodKcal": "kcal",
+  "foodMg": "mg",
+  "foodGramUnit": "g",
+  "foodSource": "Data source: {source}",
+  "@foodSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "foodIncompleteWarning": "Nutrition or source data is missing. Unknown values will not be saved as zero.",
+  "foodCalories": "Calories",
+  "foodProtein": "Protein",
+  "foodCarbs": "Carbohydrates",
+  "foodFat": "Fat",
+  "foodFiber": "Fiber",
+  "foodSugar": "Sugar",
+  "foodSodium": "Sodium",
+  "mealReviewTitle": "Review your meal",
+  "mealReviewTotal": "Total from source data",
+  "mealTypeLabel": "Meal type",
+  "mealSessionExpired": "Your session changed. Go back and sign in again",
+  "mealSave": "Save your meal",
+  "diaryTitle": "Diary",
+  "diaryEmpty": "No meals logged on this day",
+  "diaryPrevious": "Previous day",
+  "diaryNext": "Next day",
+  "artRotateHint": "Drag to rotate",
+  "diaryChooseDate": "Choose date",
+  "diaryEmptySlot": "Not logged yet",
+  "diaryAddMeal": "+ Add a meal",
+  "diaryOtherMeals": "Other meals",
+  "foodRecipes": "Recipes",
+  "foodAlternatives": "Alternatives",
+  "mealEdit": "Edit",
+  "mealDelete": "Delete",
+  "mealDeleteConfirm": "Delete this logged meal? Your daily totals will be updated.",
+  "mealName": "Meal name",
+  "mealNotes": "Notes",
+  "mealEditInvalid": "Check the meal name and ingredient amounts.",
+  "mealNotFound": "This meal is no longer available for this account and date.",
+  "actionSave": "Save changes",
+  "actionCancel": "Cancel",
+  "mealSuhoor": "Suhoor",
+  "mealIftar": "Iftar",
+  "discoveryMsg001": "Save failed. Please retry.",
+  "discoveryMsg002": "Recipe blocked pending release licensing.",
+  "discoveryMsg003": "Recipe not found.",
+  "discoveryMsg004": "Back",
+  "discoveryMsg005": "Time not set",
+  "discoveryMsg006": "Calories unknown",
+  "discoveryMsg007": "Servings unknown",
+  "discoveryMsg008": "Measures and steps are preserved as published, without estimated gram conversions.",
+  "discoveryMsg009": "Accurate nutrition logging needs verified ingredient weights and servings.",
+  "discoveryMsg010": "Source and license",
+  "discoveryMsg011": "Source and license · development only",
+  "discoveryMsg012": "Ingredient weights, servings and nutrients are unverified",
+  "discoveryMsg013": "Log as a meal",
+  "discoveryMsg014": "Suggestion failed",
+  "discoveryMsg015": "We could not load recipes. Try again.",
+  "discoveryMsg016": "Add your ingredients",
+  "discoveryMsg017": "Add at least one ingredient to match against the published recipe ingredients.",
+  "discoveryMsg018": "These recipes are not available in this version yet.",
+  "discoveryMsg019": "Suggest a meal",
+  "discoveryMsg020": "I have",
+  "discoveryMsg021": "+ Add",
+  "discoveryMsg022": "Calories",
+  "discoveryMsg023": "Time",
+  "discoveryMsg024": "Not set",
+  "discoveryMsg025": "Recipe calories and most times are unavailable. Time filters accept only recipes with a sourced total time.",
+  "discoveryMsg026": "Suggest",
+  "discoveryMsg027": "Local ingredient matching",
+  "discoveryMsg028": "About suggestions",
+  "discoveryMsg029": "Source and matching",
+  "discoveryMsg030": "Literal ingredient matching. Meal type is a preference, not a source classification. Review missing ingredients and allergies. TheMealDB is development/education only. Optional AI is unavailable unless a verified service is configured.",
+  "discoveryMsg031": "Suggest for me",
+  "discoveryMsg032": "Show all recipes",
+  "discoveryMsg033": "Search local recipes",
+  "discoveryMsg034": "Clear",
+  "discoveryMsg035": "Saved only",
+  "discoveryMsg036": "TheMealDB · development and education only",
+  "discoveryMsg037": "No matching recipes.",
+  "discoveryMsg038": "Calories unknown",
+  "discoveryMsg039": "Add an ingredient",
+  "discoveryMsg040": "Ingredient name",
+  "discoveryMsg041": "Cancel",
+  "discoveryMsg042": "Add",
+  "discoveryMsg043": "Home",
+  "discoveryMsg044": "Diary",
+  "discoveryMsg045": "Progress",
+  "discoveryMsg046": "Account",
+  "discoveryMsg047": "Could not load the data. Try again.",
+  "discoveryMsg048": "Retry",
+  "discoveryMsg049": "OK",
+  "discoveryMsg050": "Current progress",
+  "discoveryMsg051": "Target",
+  "discoveryMsg052": "Alternatives for what?",
+  "discoveryMsg053": "Search the original food",
+  "discoveryMsg054": "No verified comparison for this food in the current catalog. Try milk, rice or bread.",
+  "discoveryMsg055": "Alternatives from sourced data",
+  "discoveryMsg056": "Per 100 g comparisons from recorded food data, not medical advice.",
+  "discoveryMsg057": "Packaged products",
+  "discoveryMsg058": "No verified packaged products in the local catalog.",
+  "discoveryMsg059": "Product search is not connected yet. No sample prices or nutrition grades are shown.",
+  "discoveryMsg060": "Energy per 100 g",
+  "discoveryMsg061": "USDA · source and comparison details",
+  "discoveryMsg062": "Comparison per 100 g",
+  "discoveryMsg063": "Original",
+  "discoveryMsg064": "Alternative",
+  "discoveryMsg065": "Food state and preparation matter. Portions are not automatically equivalent.",
+  "discoveryMsg066": "Energy (kcal)",
+  "discoveryMsg067": "Fiber (g)",
+  "discoveryMsg068": "Fat (g)",
+  "discoveryMsg069": "Protein (g)",
+  "discoveryMsg070": "Days in a row",
+  "discoveryMsg071": "Logged",
+  "discoveryMsg072": "Not logged",
+  "discoveryMsg073": "Golden lantern",
+  "discoveryMsg074": "days",
+  "discoveryMsg075": "Your badges",
+  "discoveryMsg076": "Each log brings you closer to a new badge. Set a water goal to track your progress.",
+  "discoveryMsg077": "Earned",
+  "discoveryMsg078": "Not yet known",
+  "discoveryMsg079": "More logs are needed to show your progress.",
+  "discoveryMsg080": "The time this badge was first recorded is unknown.",
+  "discoveryMsg081": "First recorded by Sufra, not necessarily when earned",
+  "discoveryMsg082": "Achievement lantern",
+  "discoveryCloudFavoritesNote": "Favorites sync with your account.",
+  "discoveryLocalFavoritesNote": "Favorites are saved on this device for your current account.",
+  "discoverySaved": "Saved",
+  "discoverySave": "Save",
+  "discoveryBreakfast": "Breakfast",
+  "discoveryLunch": "Lunch",
+  "discoveryDinner": "Dinner",
+  "discoveryWeekday1": "M",
+  "discoveryWeekday2": "T",
+  "discoveryWeekday3": "W",
+  "discoveryWeekday4": "T",
+  "discoveryWeekday5": "F",
+  "discoveryWeekday6": "S",
+  "discoveryWeekday7": "S",
+  "mealIngredientAdd": "Add ingredient",
+  "mealIngredientEdit": "Change ingredient",
+  "mealIngredientRemove": "Remove ingredient",
+  "mealDraftIncomplete": "Choose an ingredient with measured calories and a source, then check quantities and meal name.",
+  "mealReviewCatalogHint": "Review ingredients and quantities before saving.",
+  "progressNavHome": "Home",
+  "progressNavDiary": "Diary",
+  "progressNavProgress": "Progress",
+  "progressNavAccount": "Account",
+  "statsTitle": "My progress",
+  "statsTabWeek": "Week",
+  "statsTabMonth": "Month",
+  "statsStreakDays": "{count} days in a row",
+  "statsStreakCheer": "Keep it up!",
+  "statsCaloriesTitle": "Calories",
+  "statsCaloriesAverage": "Average {avg} / {target}",
+  "statsWeightTitle": "Weight",
+  "statsWeightDown": "▼ {kg} kg",
+  "statsWeightUp": "▲ {kg} kg",
+  "statsBadgesTitle": "Badges",
+  "statsNoTrackedDays": "No tracked days in this period yet",
+  "statsNoWeightData": "Log your weight to see progress",
+  "reportTitle": "Report",
+  "reportSubtitle": "Your week at a glance",
+  "reportAverageCalories": "Average calories",
+  "reportRingCalories": "Calories: {pct}% of target",
+  "reportRingProtein": "Protein: {pct}% of target",
+  "reportRingFiber": "Fiber {pct}%",
+  "reportDailyCommitment": "Days with food logged",
+  "reportWaterTitle": "Water",
+  "reportWaterCupsOf": "{have} of {goal} cups",
+  "reportMealDistribution": "Meals logged",
+  "reportSugarAlertTitle": "Watch: {day} sugar",
+  "reportSugarAlertBody": "Up {pct}% vs usual, likely dessert after lunch",
+  "waterScreenTitle": "Today's water",
+  "waterCupsOf": "{have} of {goal} cups",
+  "waterMlOf": "{have} of {goal} ml",
+  "waterAdd250": "+ 250 ml",
+  "waterAdd500": "+ 500 ml",
+  "waterAddCustom": "Custom",
+  "waterAddConfirm": "Add",
+  "waterMlValue": "{value} ml",
+  "weightScreenTitle": "Your weight",
+  "weightSubtitle": "Your journey counts, every small step",
+  "weightCurrent": "Current weight",
+  "weightKg": "kg",
+  "weightOfYourGoal": "of your goal",
+  "weightLighterBy": "▼ {kg} kg lighter",
+  "weightHeavierBy": "▲ {kg} kg heavier",
+  "weightYouAreHere": "You are here",
+  "weightGoalLabel": "Goal {kg}",
+  "weightGreatWork": "Great work, champ!",
+  "weightToNextMilestone": "{kg} kg from your target. Daily weight can vary, so follow the trend over time.",
+  "weightLogCta": "+ Log today's weight",
+  "weightLogTitle": "Log your weight",
+  "weightLogHint": "Weight in kg",
+  "weightLogSave": "Save",
+  "weightLogInvalid": "Enter a valid weight above zero",
+  "exportTitle": "Sufra · Nutrition report",
+  "exportSubtitle": "Your selected date range",
+  "exportPdfBadge": "PDF",
+  "exportAdherenceLabel": "Adherence",
+  "exportMacrosTitle": "Macros: recorded vs saved targets",
+  "exportMacrosHint": "(black tick = target)",
+  "exportProteinLabel": "Protein",
+  "exportCarbsLabel": "Carbs",
+  "exportFatLabel": "Fat",
+  "exportAdherenceMapTitle": "Adherence map (2 weeks)",
+  "exportReviewPointsTitle": "Points to review",
+  "exportReviewSodium": "Recorded sodium was above your period average for 3 days in a row",
+  "exportReviewFiber": "Fiber below recommendation ({pct}%)",
+  "exportReviewWaterOk": "Latest day's water reached your saved goal",
+  "exportPdfButton": "Export PDF",
+  "exportSendToDoctor": "Send to doctor",
+  "exportGoalLoss": "Goal: lose {kg} kg",
+  "exportBmiLabel": "BMI {bmi}",
+  "exportYearsOld": "{age} years",
+  "exportCmLabel": "{height} cm",
+  "waterGoalDefaultNote": "Indicative default goal, not personalized",
+  "@waterGoalDefaultNote": {
+    "description": "Note that the 2000 ml water goal is a non-personalized design default"
+  },
+  "statsBadgesUnknown": "Badge status not loaded yet",
+  "@statsBadgesUnknown": {
+    "description": "Caption under neutral badges when earned state is unknown"
+  },
+  "weekdayLetter1": "Sa",
+  "weekdayLetter2": "Su",
+  "weekdayLetter3": "Mo",
+  "weekdayLetter4": "Tu",
+  "weekdayLetter5": "We",
+  "weekdayLetter6": "Th",
+  "weekdayLetter7": "Fr",
+  "weekdayName1": "Saturday",
+  "weekdayName2": "Sunday",
+  "weekdayName3": "Monday",
+  "weekdayName4": "Tuesday",
+  "weekdayName5": "Wednesday",
+  "weekdayName6": "Thursday",
+  "weekdayName7": "Friday",
+  "cameraTitle": "Photograph your meal",
+  "cameraClose": "Close",
+  "cameraFlash": "Flash",
+  "cameraFlashUnavailable": "Flash is not available on this camera",
+  "cameraDenied": "Camera permission is needed. Retry or enter your meal manually.",
+  "cameraRestricted": "Allow camera access in device settings, or enter your meal manually.",
+  "cameraMissing": "No camera is available on this device",
+  "cameraFailed": "The camera is not ready. Retry or enter manually.",
+  "cameraPaused": "Camera paused",
+  "cameraStarting": "Starting the camera",
+  "cameraRetry": "Retry",
+  "cameraTooLarge": "This image is a bit large. Try a smaller one.",
+  "cameraBadImage": "We couldn't open this image. Try another one.",
+  "cameraAiUnavailable": "We can't read photos right now. You can search for your food and add it yourself.",
+  "cameraEmpty": "We couldn't spot food in this photo. Try another one, or search for your food.",
+  "cameraInvalidResponse": "We couldn't read this photo. Try another one, or search for your food.",
+  "cameraNetwork": "We couldn't read this photo right now. Try again in a moment, or search for your food.",
+  "cameraFrameHint": "Keep the whole plate inside the frame",
+  "cameraLightHint": "Good light · Keep steady · Whole plate",
+  "cameraCapture": "Capture photo",
+  "cameraRetake": "Retake photo",
+  "cameraMealType": "Meal type",
+  "cameraNotes": "Notes to help recognition (optional)",
+  "cameraNotesHint": "Describe preparation or other important details",
+  "cameraNoOil": "No oil",
+  "cameraLarge": "Large portion",
+  "cameraSmall": "Small portion",
+  "cameraSugar": "Extra sugar",
+  "cameraGhee": "Fried in ghee",
+  "cameraPrivacy": "The image is sent only after permission for each request. Meal type and notes are not sent for analysis. Review foods and quantities before saving.",
+  "cameraNoUpload": "Image recognition is not enabled. The photo stays temporarily on your device and is not uploaded.",
+  "cameraAnalyzing": "Recognizing your meal",
+  "cameraAnalyze": "Analyze photo",
+  "cameraReviewWarning": "These are suggestions, not measurements. Confirm catalog foods and portions before saving.",
+  "cameraManual": "Choose food from the catalog",
+  "cameraSkip": "Exclude suggestion",
+  "cameraSkipped": "Excluded",
+  "exportKgUnit": "kg",
+  "@exportKgUnit": {
+    "description": "Kilogram unit abbreviation"
+  },
+  "progressUnknownNote": "A dash (—) means the data or target at the time of logging is unavailable, not zero.",
+  "reportUnknownCalories": "Calories: unavailable",
+  "reportUnknownProtein": "Protein: unavailable",
+  "reportUnknownFiber": "Fiber: unavailable",
+  "voiceListening": "Listening… describe your meal",
+  "voiceStarting": "Starting the microphone",
+  "voiceReady": "Tap the microphone or type your meal description",
+  "voiceDenied": "Microphone access is unavailable. Check device settings or type your description.",
+  "voiceUnavailable": "Speech recognition is not available on this device. You can type instead.",
+  "voiceLanguageUnavailable": "This device does not offer speech recognition in the app language. Type instead.",
+  "voiceNoSpeech": "No clear speech was heard. Retry or type instead.",
+  "voiceFailed": "Speech recognition did not complete. Retry or type instead.",
+  "voiceStop": "Stop listening",
+  "voiceStart": "Start dictation",
+  "voicePrivacy": "The microphone starts only when you tap. Your device speech service may send audio to its provider. Sufra does not save an audio recording.",
+  "voiceTextHint": "Example: beans, bread and cucumber",
+  "voiceDescription": "Meal description, editable",
+  "voiceFindFoods": "Find catalog foods",
+  "voicePortionWarning": "Search suggests catalog foods, not weights from speech. Select the foods and check grams before saving.",
+  "voiceNoFoods": "No matching foods were found. Search by food name or choose from the catalog.",
+  "waterWeekRecordedTitle": "Recorded water over the last 7 days",
+  "barcodeTitle": "Scan a barcode",
+  "barcodeClose": "Close",
+  "barcodeFlash": "Flash",
+  "barcodeFlashUnavailable": "Flash is not available on this device",
+  "barcodeStartCamera": "Start camera",
+  "barcodeAim": "Point the camera at the barcode",
+  "barcodeSearching": "Looking for a barcode…",
+  "barcodeManualLabel": "Or type the number under the barcode",
+  "barcodeManualField": "Barcode number",
+  "barcodeLookup": "Look up",
+  "barcodePhotoFallback": "Photograph the nutrition label",
+  "barcodeSearchFallback": "Search foods",
+  "barcodeCameraDenied": "Camera access is off for this app. Type the number below, or enable camera permission in device settings.",
+  "barcodeCameraUnsupported": "No usable camera on this device. Type the number below.",
+  "barcodeCameraError": "The camera is not working right now. Type the number below or try again.",
+  "barcodeRetryCamera": "Try the camera again",
+  "barcodeLooking": "Looking up {code}",
+  "@barcodeLooking": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeInvalid": "Invalid number. It must be 8, 12, 13 or 14 digits with a correct check digit.",
+  "barcodeNotFound": "Product {code} was not found. Check the number or search by name.",
+  "@barcodeNotFound": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeNotFoundHelp": "You can search by name or photograph the label. We never make up numbers.",
+  "barcodeRetry": "Try again",
+  "barcodeOffline": "No internet, or the connection is too slow. Check it and try again, or log the food manually.",
+  "barcodeRateLimited": "Too many lookups in a short time. Try again in {seconds} seconds.",
+  "@barcodeRateLimited": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "barcodeUnavailable": "Open Food Facts is not available right now. Try again later.",
+  "barcodeBadResponse": "The source sent a response we could not read. Try again later.",
+  "barcodeNotConfigured": "Barcode lookup is not enabled in this build yet.",
+  "productTitle": "Product details",
+  "productBack": "Back",
+  "productNoImage": "The source has no product image",
+  "productNutritionPer100g": "Nutrition per 100 g",
+  "productNutritionPer100ml": "Nutrition per 100 ml",
+  "productNotProvided": "Not provided",
+  "productCalories": "Calories",
+  "productProtein": "Protein",
+  "productCarbs": "Carbohydrates",
+  "productFat": "Fat",
+  "productFiber": "Fiber",
+  "productSugars": "Sugars",
+  "productSodium": "Sodium",
+  "productKcalUnit": "kcal",
+  "productGramUnit": "g",
+  "productMgUnit": "mg",
+  "productServing": "Listed serving: {serving}",
+  "@productServing": {
+    "placeholders": {
+      "serving": {
+        "type": "String"
+      }
+    }
+  },
+  "productQuantity": "Package size: {quantity}",
+  "@productQuantity": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      }
+    }
+  },
+  "productIngredients": "Ingredients (as listed by the source)",
+  "productAllergens": "Allergens listed by the source",
+  "productAllergensNone": "The source lists no allergens. That does not mean the product is free of them.",
+  "productAllergensUnknown": "The source has no allergen data. Read the package.",
+  "productAllergensCaveat": "Data is contributed by users and may be incomplete. If you have an allergy, always read the package.",
+  "productNutriScore": "Nutri-Score",
+  "productNutriScoreFromSource": "As given by the source",
+  "productAttribution": "Source: Open Food Facts. Data is contributed by users, licensed under ODbL, and may be incomplete or out of date.",
+  "productFromCache": "Copy saved on this device",
+  "productPortionLabel": "Amount in grams",
+  "productUseServing": "Serving {grams} g",
+  "@productUseServing": {
+    "placeholders": {
+      "grams": {
+        "type": "String"
+      }
+    }
+  },
+  "productAddToDiary": "Add to diary",
+  "productGramsInvalid": "Enter an amount in grams above 0 and up to 10000.",
+  "productCannotLogMl": "These values are per 100 ml. We do not convert to grams because the product density is unknown, so logging by grams is unavailable.",
+  "productCannotLogNoEnergy": "The source gives no calories, so this product cannot be logged.",
+  "productNutritionBasisUnknown": "Source values, basis unit unconfirmed",
+  "productCannotLogUnknownBasis": "The source basis is missing or conflicting. We will not convert these values to grams. Check the label or choose a catalog food.",
+  "favoritesTitle": "Favorites",
+  "favoritesTabMeals": "Favorite meals",
+  "favoritesTabRecipes": "Saved recipes",
+  "favoritesTabFrequent": "Most logged",
+  "favoritesHeroChip": "Most logged",
+  "favoritesHeroCount": "{count, plural, =1{Logged once in the last 30 days} other{Logged {count} times in the last 30 days}}",
+  "@favoritesHeroCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesSortLabel": "Sort",
+  "favoritesSortRecent": "Newest",
+  "favoritesSortName": "Name",
+  "favoritesSortCalories": "Calories",
+  "favoritesRemove": "Remove from favorites",
+  "favoritesRemoved": "Removed from favorites",
+  "favoritesRemoveFailed": "Could not remove it. Try again.",
+  "favoritesAddToDiary": "Add to diary",
+  "favoritesAdded": "Added to your diary",
+  "favoritesAddFailed": "Could not add it. Try again.",
+  "favoritesSaved": "Saved to favorites",
+  "favoritesSaveFailed": "Could not save it to favorites. Try again.",
+  "favoritesPickMealType": "Add it as",
+  "favoritesUnavailable": "The original meal was deleted",
+  "favoritesUnavailableHint": "You can only remove it from favorites.",
+  "favoritesMealMeta": "{kcal} kcal",
+  "@favoritesMealMeta": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritesMealMetaProtein": "{kcal} kcal · {protein} g protein",
+  "@favoritesMealMetaProtein": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      },
+      "protein": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritesFrequentCount": "Logged {count} times",
+  "@favoritesFrequentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoritesFrequentNote": "From your logged meals in the last 30 days.",
+  "favoritesEmptyMealsTitle": "No favorite meals yet",
+  "favoritesEmptyMealsBody": "Open a logged meal and tap the heart to find it here.",
+  "favoritesEmptyRecipesTitle": "No saved recipes yet",
+  "favoritesEmptyRecipesBody": "Save a recipe from the recipe suggestions and it will show up here.",
+  "favoritesEmptyFrequentTitle": "No frequent foods yet",
+  "favoritesEmptyFrequentBody": "Once you log foods a few times, the most repeated ones appear here.",
+  "favoritesLoadFailed": "Could not load favorites.",
+  "favoritesRetry": "Try again",
+  "favoritesExpired": "Your session ended. Sign in again.",
+  "premiumTitle": "Sufra Premium",
+  "premiumSubtitle": "Extra features coming soon",
+  "premiumComingSoonChip": "Coming soon",
+  "premiumFeatureCoachTitle": "Smart coach",
+  "premiumFeatureCoachBody": "Tips based on what you eat",
+  "premiumFeatureReportsTitle": "Weekly reports",
+  "premiumFeatureReportsBody": "A summary of your progress each week",
+  "premiumFeaturePlanTitle": "Meal planning",
+  "premiumFeaturePlanBody": "A weekly plan that fits you",
+  "premiumNotAvailable": "Subscriptions are not available right now",
+  "premiumBack": "Back",
+  "plannerTitle": "Weekly plan",
+  "plannerEmpty": "No plan for this week yet. Tap Generate new plan to start.",
+  "plannerDayEmpty": "No meals on this day. Add one with the buttons below.",
+  "plannerTotal": "Total",
+  "plannerMissingTarget": "Finish your personal setup so we know your daily target and can generate an honest plan.",
+  "plannerGenerate": "Generate new plan",
+  "plannerShoppingCta": "Shopping list",
+  "plannerReplace": "Replace",
+  "plannerAddMeal": "Add",
+  "weekdaySat": "Sa",
+  "weekdaySun": "Su",
+  "weekdayMon": "Mo",
+  "weekdayTue": "Tu",
+  "weekdayWed": "We",
+  "weekdayThu": "Th",
+  "weekdayFri": "Fr",
+  "shoppingTitle": "Shopping list",
+  "shoppingEmpty": "The list is empty. Generate it from the weekly plan or add an item yourself.",
+  "shoppingGenerateFromPlan": "Generate from weekly plan",
+  "shoppingRegenerate": "Update from weekly plan",
+  "shoppingNoPlan": "Generate and save a weekly plan first to build the list from it.",
+  "shoppingSkipped": "Review amounts for {count} plan items before adding them.",
+  "@shoppingSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shoppingItemCount": "{count, plural, one{1 item} other{{count} items}}",
+  "@shoppingItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shoppingGroupProduce": "Produce",
+  "shoppingGroupProtein": "Protein",
+  "shoppingGroupDairy": "Dairy",
+  "shoppingGroupGrains": "Grains & starches",
+  "shoppingGroupOther": "Other",
+  "shoppingAddTitle": "Add an item yourself",
+  "shoppingAddName": "Item name",
+  "shoppingAddInvalid": "Enter an item name and a quantity above zero",
+  "coachTitle": "Sufra Coach",
+  "coachStatusReviewing": "Reviewing saved meal records",
+  "coachStatusIdle": "Waiting for your first log",
+  "coachRuleBadge": "From your records",
+  "coachRuleBadgeShort": "Your records",
+  "coachToday": "Today",
+  "coachReviewNote": "The coach reviewed your last 7 days of meals",
+  "coachNoRecordsNote": "Not enough records yet — log your first meal",
+  "coachSendFailed": "The message was not saved. Try again.",
+  "coachInputHint": "Ask Sufra Coach...",
+  "coachAdviceLabel": "Tip",
+  "coachQuickPlan": "Make me a plan for tomorrow",
+  "coachQuickWeek": "Analyze my week",
+  "coachQuickWater": "How much water should I drink?",
+  "ramadanGreeting": "Ramadan Kareem",
+  "ramadanUntilIftar": "Until Iftar",
+  "ramadanUntilTaraweeh": "Until after Taraweeh",
+  "ramadanUntilSuhoor": "Until Suhoor ends",
+  "ramadanSeconds": "seconds",
+  "ramadanMinutes": "minutes",
+  "ramadanHours": "hours",
+  "ramadanSuhoorEnd": "Suhoor ends",
+  "ramadanIftarAt": "Iftar",
+  "ramadanTaraweeh": "After Taraweeh",
+  "ramadanCups": "cups",
+  "ramadanCupsUserNote": "You set this cups goal yourself",
+  "ramadanCupsDefaultNote": "8 cups is a design default display, not a personal health goal — you can change it",
+  "ramadanEditTimes": "Set your times",
+  "ramadanDisclaimer": "Educational only; consult your doctor if you have diabetes or are pregnant",
+  "ramadanSetupBody": "The app never invents prayer times. Set your Iftar and Suhoor times for your city and schedule, and we will run the countdown and organization on them.",
+  "ramadanSetupCta": "Set Ramadan times",
+  "ramadanChooseTime": "Choose time",
+  "ramadanTimesTitle": "Your Ramadan times",
+  "ramadanTimesNote": "Choose each time for your city and schedule. No prayer times are calculated here. You can change them anytime.",
+  "plannerAllergyWarning": "If you have an allergy, check every meal’s ingredients and packaging before eating. The plan does not guarantee an allergen-free meal.",
+  "@plannerAllergyWarning": {
+    "description": "Warning that allergy filtering is name-level only, shown wherever a plan is generated."
+  },
+  "coachVoicePrivacy": "Platform speech recognition may send audio to its provider. Sufra does not store audio. Text appears here for you to review and edit before sending.",
+  "coachVoiceCancel": "Cancel",
+  "coachVoiceStart": "Dictate message",
+  "coachVoiceListening": "Listening. Review the text before sending.",
+  "coachVoiceUnavailable": "Dictation is unavailable or no speech was heard. Check microphone permission and language, or type your message.",
+  "statsBadgesEarned": "{earned} of {total} badges earned",
+  "@statsBadgesEarned": {
+    "placeholders": {
+      "earned": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerWeekTotal": "Week total: {calories} kcal",
+  "@plannerWeekTotal": {
+    "placeholders": {
+      "calories": {
+        "type": "String"
+      }
+    }
+  },
+  "avatarLocalNote": "Choose a profile picture saved only on this device for this account. It will not be uploaded.",
+  "avatarChoose": "Choose profile picture",
+  "avatarFailed": "Could not save that image. Try a different photo.",
+  "appLanguage": "Language",
+  "cameraGallery": "Choose image from gallery",
+  "exportSelectRange": "Select report dates",
+  "exportRangeLimit": "Choose up to one year per report.",
+  "exportLoggedWater": "Logged water by day (ml)",
+  "exportWeightHistory": "Recorded weight history (kg)",
+  "exportNoWeightHistory": "No weight records in this range",
+  "exportNoWaterRecord": "No water amount recorded",
+  "exportTrackingDays": "Tracking map (days in range: {days})",
+  "@exportTrackingDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "themeAccentPicker": "Current theme colors",
+  "remindersTitle": "Reminders",
+  "remindersWaterTitle": "Water reminders",
+  "remindersWaterAdd": "Add a time",
+  "remindersWaterRemove": "Remove time",
+  "remindersWaterFull": "You reached the maximum number of water times.",
+  "remindersMealsTitle": "Meal reminders",
+  "remindersWeightTitle": "Weight reminder",
+  "remindersWeightEvery": "Every week on {day}",
+  "@remindersWeightEvery": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "remindersPickDay": "Choose the day",
+  "remindersNotSet": "No time set yet",
+  "remindersPermissionOff": "Sufra notifications are off in your device settings. Turn them on there so reminders reach you.",
+  "remindersPermissionDenied": "Without notification permission we cannot send you a reminder.",
+  "remindersScheduleFailed": "Could not set the reminder on this device. Try again.",
+  "remindersTimezoneUnavailable": "Could not read the device timezone, so reminders were not set.",
+  "remindersSaveFailed": "Could not save the change. Try again.",
+  "remindersInexactNote": "Reminder times are approximate. A reminder can arrive a few minutes late, especially when the phone is saving power.",
+  "remindersPrivacyNote": "Reminders are stored on this device only and run for your current account.",
+  "remindersNotifTitle": "Sufra",
+  "remindersNotifWater": "If it works for you, take a water break. Open Sufra to log what you drank.",
+  "remindersNotifMeal": "Ready to log {meal}? Open Sufra to review your food and portion.",
+  "@remindersNotifMeal": {
+    "placeholders": {
+      "meal": {
+        "type": "String"
+      }
+    }
+  },
+  "remindersNotifWeight": "If now is a good time, log your weight. Focus on the trend, not one reading.",
+  "remindersChannelWater": "Water reminders",
+  "remindersChannelMeals": "Meal reminders",
+  "remindersChannelWeight": "Weight reminders",
+  "reminderCleanupFailed": "Could not confirm reminder cleanup. Reminders may still appear until the app opens and retries.",
+  "reportMeasuredAverages": "Averages of recorded values",
+  "reportMetricCoverage": "Value recorded on {measured} of {total} days",
+  "reportRangeLabel": "Period: {start} to {end}",
+  "@reportMetricCoverage": {
+    "placeholders": {
+      "measured": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "@reportRangeLabel": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "waterGoalChoose": "Change water goal",
+  "waterGoalChosenNote": "Your chosen goal, saved on this device for this account",
+  "waterGoalLocalHint": "Choose your goal in ml. Not medical advice. Does not sync across devices.",
+  "waterGoalInvalid": "Enter an amount above zero and up to 20,000 ml",
+  "alternativesPreferenceNote": "Profile allergies and dietary preferences use name/category exclusions only, not allergy-safety checks. Check ingredients and labels. Unsupported dietary constraints do not receive a claimed matching alternative.",
+  "cameraConsentTitle": "Send image to {provider}?",
+  "cameraConsentDetail": "This permission covers this image only as described above. Meal type and notes are not sent for analysis; they stay with the meal you review and save. You can cancel and choose foods manually.",
+  "cameraConsentTitleShort": "Send this photo for analysis?",
+  "cameraConsentShort": "Your photo is used only for this analysis and isn't kept. You review everything before saving.",
+  "cameraConsentDetailsToggle": "Details",
+  "cameraConsentSend": "Agree and send once",
+  "@cameraConsentTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "recipeCalorieLimit": "Maximum calories per serving",
+  "recipeTimeLimit": "Maximum cooking time",
+  "recipeNoLimit": "No limit",
+  "recipeStrictConstraints": "Suggestions require a verified meal type and, when limited, verified calories and cooking time. Missing values never count as a match. You can still browse recipes without constrained suggestions.",
+  "recipeYourVersion": "Your reviewed quantified version",
+  "recipeQuantifiedNotice": "This is your version, not source nutrition. Match every ingredient and preparation state to the catalog. Enter grams for the whole recipe and the yield. Exclude only ingredients you did not use. Values use only your reviewed grams. Nothing is saved before meal review.",
+  "recipeExcludeIngredient": "Not used in my version",
+  "recipeYield": "Recipe yield in servings",
+  "recipeServingsToLog": "Servings to log",
+  "recipeMatchEveryIngredient": "Review every ingredient: match it and enter grams, or confirm it was not used.",
+  "recipeBuildQuantified": "Review my amounts and log",
+  "recipeExcludedCount": "Excluded ingredient count",
+  "foodCategoryAll": "All foods",
+  "foodCategoryEgyptian": "Egyptian cooking staples",
+  "foodCategoryGrains": "Grains",
+  "foodCategoryLegumes": "Legumes",
+  "foodCategoryVegetables": "Vegetables",
+  "foodCategoryDairy": "Dairy",
+  "foodCategoryPoultry": "Poultry",
+  "foodCategoryProducts": "Barcode products",
+  "foodManualTitle": "Add food manually",
+  "foodManualNote": "Enter per 100 g values from your label or source. These are user-entered, not verified by Sufra. Missing values remain unknown.",
+  "foodManualSource": "Pack name",
+  "foodManualRequired": "Required",
+  "foodManualConfirm": "I checked that these values are per 100 g and copied correctly",
+  "foodManualInvalid": "Check name, source, calories and values, then confirm review",
+  "registrationPolicyUnavailable": "New registration is paused until approved terms and privacy policy are provided. Existing account sign-in is available.",
+  "statsMacroPerformance": "Average macro performance",
+  "statsMacroCoverage": "{count} of {total} days have a recorded value. Average target: {goal} g",
+  "@statsMacroCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "ownerTerms": "Terms",
+  "ownerPrivacy": "Privacy policy",
+  "cameraCandidateSafetyNote": "Visual candidate only. Confirm ingredients and weighed portion.",
+  "cameraNutritionSafetyNote": "Image recognition cannot measure grams or provide verified nutrition.",
+  "homeBrowseMeals": "Explore your table",
+  "homeMealSuggestions": "Meal ideas",
+  "homeRecipeNutritionUnknown": "Nutrition needs ingredient quantities",
+  "homeRecipeSourceNote": "TheMealDB · educational development catalog",
+  "homeRecipeUnavailable": "Recipe suggestions are unavailable in this build.",
+  "homeOpenRecipes": "Browse recipes",
+  "homeFeaturedRecipe": "A Sufra dish",
+  "homeSourceCategoryNote": "Categories follow the source, not dietary advice.",
+  "homeCategoryVegetarian": "Vegetarian · source category",
+  "homeCategoryChicken": "Chicken",
+  "homeCategoryBeef": "Beef",
+  "homeCategorySide": "Side dishes",
+  "unitMinutesShort": "min",
+  "plannerPortionNote": "A starting point for your meals, not a complete diet. Adjust portions to your needs; the total may differ from your target.",
+  "reportLoggedCoverage": "Average based on {count} of {total} days with food logged",
+  "@reportLoggedCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "reportWaterToday": "Today's water",
+  "reportNoMeals": "No meal details to show a breakdown",
+  "reportOtherMeals": "Other meals",
+  "reportRecordedFiber": "Recorded fiber",
+  "weightHistoryNeeded": "Progress is unavailable with the current data. It needs a target different from the starting weight and two entries at different times. A single weight cannot show a trend.",
+  "weightLoadedProgress": "Progress from the oldest entry in the loaded history, not from when you first used the app.",
+  "weightBaselineDetail": "Loaded history starts at {kg} kg on {date}",
+  "weightCurrentDetail": "Current weight: {kg} kg",
+  "weightTargetDetail": "Saved target: {kg} kg",
+  "@weightBaselineDetail": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@weightCurrentDetail": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    }
+  },
+  "@weightTargetDetail": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    }
+  },
+  "weightProgressBaselineLabel": "from loaded start"
+}

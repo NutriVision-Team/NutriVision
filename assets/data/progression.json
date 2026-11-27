@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "version": "sufra-habits-1",
+  "dailyXp": {
+    "profile": 20,
+    "meal": 10,
+    "plan": 20,
+    "recipe": 10,
+    "lesson": 10
+  },
+  "levels": [
+    {
+      "id": "beginner",
+      "xp": 0,
+      "ar": "المبتدئ",
+      "en": "Beginner"
+    },
+    {
+      "id": "explorer",
+      "xp": 100,
+      "ar": "المستكشف",
+      "en": "Explorer"
+    },
+    {
+      "id": "organizer",
+      "xp": 300,
+      "ar": "المنظّم",
+      "en": "Organizer"
+    },
+    {
+      "id": "balanced",
+      "xp": 700,
+      "ar": "المتوازن",
+      "en": "Balanced"
+    },
+    {
+      "id": "ambassador",
+      "xp": 1500,
+      "ar": "سفير سفرة",
+      "en": "Sufra ambassador"
+    }
+  ],
+  "badges": [
+    {
+      "id": "journey",
+      "kind": "profile",
+      "target": 1,
+      "ar": "بداية الرحلة",
+      "en": "Journey begins"
+    },
+    {
+      "id": "first_meal",
+      "kind": "meal",
+      "target": 1,
+      "ar": "أول وجبة",
+      "en": "First meal"
+    },
+    {
+      "id": "aware",
+      "kind": "meal",
+      "target": 10,
+      "ar": "اختيارات واعية",
+      "en": "Mindful choices"
+    },
+    {
+      "id": "planner",
+      "kind": "plan",
+      "target": 1,
+      "ar": "المخطط الذكي",
+      "en": "Smart planner"
+    },
+    {
+      "id": "planner3",
+      "kind": "plan",
+      "target": 3,
+      "ar": "عادة التخطيط",
+      "en": "Planning habit"
+    },
+    {
+      "id": "active7",
+      "kind": "activeDay",
+      "target": 7,
+      "ar": "روح الاستمرارية",
+      "en": "Keep showing up"
+    },
+    {
+      "id": "active30",
+      "kind": "activeDay",
+      "target": 30,
+      "ar": "رحلة شهر",
+      "en": "A month of progress"
+    },
+    {
+      "id": "learner",
+      "kind": "lesson",
+      "target": 5,
+      "ar": "محب المعرفة",
+      "en": "Knowledge seeker"
+    },
+    {
+      "id": "cook",
+      "kind": "recipe",
+      "target": 3,
+      "ar": "مستكشف الوصفات",
+      "en": "Recipe explorer"
+    },
+    {
+      "id": "returning",
+      "kind": "activeDay",
+      "target": 3,
+      "ar": "خطوة بخطوة",
+      "en": "Step by step"
+    }
+  ]
+}

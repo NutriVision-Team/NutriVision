@@ -1,0 +1,19 @@
+{
+  "name": "food-vision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test worker.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "jose": "^6.2.18"
+  },
+  "devDependencies": {
+    "wrangler": "^4.166.0"
+  }
+}

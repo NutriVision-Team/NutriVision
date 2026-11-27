@@ -1,0 +1,6 @@
+{
+  "name": "sufra-reset",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-01-01",
+  "kv_namespaces": [{ "binding": "RESET", "id": "<your-kv-namespace-id>" }]
+}

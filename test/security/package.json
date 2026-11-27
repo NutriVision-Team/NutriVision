@@ -1,0 +1,20 @@
+{
+  "name": "sufra-local-rules-tests",
+  "version": "1.0.0",
+  "description": "Local emulator only. Never deploys rules.",
+  "scripts": {
+    "test": "node rules.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "5.0.2",
+    "firebase": "12.19.0",
+    "firebase-tools": "15.37.0"
+  },
+  "private": true,
+  "overrides": {
+    "@grpc/grpc-js": "1.14.7"
+  }
+}

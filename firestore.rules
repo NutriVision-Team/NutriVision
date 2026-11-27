@@ -1,0 +1,105 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    function isMutableUserOwned(path) {
+      return isSignedIn() && path.matches('users/' + request.auth.uid + '/*');
+    }
+
+    match /users/{uid} {
+      allow read, update, delete: if isOwner(uid);
+      allow create: if isOwner(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.keys().hasAll(['uid', 'displayName', 'email', 'preferredLanguage', 'timezone', 'measurementSystem', 'notificationPreferences', 'onboardingCompleted', 'accountStatus', 'createdAt', 'updatedAt']);
+    }
+
+    match /users/{uid}/nutrition_profiles/{profileId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/meal_entries/{mealId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/daily_logs/{dateKey} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/weight_logs/{weightId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/water_logs/{waterId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/meal_plans/{planId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/shopping_lists/{listId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/shopping_lists/{listId}/items/{itemId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/favorites/{favoriteId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/notifications/{notificationId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/devices/{deviceId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/achievements/{achievementId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/conversations/{conversationId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /users/{uid}/conversations/{conversationId}/messages/{messageId} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /food_catalog/{foodId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /products/{barcode} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /recipes/{recipeId} {
+      allow read: if resource.data.isPublished == true || true;
+      allow write: if false;
+    }
+
+    match /food_categories/{categoryId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /app_config/{document=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}
+

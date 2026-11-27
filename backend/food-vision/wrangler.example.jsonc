@@ -1,0 +1,15 @@
+{
+  // Copy to wrangler.jsonc and fill in your own values.
+  "name": "sufra-food-vision",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-23",
+  "ai": { "binding": "AI" },
+  "vars": {
+    "ENABLED": "true",
+    "FIREBASE_PROJECT_ID": "<your-firebase-project-id>",
+    "ALLOWED_UIDS": "*"
+  },
+  "ratelimits": [
+    { "name": "USER_LIMITER", "namespace_id": "<your-namespace-id>", "simple": { "limit": 2, "period": 60 } }
+  ]
+}

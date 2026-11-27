@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "sofrah_project" "\0"
+            VALUE "FileDescription", "sufradepi" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "sofrah_project" "\0"
+            VALUE "InternalName", "sufradepi" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "sofrah_project.exe" "\0"
-            VALUE "ProductName", "sofrah_project" "\0"
+            VALUE "OriginalFilename", "sufradepi.exe" "\0"
+            VALUE "ProductName", "sufradepi" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

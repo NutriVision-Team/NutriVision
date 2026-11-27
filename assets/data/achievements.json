@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "achievements": [
+    {
+      "id": "first_meal_log",
+      "title": { "ar": "أول وجبة", "en": "First Meal" },
+      "description": {
+        "ar": "سجّل أول وجبة لك في التطبيق",
+        "en": "Log your first meal in the app"
+      },
+      "conditionType": "meal_log_count",
+      "target": 1,
+      "ruleParameters": {}
+    },
+    {
+      "id": "log_streak_3",
+      "title": { "ar": "٣ أيام متتالية", "en": "3-Day Streak" },
+      "description": {
+        "ar": "سجّل وجباتك ٣ أيام متتالية",
+        "en": "Log your meals 3 days in a row"
+      },
+      "conditionType": "daily_log_streak",
+      "target": 3,
+      "ruleParameters": {}
+    },
+    {
+      "id": "log_streak_7",
+      "title": { "ar": "أسبوع كامل", "en": "Full Week" },
+      "description": {
+        "ar": "سجّل وجباتك ٧ أيام متتالية",
+        "en": "Log your meals 7 days in a row"
+      },
+      "conditionType": "daily_log_streak",
+      "target": 7,
+      "ruleParameters": {}
+    },
+    {
+      "id": "balanced_day",
+      "title": { "ar": "يوم متوازن", "en": "Balanced Day" },
+      "description": {
+        "ar": "سجّل الإفطار والغداء والعشاء في نفس اليوم",
+        "en": "Log breakfast, lunch and dinner on the same day"
+      },
+      "conditionType": "distinct_meal_types_in_day",
+      "target": 3,
+      "ruleParameters": { "mealTypes": ["breakfast", "lunch", "dinner"] }
+    },
+    {
+      "id": "veggie_day",
+      "title": { "ar": "يوم الخضار", "en": "Veggie Day" },
+      "description": {
+        "ar": "سجّل ٣ أصناف خضروات في يوم واحد",
+        "en": "Log 3 vegetable items in one day"
+      },
+      "conditionType": "category_items_in_day",
+      "target": 3,
+      "ruleParameters": { "category": "vegetables" }
+    },
+    {
+      "id": "fruit_day",
+      "title": { "ar": "يوم الفاكهة", "en": "Fruit Day" },
+      "description": {
+        "ar": "سجّل صنفين فاكهة في يوم واحد",
+        "en": "Log 2 fruit items in one day"
+      },
+      "conditionType": "category_items_in_day",
+      "target": 2,
+      "ruleParameters": { "category": "fruits" }
+    },
+    {
+      "id": "food_explorer_10",
+      "title": { "ar": "مستكشف الأكل", "en": "Food Explorer" },
+      "description": {
+        "ar": "سجّل ١٠ أصناف مختلفة من الطعام",
+        "en": "Log 10 distinct foods"
+      },
+      "conditionType": "distinct_foods_logged",
+      "target": 10,
+      "ruleParameters": {}
+    },
+    {
+      "id": "water_goal_day",
+      "title": { "ar": "هدف المياه", "en": "Water Goal" },
+      "description": {
+        "ar": "وصّل لهدف شرب المياه اليومي",
+        "en": "Reach your daily water goal"
+      },
+      "conditionType": "water_goal_reached_days",
+      "target": 1,
+      "ruleParameters": {}
+    }
+  ]
+}

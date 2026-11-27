@@ -1,0 +1,669 @@
+{
+  "schemaVersion": "1.0.0",
+  "recipes": [
+    {
+      "id": "themealdb_52963",
+      "sourceMealId": "52963",
+      "names": {
+        "ar": "شكشوكة",
+        "en": "Shakshuka"
+      },
+      "description": null,
+      "category": "Vegetarian",
+      "area": "Egyptian",
+      "tags": [
+        "Egg",
+        "Brunch",
+        "Breakfast"
+      ],
+      "ingredients": [
+        {
+          "name": "Olive Oil",
+          "measure": "1 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Red Onions",
+          "measure": "2 chopped",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Red Chilli",
+          "measure": "1 finely chopped",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Garlic",
+          "measure": "1 clove",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Coriander",
+          "measure": "Chopped",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cherry Tomatoes",
+          "measure": "800g",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Caster Sugar",
+          "measure": "1 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Eggs",
+          "measure": "4",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Feta",
+          "measure": "Spinkling",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "Heat the oil in a frying pan that has a lid, then soften the onions, chilli, garlic and coriander stalks for 5 mins until soft. Stir in the tomatoes and sugar, then bubble for 8-10 mins until thick. Can be frozen for 1 month.",
+        "Using the back of a large spoon, make 4 dips in the sauce, then crack an egg into each one. Put a lid on the pan, then cook over a low heat for 6-8 mins, until the eggs are done to your liking. Scatter with the coriander leaves and serve with crusty bread."
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/7573/spicy-tomato-baked-eggs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C-3_jYrfdBU",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "52963",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/52963"
+      }
+    },
+    {
+      "id": "themealdb_53025",
+      "sourceMealId": "53025",
+      "names": {
+        "ar": "فول مدمس",
+        "en": "Ful Medames"
+      },
+      "description": null,
+      "category": "Vegetarian",
+      "area": "Egyptian",
+      "tags": [],
+      "ingredients": [
+        {
+          "name": "Broad Beans",
+          "measure": "2 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Parsley",
+          "measure": "1/3 cup",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Olive Oil",
+          "measure": "Dash",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Lemons",
+          "measure": "3",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Garlic Clove",
+          "measure": "4",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cumin",
+          "measure": "Sprinking",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "As the cooking time varies depending on the quality and age of the beans, it is good to cook them in advance and to reheat them when you are ready to serve. Cook the drained beans in a fresh portion of unsalted water in a large saucepan with the lid on until tender, adding water to keep them covered, and salt when the beans have softened. They take 2–2 1/2 hours of gentle simmering. When the beans are soft, let the liquid reduce. It is usual to take out a ladle or two of the beans and to mash them with some of the cooking liquid, then stir this back into the beans. This is to thicken the sauce.",
+        "Serve the beans in soup bowls sprinkled with chopped parsley and accompanied by Arab bread.",
+        "Pass round the dressing ingredients for everyone to help themselves: a bottle of extra-virgin olive oil, the quartered lemons, salt and pepper, a little saucer with the crushed garlic, one with chili-pepper flakes, and one with ground cumin.",
+        "The beans are eaten gently crushed with the fork, so that they absorb the dressing.",
+        "Optional Garnishes",
+        "Peel hard-boiled eggs—1 per person—to cut up in the bowl with the beans.",
+        "Top the beans with a chopped cucumber-and-tomato salad and thinly sliced mild onions or scallions. Otherwise, pass round a good bunch of scallions and quartered tomatoes and cucumbers cut into sticks.",
+        "Serve with tahina cream sauce (page 65) or salad (page 67), with pickles and sliced onions soaked in vinegar for 30 minutes.",
+        "Another way of serving ful medames is smothered in a garlicky tomato sauce (see page 464).",
+        "In Syria and Lebanon, they eat ful medames with yogurt or feta cheese, olives, and small cucumbers.",
+        "Variations",
+        "A traditional way of thickening the sauce is to throw a handful of red lentils (1/4 cup) into the water at the start of the cooking.",
+        "In Iraq, large brown beans are used instead of the small Egyptian ones, in a dish called badkila, which is also sold for breakfast in the street."
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/lvn2d51598732465.jpg",
+      "sourceUrl": "https://www.epicurious.com/recipes/food/views/ful-medames-352993",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ixpCabILuxw",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "53025",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/53025"
+      }
+    },
+    {
+      "id": "themealdb_53026",
+      "sourceMealId": "53026",
+      "names": {
+        "ar": "طعمية",
+        "en": "Tamiya"
+      },
+      "description": null,
+      "category": "Vegetarian",
+      "area": "Egyptian",
+      "tags": [],
+      "ingredients": [
+        {
+          "name": "Broad Beans",
+          "measure": "3 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Spring Onions",
+          "measure": "6",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Garlic Clove",
+          "measure": "4",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Parsley",
+          "measure": "1/4 cup",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cumin",
+          "measure": "2 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Baking Powder",
+          "measure": "1 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cayenne Pepper",
+          "measure": "1/2 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Flour",
+          "measure": "Spinkling",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Vegetable Oil",
+          "measure": "As required",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "oak the beans in water to cover overnight.Drain. If skinless beans are unavailable, rub to loosen the skins, then discard the skins. Pat the beans dry with a towel.",
+        "Grind the beans in a food mill or meat grinder.If neither appliance is available, process them in a food processor but only until the beans form a paste. (If blended too smoothly, the batter tends to fall apart during cooking.) Add the scallions, garlic, cilantro, cumin, baking powder, cayenne, salt, pepper, and coriander, if using.  Refrigerate for at least 30 minutes.",
+        "Shape the bean mixture into 1-inch balls.Flatten slightly and coat with flour.",
+        "Heat at least 1½-inches of oil over medium heat to 365 degrees.",
+        "Fry the patties in batches, turning once, until golden brown on all sides, about 5 minutes.Remove with a wire mesh skimmer or slotted spoon. Serve as part of a meze or in pita bread with tomato-cucumber salad and tahina sauce."
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/n3xxd91598732796.jpg",
+      "sourceUrl": "https://oukosher.org/recipes/tamiya-egyptian-dried-fava-bean-fritters/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mulqW-J3Yy4",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "53026",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/53026"
+      }
+    },
+    {
+      "id": "themealdb_53027",
+      "sourceMealId": "53027",
+      "names": {
+        "ar": "كشري",
+        "en": "Koshari"
+      },
+      "description": null,
+      "category": "Vegetarian",
+      "area": "Egyptian",
+      "tags": [],
+      "ingredients": [
+        {
+          "name": "Brown Lentils",
+          "measure": "1 1/2 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Rice",
+          "measure": "1 1/2 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Coriander",
+          "measure": "1/2 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Macaroni",
+          "measure": "2 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Chickpeas",
+          "measure": "Can",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Onion",
+          "measure": "1 large",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Salt",
+          "measure": "Sprinking",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Vegetable Oil",
+          "measure": "1/2 cup",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "Cook the lentils. Bring lentils and 4 cups of water to a boil in a medium pot or saucepan over high heat. Reduce the heat to low and cook until lentils are just tender (15-17 minutes). Drain from water and season with a little salt. (Note: when the lentils are ready, they should not be fully cooked. They should be only par-cooked and still have a bite to them as they need to finish cooking with the rice).",
+        "Now, for the rice. Drain the rice from its soaking water. Combine the par-cooked lentils and the rice in the saucepan over medium-high heat with 1 tbsp cooking oil, salt, pepper, and coriander. Cook for 3 minutes, stirring regularly. Add warm water to cover the rice and lentil mixture by about 1 1/2 inches (you’ll probably use about 3 cups of water here). Bring to a boil; the water should reduce a bit. Now cover and cook until all the liquid has been absorbed and both the rice and lentils are well cooked through (about 20 minutes).  Keep covered and undisturbed for 5 minutes or so.",
+        "Now make the pasta. While the rice and lentils are cooking, make the pasta according to package instructions by adding the elbow pasta to boiling water with a dash of salt and a little oil. Cook until the pasta is al dente. Drain.",
+        "Cover the chickpeas and warm in the microwave briefly before serving.",
+        "Make the crispy onion topping.",
+        "Sprinkle the onion rings with salt, then toss them in the flour to coat. Shake off excess flour.",
+        "In a large skillet, heat the cooking oil over medium-high heat, cook the onion rings, stirring often, until they turn a nice caramelized brown. Onions must be crispy, but not burned (15-20 minutes)."
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/4er7mj1598733193.jpg",
+      "sourceUrl": "https://www.themediterraneandish.com/egyptian-koshari-recipe/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y0d2ZMZBW4Y",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "53027",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/53027"
+      }
+    },
+    {
+      "id": "themealdb_53028",
+      "sourceMealId": "53028",
+      "names": {
+        "ar": "شاورما",
+        "en": "Shawarma"
+      },
+      "description": null,
+      "category": "Chicken",
+      "area": "Egyptian",
+      "tags": [],
+      "ingredients": [
+        {
+          "name": "Chicken Thighs",
+          "measure": "1 kg",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Coriander",
+          "measure": "1 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cumin",
+          "measure": "1 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cardamom",
+          "measure": "1 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cayenne Pepper",
+          "measure": "1 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Paprika",
+          "measure": "2 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Lemon Juice",
+          "measure": "2 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Olive Oil",
+          "measure": "3 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "measure": "1 cup",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Garlic Clove",
+          "measure": "1",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cumin",
+          "measure": "1 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Lemon Juice",
+          "measure": "Splash",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Lettuce",
+          "measure": "Sliced",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Tomato",
+          "measure": "Sliced",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Pita Bread",
+          "measure": "6",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "Combine the marinade ingredients in a large ziplock bag (or bowl).",
+        "Add the chicken and use your hands to make sure each piece is coated. If using a ziplock bag, I find it convenient to close the bag then massage the bag to disperse the rub all over each chicken piece.",
+        "Marinate overnight or up to 24 hours.",
+        "Combine the Yoghurt Sauce ingredients in a bowl and mix. Cover and put in the fridge until required (it will last for 3 days in the fridge).",
+        "Heat grill/BBQ (or large heavy based pan on stove) on medium high. You should not need to oil it because the marinade has oil in it and also thigh fillets have fat. But if you are worried then oil your hotplate/grill. (See notes for baking)",
+        "Place chicken on the grill and cook the first side for 4 to 5 minutes until nicely charred, then turn and cook the other side for 3 to 4 minutes (the 2nd side takes less time).",
+        "Remove chicken from the grill and cover loosely with foil. Set aside to rest for 5 minutes.",
+        "TO SERVE",
+        "Slice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce.",
+        "To make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!"
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/kcv6hj1598733479.jpg",
+      "sourceUrl": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3lxUIeKDgic",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "53028",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/53028"
+      }
+    },
+    {
+      "id": "themealdb_53029",
+      "sourceMealId": "53029",
+      "names": {
+        "ar": "ملوخية",
+        "en": "Mulukhiyah"
+      },
+      "description": null,
+      "category": "Beef",
+      "area": "Egyptian",
+      "tags": [],
+      "ingredients": [
+        {
+          "name": "Mulukhiyah",
+          "measure": "800g",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Onion",
+          "measure": "1 chopped",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Beef",
+          "measure": "300g",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Salt",
+          "measure": "1 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Water",
+          "measure": "1 Litre",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Garlic Clove",
+          "measure": "1",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Olive Oil",
+          "measure": "1/2 cup",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "Saute the onions in the 3-4 tablespoons olive oil",
+        "Add the beef cubes or the chicken cutlets, sear for 3-4 min on each side",
+        "Add 1 liter of water or just enough to cover the meat",
+        "Cook over medium heat until the meat is done (I usually do this in the pressure cooker and press them for 5 min)",
+        "Add the frozen mulukhyia and stir until it thaws completely and then comes to a boil",
+        "In another pan add the 1/4 to 1/2 cup of olive oil and the cloves of garlic and cook over medium low heat until you can smell the garlic (don’t brown it, it will become bitter)",
+        "Add the oil and garlic to the mulukhyia and lower the heat and simmer for 5-10 minutes",
+        "Add salt to taste",
+        "Serve with a generous amount of lemon juice.",
+        "You can serve it with some short grain rice or some pita bread"
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/x372ug1598733932.jpg",
+      "sourceUrl": "https://chefindisguise.com/2017/05/15/mulukhiyah-a-stew-fit-for-royals/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vWc5JzgAkIQ",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "53029",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/53029"
+      }
+    },
+    {
+      "id": "themealdb_53030",
+      "sourceMealId": "53030",
+      "names": {
+        "ar": "فطير مشلتت",
+        "en": "Feteer Meshaltet"
+      },
+      "description": null,
+      "category": "Side",
+      "area": "Egyptian",
+      "tags": [],
+      "ingredients": [
+        {
+          "name": "Flour",
+          "measure": "4 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Water",
+          "measure": "1 1/2 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Salt",
+          "measure": "1/4 tsp",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Unsalted Butter",
+          "measure": "1 cup",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Olive Oil",
+          "measure": "1/4 cup",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "Mix the flour and salt then pour one cup of water and start kneading.",
+        "If you feel the dough is still not coming together or too dry, gradually add the remaining water until you get a dough that is very elastic so that when you pull it and it won’t be torn.",
+        "Let the dough rest for just 10 minutes then divide the dough into 6-8 balls depending on the size you want for your feteer.",
+        "Warm up the butter/ghee or oil you are using and pour into a deep bowl.",
+        "Immerse the dough balls into the warm butter. Let it rest for 15 to 20 minutes.",
+        "Preheat oven to 550F.",
+        "Stretch the first ball with your hands on a clean countertop. Stretch it as thin as you can, the goal here is to see your countertop through the dough.",
+        "Fold the dough over itself to form a square brushing in between folds with the butter mixture.",
+        "Set aside and start making the next ball.",
+        "Stretch the second one thin as we have done for the first ball.",
+        "Place the previous one on the middle seam side down. Fold the outer one over brushing with more butter mixture as you fold. Set aside.",
+        "Keep doing this for the third and fourth balls. Now we have one ready, place on a 10 inch baking/pie dish seam side down and brush the top with more butter.",
+        "Repeat for the remaining 4 balls to make a second one. With your hands lightly press the folded feteer to spread it on the baking dish.",
+        "Place in preheated oven for 10 minutes when the feteer starts puffing turn on the broiler to brown the top.",
+        "When it is done add little butter on top and cover so it won’t get dry."
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/9f4z6v1598734293.jpg",
+      "sourceUrl": "https://amiraspantry.com/egyptian-feteer-meshaltet/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-mW1unsVhFU",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "53030",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/53030"
+      },
+      "cookingMinutes": 70,
+      "cookingTimeBasis": "total_including_preparation_and_rest",
+      "timingSourceUrl": "https://amiraspantry.com/egyptian-feteer-meshaltet/",
+      "timingCheckedOn": "2026-11-25"
+    },
+    {
+      "id": "themealdb_53031",
+      "sourceMealId": "53031",
+      "names": {
+        "ar": "فتة",
+        "en": "Egyptian Fatteh"
+      },
+      "description": null,
+      "category": "Beef",
+      "area": "Egyptian",
+      "tags": [],
+      "ingredients": [
+        {
+          "name": "Beef",
+          "measure": "1lb",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Onion",
+          "measure": "1",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Chicken Stock Cube",
+          "measure": "1",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Tomatoes",
+          "measure": "2",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Garlic Clove",
+          "measure": "4",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Tomato Puree",
+          "measure": "1 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Rice",
+          "measure": "2 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Noodles",
+          "measure": "1/4 cup",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Butter",
+          "measure": "1/4 cup",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Olive Oil",
+          "measure": "2 cups",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Pita Bread",
+          "measure": "1",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Cumin",
+          "measure": "1 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "White Wine Vinegar",
+          "measure": "3 tbs",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Salt",
+          "measure": "To taste",
+          "normalizedQuantityGrams": null
+        },
+        {
+          "name": "Pepper",
+          "measure": "To taste",
+          "normalizedQuantityGrams": null
+        }
+      ],
+      "instructions": [
+        "To prepare bread for bottom of dish: Take pita bread and rip into bite size pieces. In a frying pan, add about a 1/4 stick of butter, add bread pieces and fry until golden brown and crisp. Put these pieces in a glass baking dish, preferably a square sized dish. Set aside.",
+        "Then add to same pan, a little more butter, salt, approximately 2 cloves of crushed fresh garlic, and a teaspoon or so of cumin stir around a bit until you can smell aroma, then add fried bread pieces to this mixture, stir to coat bread and put back into glass baking dish. Set aside.",
+        "To prepare meat: put some butter in a pot, stir fry meat until brown, add 1 onion quartered, salt & pepper, 1 cube of chicken bouillon and water to cover meat. Bring to a boil, turn down to simmer, cover and cook until tender, approximately 2 hours. After meat has cooled, take out chunks of meat and put in a bowl, set aside. Reserve soup from the meat separately.",
+        "To prepare the rice: Put some butter into a pot, add shareya (fideo noodles) like a handful or so, keep stirring until golden brown, not too dark, but very golden. Then add two cups of rice, stir a little bit until some of the rice turns an opaque white. Add 2-1/4 cups of water and salt to taste. Bring to a boil, cover and turn down to simmer, cook until tender. Test the rice tenderness after about 35 minutes.",
+        "Now take some of the soup from meat and add to the top of the bread pieces in baking dish to saturate.Add cooked rice on top of bread pieces. Slowly spoon remainder of soup onto rice, looking at glass dish sides to see level of soup, should reach just to top of rice, don’t worry, this doesn’t have to be exact. Now you’re ready to make the sauce and fry the meat to put on top.",
+        "To prepare red sauce: In a pan, add a little oil or butter, crushed tomato, a half teaspoon of tomato paste, salt & pepper, 2 cloves of fresh crushed garlic and cumin. Add also approximately 3 tablespoons of vinegar, stir this until you smell aroma and it is a bit smooth. It should be a bit thick, not watery, but if too thick you can add a bit of water. Spread with a wooden spoon atop the rice to cover.",
+        "To fry meat: In a pan add a bit of butter or oil, the meat, just a touch of tomato paste, about a tablespoon of fresh crushed garlic, salt & pepper, a teaspoon of cumin. Cook until meat is golden fried.",
+        "Spoon this atop the rice and serve. Enjoy!"
+      ],
+      "imageUrl": "https://www.themealdb.com/images/media/meals/rlwcc51598734603.jpg",
+      "sourceUrl": "https://www.food.com/recipe/egyptian-faatah-rice-meat-with-crispy-bread-on-bottom-194764",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WLuOHkDE4A4",
+      "nutritionStatus": "not_calculable_from_source",
+      "source": {
+        "provider": "TheMealDB",
+        "apiBase": "https://www.themealdb.com/api/json/v1/1",
+        "mealId": "53031",
+        "licenseNote": "Imported with the public developer test key for development/educational use. Public app-store release requires TheMealDB supporter access; recheck provider terms before redistribution.",
+        "url": "https://www.themealdb.com/meal/53031"
+      }
+    }
+  ]
+}
