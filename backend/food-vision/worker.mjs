@@ -60,7 +60,7 @@ export default{async fetch(request,env){
   try {raw=await gemmaVisionAnswer(env.AI,'data:image/jpeg;base64,'+btoa(encoded),ESTIMATE_PROMPT);}catch{raw=null;}
   if(raw){
    try {return respond(estimatedCandidates(raw));}
-   catch(error) {if(noFood(error))return respond(emptyResult());}
+   catch(error) {/* Gemma said no-food or broke contract: try the next model before returning empty. */}
   }
   // Silent fallback: same Workers AI account, next model. A different provider is needed if the daily pool itself is empty.
   try {return respond(await qwenEstimate(env,encoded));}

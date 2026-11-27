@@ -10,7 +10,7 @@ test('malformed state and amount fail closed, unknown and unestimated allowed',(
  for(const bad of [{...item,foodState:'fried-ish'},{...item,suggestedPortionGrams:0},{...item,suggestedPortionGrams:3001},{...item,uncertaintyNotes:['x'.repeat(501)]}])assert.throws(()=>estimatedCandidates(raw(bad)));
  assert.equal(estimatedCandidates(raw({...item,foodState:'unknown',suggestedPortionGrams:null})).items[0].suggestedPortionGrams,null);
 });
-test('prompt does not pretend image grams are measured or compose hidden recipe',()=>{assert.match(ESTIMATE_PROMPT,/rough visual estimate/);assert.match(ESTIMATE_PROMPT,/dish once, not both/);assert.match(ESTIMATE_PROMPT,/Do not invent hidden oil, sugar, meat/)});
+test('prompt does not pretend image grams are measured or compose hidden recipe',()=>{assert.match(ESTIMATE_PROMPT,/rough visual estimate/);assert.match(ESTIMATE_PROMPT,/dish once with foodState prepared, not both/);assert.match(ESTIMATE_PROMPT,/Do not invent hidden oil, sugar, meat/)});
 
 test('root array and absent amount are safe candidates, duplicates rejected',()=>{
  assert.equal(estimatedCandidates({answer:JSON.stringify([item])}).items.length,1);
