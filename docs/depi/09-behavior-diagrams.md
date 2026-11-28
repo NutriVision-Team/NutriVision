@@ -190,7 +190,7 @@ sequenceDiagram
         HC->>G: One corrective retry naming the target language
     end
     HC-->>App: {text, sourceIds, navigation, requiresUserReview}
-    App->>U: Reply shown; numbers rendered by the app from the tool
+    App->>U: Reply shown, numbers rendered by the app from the tool
     App->>FS: Append to conversations/messages
 ```
 
@@ -202,15 +202,15 @@ sequenceDiagram
     actor U as User
     participant App as Flutter app
     participant FS as Firestore (products)
-    participant OFF as Open Food Facts
+    participant OFFS as Open Food Facts
 
     U->>App: Scan barcode
     App->>FS: Get products/{barcode}
     alt cached
         FS-->>App: Product record
     else miss
-        App->>OFF: Lookup by barcode (with contact identification)
-        OFF-->>App: Product data
+        App->>OFFS: Lookup by barcode (with contact identification)
+        OFFS-->>App: Product data
     end
     App->>U: Product page: Nutri-Score, ingredients, allergens
     U->>App: Log a portion / save to favorites
