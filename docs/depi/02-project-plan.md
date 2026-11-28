@@ -10,37 +10,27 @@
 
 ## 1. Timeline (Gantt)
 
-```mermaid
-gantt
-    title Sufra project timeline (proposed, anchored to DEPI deadlines and real commits)
-    dateFormat YYYY-MM-DD
-    axisFormat %d %b
+| Phase | Work | Window | Status |
+|---|---|---|---|
+| Planning | Project proposal & scope | 1-7 Oct 2026 | Done |
+| | Initial repository & structure | 7 Oct 2026 | Done |
+| | Requirements & stakeholder draft | 7-16 Oct 2026 | Done |
+| | **DEPI deadline: Planning + Requirements** | **16 Oct 2026** | **Met** |
+| Analysis & Design | Design system (31 screens, HTML) | 16-30 Oct 2026 | Done |
+| | Architecture & data modeling | 20 Oct-6 Nov 2026 | Done |
+| | **DEPI deadline: Analysis and Design** | **6 Nov 2026** | **Met** |
+| Implementation | Auth flow (first prototype) | 7-8 Nov 2026 | Done |
+| | Core app: logging, diary, tracking | 8-20 Nov 2026 | Done |
+| | AI services: coach + food vision | 15-26 Nov 2026 | Done |
+| | Full review, fixes, security pass | 26-28 Nov 2026 | Done |
+| | Milestone 1 merged (main) | 27 Nov 2026 | Done |
+| | **DEPI deadline: Implementation** | **30 Nov 2026** | **On track** |
+| Final | Documentation set completion | 28 Nov-2 Dec 2026 | In progress |
+| | Physical-device QA | 28 Nov-2 Dec 2026 | In progress |
+| | Presentation + infographic | 28 Nov-3 Dec 2026 | Done |
+| | **DEPI deadline: Final presentation & testing** | **4 Dec 2026** | **Scheduled** |
 
-    section Planning
-    Project proposal & scope           :p1, 2026-10-01, 2026-10-07
-    Initial repository & structure     :crit, ms0, 2026-10-07, 1d
-    Requirements & stakeholder draft   :p2, 2026-10-07, 2026-10-16
-    DEPI deadline Planning + Requirements  :crit, ms1, 2026-10-16, 1d
-
-    section Analysis & Design
-    Design system (31 screens, HTML)   :d1, 2026-10-16, 2026-10-30
-    Architecture & data modeling       :d2, 2026-10-20, 2026-11-06
-    DEPI deadline Analysis and Design        :crit, ms2, 2026-11-06, 1d
-
-    section Implementation
-    Auth flow (first prototype)        :i1, 2026-11-07, 2026-11-08
-    Core app: logging, diary, tracking :i2, 2026-11-08, 2026-11-20
-    AI services: coach + food vision   :i3, 2026-11-15, 2026-11-26
-    Full review, fixes, security pass  :i4, 2026-11-26, 2026-11-28
-    Milestone 1 merged (main)          :crit, ms3, 2026-11-27, 1d
-    DEPI deadline Implementation           :crit, ms4, 2026-11-30, 1d
-
-    section Final
-    Documentation set completion       :f1, 2026-11-28, 2026-12-02
-    Physical-device QA                 :f2, 2026-11-28, 2026-12-02
-    Presentation + infographic         :f3, 2026-11-28, 2026-12-03
-    DEPI deadline Final presentation :crit, ms5, 2026-12-04, 1d
-```
+*(A Mermaid Gantt version of this timeline is included in the repository history; it is replaced here with a table because GitHub's embedded Mermaid renderer currently fails on this chart.)*
 
 ---
 
