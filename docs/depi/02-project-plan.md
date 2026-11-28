@@ -18,28 +18,28 @@ gantt
 
     section Planning
     Project proposal & scope           :p1, 2026-10-01, 2026-10-07
-    Initial repository & structure     :milestone, 2026-10-07, 0d
+    Initial repository & structure     :milestone, ms0, 2026-10-07, 0d
     Requirements & stakeholder draft   :p2, 2026-10-07, 2026-10-16
-    DEPI deadline Planning + Requirements  :milestone, 2026-10-16, 0d
+    DEPI deadline Planning + Requirements  :milestone, ms1, 2026-10-16, 0d
 
     section Analysis & Design
     Design system (31 screens, HTML)   :d1, 2026-10-16, 2026-10-30
     Architecture & data modeling       :d2, 2026-10-20, 2026-11-06
-    DEPI deadline Analysis and Design        :milestone, 2026-11-06, 0d
+    DEPI deadline Analysis and Design        :milestone, ms2, 2026-11-06, 0d
 
     section Implementation
     Auth flow (first prototype)        :i1, 2026-11-07, 2026-11-08
     Core app: logging, diary, tracking :i2, 2026-11-08, 2026-11-20
     AI services: coach + food vision   :i3, 2026-11-15, 2026-11-26
     Full review, fixes, security pass  :i4, 2026-11-26, 2026-11-28
-    Milestone 1 merged (main)          :milestone, 2026-11-27, 0d
-    DEPI deadline Implementation           :milestone, 2026-11-30, 0d
+    Milestone 1 merged (main)          :milestone, ms3, 2026-11-27, 0d
+    DEPI deadline Implementation           :milestone, ms4, 2026-11-30, 0d
 
     section Final
     Documentation set completion       :f1, 2026-11-28, 2026-12-02
     Physical-device QA                 :f2, 2026-11-28, 2026-12-02
     Presentation + infographic         :f3, 2026-11-28, 2026-12-03
-    DEPI deadline Final presentation :milestone, 2026-12-04, 0d
+    DEPI deadline Final presentation :milestone, ms5, 2026-12-04, 0d
 ```
 
 ---
